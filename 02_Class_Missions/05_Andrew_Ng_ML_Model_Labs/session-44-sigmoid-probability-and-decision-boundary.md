@@ -14,8 +14,6 @@
 | 53–67 min | Independent Rebuild | Recreate the pattern on your own with less help. |
 | 67–75 min | Talk Robin 2 + Evidence | Summarize, explain, and submit proof of learning. |
 
-
-
 ## Learning Target
 
 By the end of this mission, you can explain the core ideas in **sigmoid, probability, threshold, decision boundary, log loss** and demonstrate them through a paper-based or computational task.
@@ -61,6 +59,22 @@ Rebuild a binary-classification workflow and vary the threshold.
 
 Do not copy a complete solution. Documentation, hints, and debugging support may be used according to the AI policy.
 
+## Documentation-to-Code Evidence
+
+Use the [Documentation-to-Code Evidence Template](../../03_Templates/Documentation_to_Code_Evidence_Template.md).
+
+For this Session, independently locate the official scikit-learn `LogisticRegression` API and record:
+
+- the import path and constructor;
+- why a model named “regression” is being used for classification;
+- what `fit(X, y)` uses as labels;
+- the difference between `predict(...)` and `predict_proba(...)`;
+- one meaningful constructor choice or default;
+- the classification metric used and why accuracy alone may be insufficient;
+- how changing a probability threshold changes false positives and false negatives.
+
+The independent rebuild should use only official documentation after the first guided example is closed.
+
 ## NOAI-Style Check
 
 Complete all three:
@@ -76,6 +90,7 @@ Submit:
 - `notes.md`;
 - guided-practice evidence;
 - independent-task evidence;
+- completed documentation-to-code evidence;
 - one error and its correction;
 - `ai_usage_note.md` when applicable;
 - a meaningful Git commit.
