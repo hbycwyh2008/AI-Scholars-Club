@@ -59,7 +59,11 @@ identify the task
 
 Students may use official documentation during first exposure. The expected progression is from open-document guided use, to fast documentation lookup, to independent reconstruction. Memorising every constructor argument is not required; recognising the correct model family, locating the correct API, understanding the important parameters, and producing a valid evaluation workflow are required.
 
-Use the [Machine-Learning Implementation and Project Practice Map](../../05_Resources/ML_Implementation_and_Project_Practice_Map.md) for scikit-learn, pandas, selective implementation courses, DataTalksClub ML Zoomcamp material, and real-data project placement.
+Use:
+
+- [Machine-Learning Implementation and Project Practice Map](../../05_Resources/ML_Implementation_and_Project_Practice_Map.md) for scikit-learn, pandas, selective implementation courses, DataTalksClub ML Zoomcamp material, and real-data project placement;
+- [Documentation-to-Code Evidence Template](../../03_Templates/Documentation_to_Code_Evidence_Template.md) when a Session requires evidence that a student can turn an official API reference into a working and explainable baseline;
+- [Model Card Template](../../03_Templates/Model_Card_Template.md) to record implementation provenance, validation evidence, errors, limitations, reproduction steps, and the evidence boundary.
 
 ## Resource Roles
 
@@ -74,4 +78,4 @@ Use the [Machine-Learning Implementation and Project Practice Map](../../05_Reso
 
 ## Phase Gate
 
-Students recognise an unfamiliar task, formalise its mathematical objects and shapes, perform a representative calculation, implement a defensible classical baseline, evaluate it under a valid protocol, and explain assumptions and failure modes. They must also be able to locate and use the relevant official API without relying on a copied end-to-end solution.
+Students recognise an unfamiliar task, formalise its mathematical objects and shapes, perform a representative calculation, implement a defensible classical baseline, evaluate it under a valid protocol, and explain assumptions and failure modes. They must also be able to locate and use the relevant official API without relying on a copied end-to-end solution, explain constructor and preprocessing decisions, and reproduce the core workflow with official documentation available.
