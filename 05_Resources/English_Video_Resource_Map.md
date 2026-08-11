@@ -12,6 +12,12 @@
 - **Course 2 — Advanced Learning Algorithms:** https://www.coursera.org/learn/advanced-learning-algorithms
 - **Google Machine Learning Crash Course:** https://developers.google.com/machine-learning/crash-course
 - **StatQuest Video Index:** https://statquest.org/video-index/
+- **University of Michigan — Applied Machine Learning in Python:** https://www.coursera.org/learn/python-machine-learning
+- **IBM — Machine Learning with Python:** https://www.coursera.org/learn/machine-learning-with-python
+- **DataTalksClub — Machine Learning Zoomcamp:** https://github.com/DataTalksClub/machine-learning-zoomcamp
+  - Complete YouTube playlist: https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR
+  - Use selected self-paced modules for implementation and project rehearsal rather than as a parallel required course.
+- **Implementation and real-project practice map:** [`ML_Implementation_and_Project_Practice_Map.md`](ML_Implementation_and_Project_Practice_Map.md)
 
 ## Deep Learning
 
@@ -55,6 +61,8 @@ Use the assigned section only. A course being listed here does not mean students
 For Harvard CS50’s Introduction to Programming with Python, always name the exact week, topic, and timestamp range.
 
 For Coursera-hosted resources, use Coursera links rather than DeepLearning.AI marketing-page links.
+
+For traditional machine-learning implementation, use scikit-learn and pandas official documentation as the first reference; use the implementation/project map to select external code labs and real-data practice.
 
 For PyTorch, use the three-course certificate selectively: PyTorch: Fundamentals is the main foundation course; PyTorch: Techniques and Ecosystem Tools supports Round 2 computer-vision, natural-language-processing, and tuning workflows; PyTorch: Advanced Architectures and Deployment is an optional advanced extension. PyTorch official tutorials remain the API reference.
 
