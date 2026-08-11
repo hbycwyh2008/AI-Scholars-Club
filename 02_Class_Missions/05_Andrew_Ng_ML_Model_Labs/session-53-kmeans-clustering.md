@@ -15,7 +15,8 @@ Students must be able to:
 6. explain why feature scaling changes clusters;
 7. identify sensitivity to initialisation, outliers, non-spherical clusters, and the choice of `k`;
 8. interpret clusters without inventing unsupported real-world meanings;
-9. implement a baseline with scikit-learn and inspect cluster sizes and centres.
+9. implement a baseline with scikit-learn and inspect cluster sizes and centres;
+10. independently locate and use the official `KMeans` API without confusing it with K-nearest neighbours.
 
 ## Core Pattern
 
@@ -39,15 +40,32 @@ choose k and initialise centroids
 | 53–67 | Independent Rebuild | run K-means on a new dataset with and without scaling |
 | 67–75 | Talk Robin 2 + Evidence | defend `k`, scaling, and one limitation |
 
+## Documentation-to-Code Evidence
+
+Use the [Documentation-to-Code Evidence Template](../../03_Templates/Documentation_to_Code_Evidence_Template.md).
+
+The student must independently locate the official scikit-learn `KMeans` API and record:
+
+- the import path;
+- why no training label `y` is supplied;
+- the role of `n_clusters` and how it differs from `n_neighbors` in KNN;
+- what `fit(...)`, `predict(...)`, and `cluster_centers_` represent;
+- why scaling can change nearest-centroid assignments;
+- one deliberate constructor choice, such as `n_clusters` or `random_state`;
+- cluster-size evidence plus one warning against treating cluster IDs as known class labels.
+
+A correct implementation that describes K-means as supervised classification does not pass the gate.
+
 ## Required Evidence
 
 - task-recognition record;
 - hand assignment/update calculation;
 - scaled versus unscaled comparison;
 - cluster-size and centroid table;
+- completed documentation-to-code evidence;
 - one stability or limitation note;
 - explanation avoiding unsupported cluster names.
 
 ## Gate
 
-The student can identify an unlabeled grouping task, perform one K-means iteration, explain the role of scale and `k`, and state why cluster IDs are not known class labels.
+The student can identify an unlabeled grouping task, perform one K-means iteration, explain the role of scale and `k`, use the official API independently, and state why cluster IDs are not known class labels.
