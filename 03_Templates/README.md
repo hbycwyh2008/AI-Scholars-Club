@@ -9,6 +9,7 @@ Use only the template named by the current Session, assessment, or teacher plan.
 - [Competition Sprint Model Ensembling Record](Competition_Sprint_Model_Ensembling_Record.md)
 - [Competition Sprint Submission Checklist](Competition_Sprint_Submission_Checklist.md)
 - [Concept Notes](Concept_Notes_Template.md)
+- [Documentation-to-Code Evidence Template](Documentation_to_Code_Evidence_Template.md)
 - [Error Log](Error_Log_Template.md)
 - [Universal Evidence Checklist](Evidence_Checklist.md)
 - [Experiment Report](Experiment_Report_Template.md)
@@ -21,6 +22,8 @@ Use only the template named by the current Session, assessment, or teacher plan.
 - [Student Progress Ledger Example](Student_Progress.example.json)
 - [Student Worksheet Master Template](Student_Worksheet_Master_Template.md)
 - [Weekly Reflection](Weekly_Reflection_Template.md)
+
+The documentation-to-code template is used when a Session requires students to locate an official API, justify estimator construction, distinguish defaults from deliberate parameter changes, rebuild a minimal workflow, and record implementation/debugging evidence. It supports the canonical Session rather than creating another lesson.
 
 The progress example is structural only. Create real schema-v2 ledgers with `scripts/manage_student_progress.py init` in private student repositories. Migrate schema-v1 records with `scripts/manage_student_progress.py migrate` before planning, scoring, or reporting.
 
