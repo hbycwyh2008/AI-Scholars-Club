@@ -43,6 +43,12 @@ The goal is not to memorise every constructor argument. The goal is to become fa
 - Tutorials: https://docs.pytorch.org/tutorials/
 - Use in Phase 6 for tensors, `nn.Module`, autograd, optimisers, data loading, and task-specific APIs.
 
+### Required documentation evidence
+
+When a Session requires an implementation rebuild, use the [Documentation-to-Code Evidence Template](../03_Templates/Documentation_to_Code_Evidence_Template.md). Students record the official page used, import path, constructor decisions, preprocessing contract, debugging trace, independent rebuild, metric, and one controlled improvement.
+
+The evidence standard is deliberately different from memorisation. A student may consult official documentation, but should not require a copied end-to-end notebook to complete the core workflow.
+
 ## Selective Code-Reinforcement Courses
 
 These are optional implementation supports. Students should use only the assigned sections that reinforce the current Session.
@@ -114,15 +120,15 @@ These are optional implementation supports. Students should use only the assigne
 
 ### First exposure
 
-Students are expected to use official documentation openly. Teacher prompts may name the model family but should not provide the exact import line or complete constructor.
+Students are expected to use official documentation openly. Teacher prompts may name the model family but should not provide the exact import line or complete constructor. Students should record the page used and identify which constructor fields matter to the baseline.
 
 ### Guided independence
 
-Students must locate the class or function, identify the import path, read the key parameters, and produce a minimal working model within a short time limit.
+Students must locate the class or function, identify the import path, read the key parameters, and produce a minimal working model within a short time limit. At least one default parameter and one deliberately changed parameter should be explained when the model exposes meaningful choices.
 
 ### Independent rebuild
 
-Students receive the task and dataset but not the model API. They must choose a defensible baseline, use documentation as needed, implement the workflow, and explain each major line of code.
+Students receive the task and dataset but not the model API. They must choose a defensible baseline, use documentation as needed, implement the workflow, and explain each major line of code. Tutorial/example notebooks are closed during the rebuild; official documentation remains available.
 
 ### Competition readiness
 
