@@ -8,9 +8,9 @@ Open the exact Session link below.
 | Session | Focus | Open this lesson | Required evidence |
 |---:|---|---|---|
 | 41 | mathematics transition I: task notation, scalar/vector/matrix objects, shapes, and equation-to-code translation | [Mathematics transition bridge — Session 41](Andrew_ML_Mathematics_Bridge.md#session-41-mathematical-language-of-machine-learning) | task/notation ledger, shape ledger, equation translation, baseline |
-| 42 | mathematics transition II and linear regression: dot products, slope, residuals, and MSE | [Linear prediction, residual, and cost](session-42-linear-prediction-residual-and-cost.md) | hand prediction, residual/loss, graph, code mapping |
+| 42 | mathematics transition II and linear regression: dot products, slope, residuals, and MSE | [Linear prediction, residual, and cost](session-42-linear-prediction-residual-and-cost.md) | hand prediction, residual/loss, code mapping, documentation-to-code evidence |
 | 43 | mathematics transition III and multiple regression: scale, derivatives, gradients, and gradient descent | [Gradient descent, scale, and multiple regression](session-43-gradient-descent-scale-and-multiple-regression.md) | contour explanation and one correct update |
-| 44 | logistic regression: sigmoid, probability, logarithms, and boundary | [Sigmoid, probability, and decision boundary](session-44-sigmoid-probability-and-decision-boundary.md) | probability table, boundary explanation, log-loss intuition |
+| 44 | logistic regression: sigmoid, probability, logarithms, and boundary | [Sigmoid, probability, and decision boundary](session-44-sigmoid-probability-and-decision-boundary.md) | probability table, threshold behaviour, documentation-to-code evidence |
 | 45 | thresholds, confusion matrix, and metric consequences | [Threshold and confusion-matrix effects](session-45-threshold-and-confusion-matrix-effects.md) and [metric calculations](session-45-metric-calculations.md) | threshold table and metric/error-cost decision |
 | 46 | regularisation, parameter norms, bias, and variance | [Underfitting, overfitting, L1/L2, and remedies](session-46-underfitting-overfitting-l1-l2-and-remedies.md) | curve diagnosis and regularisation comparison |
 | 47 | neural-network bridge: matrix multiplication, activations, and forward propagation | [Multilayer networks and forward propagation](session-47-multilayer-networks-and-forward-propagation.md) | shape ledger and small forward-pass trace |
@@ -19,12 +19,12 @@ Open the exact Session link below.
 | 50 | boosting and residual correction | [Boosting and ensemble comparison](session-50-boosting-and-ensemble-comparison.md) | correction sequence, pipeline note, and controlled comparison |
 | 51 | KNN, Euclidean distance, scaling, and neighbourhood voting | [Distance, scaling, and KNN](session-51-distance-scaling-and-knn.md) | hand distance calculation and scaled/unscaled neighbour comparison |
 | 52 | support vector machines, boundary distance, margin, and support points | [SVM and margin lesson](session-52-svm-and-margin-lesson.md) | margin diagram, scaling note, and limitation |
-| 53 | K-means clustering | [K-means session packet](session-53-kmeans-clustering.md) | assignment/update calculation and cluster analysis |
+| 53 | K-means clustering | [K-means session packet](session-53-kmeans-clustering.md) | assignment/update calculation, cluster analysis, documentation-to-code evidence |
 | 54 | PCA and dimensionality reduction | [PCA session packet](session-54-pca-dimensionality-reduction.md) | projection, explained variance, and downstream comparison |
-| 55 | anomaly detection | [Anomaly-detection session packet](session-55-anomaly-detection.md) | score/threshold table and alert-policy analysis |
+| 55 | anomaly detection | [Anomaly-detection session packet](session-55-anomaly-detection.md) | score/threshold table, alert-policy analysis, supervised-vs-unsupervised implementation evidence |
 | 56 | recommender systems | [Recommender-systems session packet](session-56-recommender-systems.md) | user–item representation, baseline, vector score, and evaluation memo |
-| 57 | embedded Kaggle workflow: preprocessing, validation, comparison, and submission | [Leakage-safe pipeline](session-57-leakage-safe-pipeline.md), [model-selection memo](session-57-model-selection-memo.md), and [submission report](session-57-submission-report.md) | pipeline, one controlled improvement, submission check, and postmortem |
-| 58 | classical-ML capstone and mixed recognition/mathematics gate | [Classical-ML capstone](session-58-classical-ml-capstone.md) | model-recognition record, mathematical explanation, baseline, comparison, and model card |
+| 57 | embedded Kaggle workflow: preprocessing, validation, comparison, and submission | [Leakage-safe pipeline](session-57-leakage-safe-pipeline.md), [model-selection memo](session-57-model-selection-memo.md), and [submission report](session-57-submission-report.md) | leakage-safe pipeline, documentation-to-code evidence, one controlled improvement, postmortem |
+| 58 | classical-ML capstone and mixed recognition/mathematics gate | [Classical-ML capstone](session-58-classical-ml-capstone.md) | model recognition, mathematics, documentation independence, baseline comparison, model card |
 
 ## Required Phase Resources
 
@@ -34,7 +34,9 @@ Open the exact Session link below.
 - [Typical task map](Typical_Task_Map.md)
 - [Embedded Kaggle practice map](../../05_Resources/Kaggle_Learn_Refresh_Map.md)
 - [Machine-Learning Implementation and Project Practice Map](../../05_Resources/ML_Implementation_and_Project_Practice_Map.md) — official documentation workflow, selective code reinforcement, and real-data project ladder.
+- [Documentation-to-Code Evidence Template](../../03_Templates/Documentation_to_Code_Evidence_Template.md) — official-API trace, constructor decisions, preprocessing contract, debugging record, and independent rebuild evidence.
+- [Model Card Template](../../03_Templates/Model_Card_Template.md) — implementation provenance, evaluation, error analysis, limitations, and reproduction record.
 
 ## Phase Gate
 
-Students recognise an unfamiliar task, formalise `X`, `y`, output, metric, and boundary, state mathematical objects and shapes, calculate a representative prediction/loss or decision, implement a valid baseline, and defend evaluation evidence and limitations.
+Students recognise an unfamiliar task, formalise `X`, `y`, output, metric, and boundary, state mathematical objects and shapes, calculate a representative prediction/loss or decision, implement a valid baseline, defend evaluation evidence and limitations, and independently turn the relevant official API documentation into a reproducible implementation without copying an end-to-end solution.
