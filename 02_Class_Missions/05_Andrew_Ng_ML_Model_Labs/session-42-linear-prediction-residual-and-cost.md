@@ -14,8 +14,6 @@
 | 53–67 min | Independent Rebuild | Recreate the pattern on your own with less help. |
 | 67–75 min | Talk Robin 2 + Evidence | Summarize, explain, and submit proof of learning. |
 
-
-
 ## Learning Target
 
 By the end of this mission, you can explain the core ideas in **prediction, cost, residual, gradient descent** and demonstrate them through a paper-based or computational task.
@@ -61,6 +59,22 @@ Build and explain a one-feature sklearn linear regression.
 
 Do not copy a complete solution. Documentation, hints, and debugging support may be used according to the AI policy.
 
+## Documentation-to-Code Evidence
+
+Use the [Documentation-to-Code Evidence Template](../../03_Templates/Documentation_to_Code_Evidence_Template.md) for the implementation rebuild.
+
+For this Session, the student must independently locate the official scikit-learn `LinearRegression` API and record:
+
+- the import path;
+- what `fit(X, y)` learns;
+- what `predict(X)` returns;
+- at least one constructor default that is intentionally left unchanged;
+- the evaluation metric and why MAE or RMSE matches a continuous-output task;
+- one leakage-safe train/validation split;
+- one controlled improvement or a justified decision to keep the baseline unchanged.
+
+The teacher may name the model family but should not provide the complete import-plus-fit code during the independent rebuild.
+
 ## NOAI-Style Check
 
 Complete all three:
@@ -76,6 +90,7 @@ Submit:
 - `notes.md`;
 - guided-practice evidence;
 - independent-task evidence;
+- completed documentation-to-code evidence for the baseline;
 - one error and its correction;
 - `ai_usage_note.md` when applicable;
 - a meaningful Git commit.
