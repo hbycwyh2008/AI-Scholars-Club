@@ -33,6 +33,7 @@ Open the exact Session link below.
 - [Model recognition routine](Model_Recognition_Routine.md)
 - [Typical task map](Typical_Task_Map.md)
 - [Embedded Kaggle practice map](../../05_Resources/Kaggle_Learn_Refresh_Map.md)
+- [Machine-Learning Implementation and Project Practice Map](../../05_Resources/ML_Implementation_and_Project_Practice_Map.md) — official documentation workflow, selective code reinforcement, and real-data project ladder.
 
 ## Phase Gate
 
