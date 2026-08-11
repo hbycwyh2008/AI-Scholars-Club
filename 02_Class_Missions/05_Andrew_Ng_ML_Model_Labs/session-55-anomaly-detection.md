@@ -16,7 +16,8 @@ Students must be able to:
 7. explain precision/recall trade-offs under rare anomalies;
 8. identify sensitivity to scaling, correlated features, distribution shift, and contaminated training data;
 9. compare a statistical baseline with a simple supervised baseline when labels exist;
-10. state the operational cost of false alarms and missed anomalies.
+10. state the operational cost of false alarms and missed anomalies;
+11. independently locate and use an anomaly-detection API while preserving the distinction between training signals and evaluation labels.
 
 ## Core Pattern
 
@@ -40,15 +41,38 @@ model normal behaviour
 | 53–67 | Independent Rebuild | implement a simple anomaly baseline and analyse flagged cases |
 | 67–75 | Talk Robin 2 + Evidence | defend the threshold and one deployment warning |
 
+## Documentation-to-Code Evidence
+
+Use the [Documentation-to-Code Evidence Template](../../03_Templates/Documentation_to_Code_Evidence_Template.md).
+
+For the model-based baseline, independently locate the official scikit-learn `IsolationForest` API and record:
+
+- the import path;
+- why the method can be used without training on class labels;
+- what `fit(...)` receives in the unsupervised pass;
+- how the model represents or exposes anomaly scores / predictions;
+- the role and risk of the `contamination` setting;
+- why labels, when available, may be reserved for validation/evaluation rather than supplied as the training target;
+- which metric or alert-cost evidence is used to judge usefulness.
+
+For the Credit Card Fraud two-pass exercise, explicitly compare:
+
+1. a supervised classifier that trains on `Class`;
+2. an Isolation Forest pass that does not use `Class` as the training target but may use it afterward for precision/recall/F1 evaluation.
+
+The student must explain why these are different learning setups even when evaluated on the same labeled dataset.
+
 ## Required Evidence
 
 - task-recognition card;
 - feature mean/variance or score calculation;
 - threshold table;
 - precision/recall or error-cost explanation;
+- completed documentation-to-code evidence;
+- supervised-versus-anomaly-training comparison when labels are available;
 - flagged-case inspection;
 - distribution-shift and contamination warning.
 
 ## Gate
 
-The student can distinguish anomaly detection from classification, explain the score and threshold, and defend an alert policy using validation evidence and error costs.
+The student can distinguish anomaly detection from classification, explain the score and threshold, use the official API without leaking evaluation labels into the unsupervised training target, and defend an alert policy using validation evidence and error costs.
