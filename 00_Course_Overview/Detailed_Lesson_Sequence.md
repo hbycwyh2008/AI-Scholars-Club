@@ -4,7 +4,7 @@ The recommended pathway contains **78 scheduled sessions**.
 
 ## Phase 0 — Orientation and Evidence
 
-1. Competition expectations, official rules, and course map
+1. What NOAI and IOAI are: competition stages, content, course purpose, and learning route
 2. GitHub, Bohrium, Jupyter, evidence, and responsible artificial-intelligence use
 
 ## Phase 1 — CS50P Python
