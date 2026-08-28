@@ -1,65 +1,52 @@
 # Course Overview
 
-The canonical 78-Session route is organised by learning dependency. `curriculum_spec.json` is the machine-readable source of truth for Session counts, Phase ranges, canonical packet counts, exact pathway routes, recovery bridges, operational tools, and evidence boundaries.
+**Default route:** [Club Pathway G10–G12](Club_Pathway_G10-G12.md) — 72 sessions across three year bands.
 
-## Core Pathway Documents
+`curriculum_spec_v5_target.json` is the machine-readable target for the club redesign. `curriculum_spec.json` (schema v4) remains for the legacy 78-session resource bank until year-band launchers are authored.
 
-- [Course Map](Course_Map.md)
-- [Detailed 78-Session Sequence](Detailed_Lesson_Sequence.md)
+## Club Core Documents
+
+- **[Club Pathway G10–G12](Club_Pathway_G10-G12.md)** — canonical route
+- [Prerequisite Map from G8 & G9](Prerequisite_Map_from_G8_G9.md)
+- [Learning Outcomes](Learning_Outcomes.md)
+- [Legacy Session Migration Map](Legacy_Session_Migration_Map.md)
 - [Workflow Competency Crosswalk](Workflow_Competency_Crosswalk.md)
 - [Pacing Guide](Pacing_Guide.md)
-- [Cohort Pathways and Required / Optional Map](Cohort_Pathways_and_Required_Optional_Map.md)
-- [Round 1 and Round 2 Pathway](Round_1_and_Round_2_Pathway.md)
-- [Learning Outcomes](Learning_Outcomes.md)
 - [Course Implementation Checklist](Course_Implementation_Checklist.md)
+
+## Optional Competition Enrichment
+
+- [Competition Enrichment (optional)](Competition_Enrichment_Optional.md)
+- [Legacy Competition Pathways](Legacy_Competition_Pathways.md)
+
+## Legacy Preparation Routes (archived default)
+
+- [Detailed 78-Session Sequence](Detailed_Lesson_Sequence.md)
+- [NOAI Round 1 Compressed Path](NOAI_Round1_Compressed_Path.md)
+- [NOAI Round 2 Project Path](NOAI_Round2_Project_Path.md)
+- [IOAI Full Extension Path](IOAI_Full_Extension_Path.md)
 - [NOAI 2026 Syllabus Map](NOAI_2026_Syllabus_Map.md)
 
-## Executable Preparation Routes
+## Club learning spine
 
-- [NOAI Round 1 Compressed Path](NOAI_Round1_Compressed_Path.md) — exact 45-Session selection plus daily model-recognition practice.
-- [NOAI Round 2 Project Path](NOAI_Round2_Project_Path.md) — exact 22-Session continuation after Round 1 qualification, including recovery Sessions 32 and 47.
-- [IOAI Full Extension Path](IOAI_Full_Extension_Path.md) — Sessions 1–78 plus rule-controlled extension sprints and an exact recovery set for students entering from compressed Round 1.
+```text
+Year A: data + classical ML + ethics + scholar project
+→ Year B: PyTorch + CV + robotics vision + applied project
+→ Year C: advanced AI + deployment + capstone
+→ (optional) competition enrichment
+```
 
-These routes select from or extend the canonical pathway. They do not renumber Sessions, duplicate lesson files, repeat already completed continuation Sessions, or justify readiness beyond their stated capability boundary.
+The recurring modeling backbone:
 
-## Operational Planning
+```text
+task formalisation → data quality → feature engineering
+→ model selection / baseline → diagnosis → controlled improvement
+→ documentation / postmortem
+```
 
-- [Pathway and Daily-Drill Operations](../09_Teacher_Planning/Pathway_and_Drill_Operations.md)
-- `scripts/plan_learning_path.py` — generates the next unresolved Sessions, blocking Red debt, recovery bridges, and next workflow checkpoint.
-- `scripts/generate_daily_model_drill.py` — generates deterministic answer-key-free five-scenario worksheets.
+## Architecture specs
 
-## Architecture and Readiness
-
-- [Canonical Lesson Architecture](Expanded_Lesson_Architecture.md)
-- [Curriculum Completeness and Consistency Audit](Curriculum_Completeness_Audit.md)
+- Target: [curriculum_spec_v5_target.json](../curriculum_spec_v5_target.json)
+- Legacy CI: [curriculum_spec.json](../curriculum_spec.json)
 - [Repository Architecture Manifest](../MANIFEST.md)
-- [Machine-Readable Curriculum Specification](../curriculum_spec.json)
 - [Class Missions](../02_Class_Missions/README.md)
-- [Student Mastery Dashboard](../01_Student_Start/07_Mastery_Dashboard.md)
-- [Cohort Mastery Review Protocol](../09_Teacher_Planning/Cohort_Mastery_Review_Protocol.md)
-- [Public Repository Readiness Dashboard](../10_Ready_to_Teach_Pack/Public_Repository_Readiness_Dashboard.md)
-
-```text
-CS50P Python
-→ NumPy / Pandas / visualisation
-→ Bohrium ML foundations
-→ AI History and Thinking Humans
-→ Andrew Ng ML + mathematics + embedded practice
-→ Andrew Ng DL + PyTorch
-→ model comparison + EDA + evaluation
-→ tuning + ensembling + competition
-```
-
-The recurring modeling backbone is:
-
-```text
-task formalisation
-→ data quality
-→ feature engineering
-→ model selection and baseline
-→ diagnosis and controlled tuning
-→ ensembling
-→ reproducibility check and postmortem
-```
-
-Canonical lesson bodies live inside numbered Phase folders and are opened through each Phase Session launcher. Templates, assessments, resources, public documents, teacher planning, and readiness records support the pathway without creating parallel Sessions.

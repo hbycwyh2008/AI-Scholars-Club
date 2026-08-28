@@ -1,0 +1,63 @@
+{
+  "schema_version": 5,
+  "status": "target_architecture",
+  "note": "Authoritative club design. Legacy v4 spec (78 sessions) remains until year-band launchers are authored.",
+  "canonical_sessions": 72,
+  "year_bands": [
+    {"id": "year_a_g10", "label": "Year A — G10", "start": 1, "end": 24, "theme": "ML foundations + responsible AI"},
+    {"id": "year_b_g11", "label": "Year B — G11", "start": 25, "end": 48, "theme": "Deep learning + CV + robotics"},
+    {"id": "year_c_g12", "label": "Year C — G12", "start": 49, "end": 72, "theme": "Advanced AI + capstone"}
+  ],
+  "phases": [
+    {"path": "Year_A_G10", "start": 1, "end": 24, "units": ["A0_orientation", "A1_data_refresh", "A2_classical_ml", "A3_ethics", "A4_scholar_project"]},
+    {"path": "Year_B_G11", "start": 25, "end": 48, "units": ["B1_math_bridge", "B2_pytorch", "B3_cv_core", "B4_robotics_vision", "B5_applied_project"]},
+    {"path": "Year_C_G12", "start": 49, "end": 72, "units": ["C1_advanced_ai", "C2_responsible_deployment", "C3_capstone", "C4_transition"]}
+  ],
+  "pathways": {
+    "club_core": {
+      "document": "00_Course_Overview/Club_Pathway_G10-G12.md",
+      "sessions": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72],
+      "expected_count": 72,
+      "requires_pathway": null,
+      "claim_boundary": "G10-G12 AI Scholars Club portfolio and showcase standards"
+    },
+    "competition_enrichment": {
+      "document": "00_Course_Overview/Competition_Enrichment_Optional.md",
+      "sessions": [],
+      "expected_count": 0,
+      "requires_pathway": "club_core",
+      "minimum_club_session": 48,
+      "claim_boundary": "named competition year, ruleset, and cohort environment"
+    }
+  },
+  "prerequisites": {
+    "document": "00_Course_Overview/Prerequisite_Map_from_G8_G9.md",
+    "assumed_courses": ["G8 Full-Stack Web and AI", "G9 AP Computer Science Principles"],
+    "diagnostic_session": 3
+  },
+  "legacy_reference": {
+    "spec": "curriculum_spec.json",
+    "schema_version": 4,
+    "canonical_sessions": 78,
+    "migration_map": "00_Course_Overview/Legacy_Session_Migration_Map.md"
+  },
+  "workflow_checkpoints": [
+    {"session": 7, "gate": "data_quality"},
+    {"session": 9, "gate": "task_and_baseline"},
+    {"session": 12, "gate": "classical_ml"},
+    {"session": 18, "gate": "ethics_brief"},
+    {"session": 23, "gate": "year_a_project"},
+    {"session": 30, "gate": "pytorch_loop"},
+    {"session": 33, "gate": "computer_vision"},
+    {"session": 37, "gate": "robotics_vision"},
+    {"session": 48, "gate": "year_b_showcase"},
+    {"session": 54, "gate": "advanced_evaluation"},
+    {"session": 58, "gate": "responsible_deployment"},
+    {"session": 70, "gate": "capstone_showcase"}
+  ],
+  "portfolio_gates": true,
+  "model_recognition": {
+    "scope": "competition_enrichment_only",
+    "legacy_config": "curriculum_spec.json#model_recognition"
+  }
+}

@@ -1,11 +1,23 @@
 # Repository Architecture Manifest
 
-## Canonical Architecture
+## Redesign Status (2026-08)
+
+| Layer | Target state | Current state |
+|---|---|---|
+| **Club identity** | G10–G12 AI Scholars Club | Planning docs complete; legacy competition framing deprecated as default |
+| **Canonical route** | 72 sessions / 3 year bands | [Club_Pathway_G10-G12.md](00_Course_Overview/Club_Pathway_G10-G12.md) |
+| **Machine-readable target** | `curriculum_spec_v5_target.json` | Published |
+| **Legacy CI spec** | `curriculum_spec.json` v4, 78 sessions | Still drives validators and existing launchers |
+| **Lesson packets** | `Year_A_G10/` … `Year_C_G12/` | Not yet authored; legacy phase folders are resource bank |
+
+## Canonical Architecture (transition)
 
 | Layer | Current state |
 |---|---|
-| Machine-readable source of truth | `curriculum_spec.json` schema version 4 |
-| Scheduled pathway | 78 Sessions across nine numbered Phase folders |
+| Machine-readable source of truth (legacy CI) | `curriculum_spec.json` schema version 4 |
+| Machine-readable target (club) | `curriculum_spec_v5_target.json` schema version 5 |
+| Scheduled pathway (target) | 72 Sessions across three year bands |
+| Scheduled pathway (legacy bank) | 78 Sessions across nine numbered Phase folders |
 | Canonical lesson storage | directly inside the relevant Phase folder |
 | Canonical launcher targets | 101 unique phase-local Markdown packets |
 | Executable pathway layer | exact NOAI Round 1, NOAI Round 2, and IOAI full-extension routes with recovery dependencies |

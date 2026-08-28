@@ -1,68 +1,47 @@
-# NOAI / IOAI Competition Preparation Pathway
+# Club Pathway — G10–G12 AI Scholars
 
-The curriculum develops competition readiness through the canonical 78-Session dependency path rather than asking students to jump directly into advanced models.
-
-```text
-orientation and evidence
-→ CS50P Python
-→ NumPy, Pandas, and visualisation
-→ Bohrium ML foundations
-→ AI history and critical reading
-→ Andrew Ng ML + mathematics + embedded practice
-→ Andrew Ng DL + PyTorch + domain tasks
-→ model comparison + EDA + evaluation
-→ diagnosis-first tuning + ensembling + competition simulation
-```
-
-## Canonical Pathway
-
-| Phase | Sessions | Competition contribution |
-|---:|---:|---|
-| 0 | 1–2 | environment, evidence, Git, and responsible assistance |
-| 1 | 3–12 | Python code reading, testing, debugging, and independent programs |
-| 2 | 13–18 | data inspection, transformation, and visual reasoning |
-| 3 | 19–32 | machine-learning concept foundation |
-| 4 | 33–40 | AI history, claim auditing, understanding, and limitations |
-| 5 | 41–58 | classical models, mathematics, task recognition, and tabular workflows |
-| 6 | 59–70 | PyTorch, image, text, audio, and multimodal tasks |
-| 7 | 71–74 | model comparison, EDA, features, validation, metrics, and error analysis |
-| 8 | 75–78 | tuning, ensembling, full simulation, and postmortem |
-
-A shortened cohort route may reduce breadth, but it must not redefine canonical Session numbers or claim full-pathway readiness.
-
-## Competition Habits
-
-- formalise `X`, `y` or required output, metric, prediction-time boundary, constraints, and submission schema;
-- inspect data quality and prevent target, identity, duplicate, group, temporal, and preprocessing leakage;
-- preserve a simple baseline under one validation protocol;
-- keep feature generation reproducible;
-- compare model families from evidence;
-- analyse errors before tuning;
-- record controlled experiments;
-- validate final artifacts from a fresh environment.
-
-## Final Phase
-
-Sessions 75–78 cover:
-
-1. diagnosis-first tuning and bounded search;
-2. valid held-out or out-of-fold ensembling;
-3. a full competition simulation from task reading to valid submission;
-4. a postmortem and evidence-based readiness decision.
+Public summary of the **default club route**. For competition-specific routes, see [Competition Enrichment](../00_Course_Overview/Competition_Enrichment_Optional.md).
 
 ```text
-data quality
-→ valid split and baseline
-→ feature engineering
-→ model comparison
-→ error diagnosis
-→ tuning
-→ ensembling
-→ fresh-runtime submission validation
+G8 + G9 prerequisites
+→ Year A (G10): data + classical ML + ethics + scholar project
+→ Year B (G11): PyTorch + CV + robotics vision + applied demo
+→ Year C (G12): advanced AI + deployment + capstone
+→ (optional) competition enrichment
 ```
 
-Optuna and broad automated search are optional tools inside Session 75. They do not replace model understanding, validation independence, reproducibility, or submission checks.
+## Year A — G10 (Sessions 1–24)
 
-## Readiness Standard
+| Unit | Sessions | Outcome |
+|---|---:|---|
+| Orientation & evidence | 1–2 | portfolio setup |
+| Data refresh | 3–7 | diagnostic + EDA |
+| Classical ML | 8–12 | sklearn workflow |
+| Ethics & literacy | 13–18 | Mitchell seminars + brief |
+| Scholar project | 19–24 | model card + presentation |
 
-A sophisticated model is not competition-ready unless the student can defend the task, data, split, baseline, metric, experiment history, final artifact, fresh run, and characteristic limitations.
+## Year B — G11 (Sessions 25–48)
+
+| Unit | Sessions | Outcome |
+|---|---:|---|
+| Math bridge | 25–27 | notation + gradients |
+| PyTorch | 28–30 | training loop |
+| Computer vision | 31–33 | CNN + error analysis |
+| Robotics vision | 34–37 | OpenCV + VEX integration |
+| Applied project | 38–48 | showcase demo |
+
+## Year C — G12 (Sessions 49–72)
+
+| Unit | Sessions | Outcome |
+|---|---:|---|
+| Advanced AI | 49–54 | transformers, GenAI, evaluation |
+| Responsible deployment | 55–58 | bias testing + docs |
+| Capstone | 59–70 | team/individual project |
+| Transition | 71–72 | portfolio + next steps |
+
+## Legacy 78-Session competition map
+
+The previous NOAI/IOAI-first pathway remains documented for optional enrichment:
+
+- [Legacy Competition Pathway detail](Competition_Pathway_Legacy.md)
+- [Legacy Session Migration Map](../00_Course_Overview/Legacy_Session_Migration_Map.md)
