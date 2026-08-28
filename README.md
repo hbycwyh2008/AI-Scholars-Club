@@ -1,4 +1,4 @@
-# NOAI / IOAI Preparation Curriculum
+# AI Scholars Club
 
 A mastery-focused artificial-intelligence curriculum for secondary-school students preparing for NOAI China and later IOAI-style open-ended tasks.
 
