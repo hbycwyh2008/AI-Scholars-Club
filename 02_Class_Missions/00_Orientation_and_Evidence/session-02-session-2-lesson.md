@@ -2,9 +2,12 @@
 
 **Duration:** 75 minutes
 
-## Required Resource
+## Required Resources
 
-Use the setup guides in `01_Student_Start/`: repository setup, Python/Jupyter setup, Bohrium setup, evidence submission, AI-use policy, and competition-notebook rules.
+- Use the setup guides in `01_Student_Start/`: repository setup, Python/Jupyter setup, Bohrium setup, evidence submission, AI-use policy, and competition-notebook rules.
+- Submit the finished public repository through the [AI Scholars Club CS GitHub Repository Submission form](https://docs.google.com/forms/d/e/1FAIpQLSfRNPWSxmCKSUBy8Vs0NIYUtgNbmkLWG42T-lM7StCCsfy7uw/viewform).
+
+The submitted URL must point to one public repository, not to a GitHub profile. Before submission, open it in a private/incognito window and confirm that no access request is required.
 
 ## Timeline
 
@@ -12,11 +15,11 @@ Use the setup guides in `01_Student_Start/`: repository setup, Python/Jupyter se
 |---|---|---|
 | 0–8 min | Skill Warm-Up | Inspect the required student-repository structure and identify where code, notes, evidence, and AI-use records belong. |
 | 8–15 min | Talk Robin 1 | Compare local Jupyter and Bohrium execution and name one reproducibility risk. |
-| 15–22 min | Entry Check | Verify GitHub access, Python version, notebook kernel, and clean-run procedure. |
+| 15–22 min | Entry Check | Verify GitHub access, public repository visibility, Python version, notebook kernel, and clean-run procedure. |
 | 22–35 min | Core Pattern | Teacher models create → run → verify → document → commit → reproduce. |
 | 35–53 min | Guided Practice | Create the repository structure, run an environment-check notebook, and make one meaningful commit. |
 | 53–67 min | Independent Rebuild | Reproduce the setup from a fresh folder or clean runtime and document one failure and fix. |
-| 67–75 min | Talk Robin 2 + Evidence | Demonstrate the clean run and submit repository, environment, error, and commit evidence. |
+| 67–75 min | Talk Robin 2 + Evidence | Demonstrate the clean run, submit the public repository URL through the collection form, and retain environment, error, and commit evidence. |
 
 ## 1. Skill Warm-Up
 
@@ -41,6 +44,8 @@ Explain why a notebook that runs only because of hidden prior state is not valid
 1. Show the active Python version and kernel.
 2. State how to restart and run all notebook cells.
 3. Name one file that must never contain hidden labels or private answers.
+4. Open the repository in a private/incognito window and verify that it is public.
+5. Confirm that the URL has the form `https://github.com/username/repository`, not `https://github.com/username`.
 
 ## 4. Core Pattern
 
@@ -51,7 +56,7 @@ Create environment → run minimal check → restart/clean run → record versio
 
 ## 5. Guided Practice
 
-Create and run a notebook that prints the Python version, imports the required core packages, writes one output file, and records the environment.
+Create and run a notebook that prints the Python version, imports the required core packages, writes one output file, and records the environment. Add a clear repository README, make at least one meaningful commit, and verify the public repository link from a private/incognito window.
 
 ## 6. Independent Rebuild
 
@@ -59,4 +64,14 @@ From a clean folder or runtime, reproduce the repository structure and environme
 
 ## 7. Talk Robin 2 + Evidence
 
-Submit the repository link, clean-run log or screenshot, environment record, one error-and-fix entry, AI-use note when applicable, and meaningful commit history.
+Submit the public repository URL through the [AI Scholars Club CS GitHub Repository Submission form](https://docs.google.com/forms/d/e/1FAIpQLSfRNPWSxmCKSUBy8Vs0NIYUtgNbmkLWG42T-lM7StCCsfy7uw/viewform).
+
+The submitted repository must:
+
+- open without an access request;
+- contain a README that states the repository purpose;
+- contain at least one meaningful CS file or commit;
+- use the required evidence structure;
+- exclude credentials, hidden labels, private answers, and other restricted material.
+
+Retain the clean-run log or screenshot, environment record, one error-and-fix entry, AI-use note when applicable, and meaningful commit history in the repository. If the submitted URL is wrong or private, correct it and submit the form again.
