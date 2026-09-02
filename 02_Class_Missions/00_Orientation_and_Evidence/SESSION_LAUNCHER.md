@@ -16,8 +16,12 @@ Complete the [NOAI Round 1 full diagnostic](https://docs.google.com/forms/d/e/1F
 | Session | Focus | Open this lesson | Required evidence |
 |---:|---|---|---|
 | 1 | NOAI Round 1 diagnostic debrief; NOAI and IOAI competition map, course purpose, and learning route | [Session 1 lesson](session-01-session-1-lesson.md) | diagnostic score/profile, competition comparison, annotated course map, six-sentence course-purpose briefing, corrected misconception |
-| 2 | evidence system, GitHub, Bohrium, Jupyter, and responsible AI use | [Session 2 lesson](session-02-session-2-lesson.md) | working repository/environment check and evidence workflow |
+| 2 | evidence system, GitHub, Bohrium, Jupyter, and responsible AI use | [Session 2 lesson](session-02-session-2-lesson.md) | public CS repository URL submitted through the collection form, working environment check, and evidence workflow |
+
+## Session 2 Repository Submission
+
+After the repository contains a README and at least one meaningful CS file or commit, submit its public URL through the [AI Scholars Club CS GitHub Repository Submission form](https://docs.google.com/forms/d/e/1FAIpQLSfRNPWSxmCKSUBy8Vs0NIYUtgNbmkLWG42T-lM7StCCsfy7uw/viewform). Submit a repository URL, not a GitHub profile URL.
 
 ## Phase Gate
 
-Students can interpret the diagnostic as baseline evidence, identify one strength and two priority gaps, explain how NOAI and IOAI differ and connect, compare their major stages, state what this course is designed to prepare them to know and do, locate the assigned Session, use the required tools, submit evidence, and explain the difference between completing an activity and demonstrating mastery.
+Students can interpret the diagnostic as baseline evidence, identify one strength and two priority gaps, explain how NOAI and IOAI differ and connect, compare their major stages, state what this course is designed to prepare them to know and do, locate the assigned Session, submit a working public CS repository URL, use the required tools, submit evidence, and explain the difference between completing an activity and demonstrating mastery.
