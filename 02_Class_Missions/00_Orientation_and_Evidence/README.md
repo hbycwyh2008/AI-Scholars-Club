@@ -15,6 +15,7 @@ Begin with direct evidence of the destination and the student's current baseline
 ## Supporting Resources
 
 - [NOAI Round 1 full diagnostic](https://docs.google.com/forms/d/e/1FAIpQLScKR5tkKql28GpgKaRADniswegPkLn09Ty-i1rb3mPbA60W5A/viewform)
+- [Student CS GitHub repository submission form](https://docs.google.com/forms/d/e/1FAIpQLSfRNPWSxmCKSUBy8Vs0NIYUtgNbmkLWG42T-lM7StCCsfy7uw/viewform)
 - [Student setup](../../01_Student_Start/00_How_This_Course_Works.md)
 - [Evidence system](../../04_Assessment/Evidence_System.md)
 - [NOAI Round 1 compressed path](../../00_Course_Overview/NOAI_Round1_Compressed_Path.md)
@@ -23,4 +24,4 @@ Begin with direct evidence of the destination and the student's current baseline
 
 ## Gate
 
-By the end of Phase 0, students can interpret their diagnostic result, name one current strength and two priority gaps, explain the relationship between NOAI and IOAI, compare the main competition stages and capability demands, state why this course is structured from foundations to competition execution, identify their assigned route, create and use their repository, run Python, locate assigned resources, and submit reproducible evidence without copying a complete solution.
+By the end of Phase 0, students can interpret their diagnostic result, name one current strength and two priority gaps, explain the relationship between NOAI and IOAI, compare the main competition stages and capability demands, state why this course is structured from foundations to competition execution, identify their assigned route, create and use their repository, submit its public URL through the repository form, run Python, locate assigned resources, and submit reproducible evidence without copying a complete solution.
