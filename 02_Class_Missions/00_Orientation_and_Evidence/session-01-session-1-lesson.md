@@ -1,6 +1,6 @@
 # Mission 00.1 — What Are NOAI and IOAI, and Why Are We Taking This Course?
 
-**Duration:** 75 minutes
+**Duration:** 75 minutes, plus a required 120-minute diagnostic completed before class or in a separate supervised block
 
 **Essential question:** What will these competitions actually ask us to know and do, and how will this course prepare us?
 
@@ -13,7 +13,8 @@ By the end of this lesson, students can:
 3. distinguish theory and reasoning, practical implementation, open-ended problem solving, and teamwork;
 4. explain the purpose and sequence of this course in their own words;
 5. use the Input → Processing → Output lens to inspect a real competition task without jumping immediately to a model;
-6. identify their assigned learning route and the evidence that will demonstrate progress.
+6. identify their assigned learning route and the evidence that will demonstrate progress;
+7. interpret the diagnostic as baseline evidence by naming one current strength and two priority gaps.
 
 ## Annual Rule Boundary
 
@@ -29,6 +30,20 @@ Use current versions of these sources:
 - [IOAI 2026 contest rules](https://ioai-official.org/republic-of-kazakhstan/2026-contest-rules/)
 - [Official IOAI 2026 task repository](https://github.com/IOAI-official/IOAI-2026)
 
+## Required Pre-Class Diagnostic
+
+Students complete the [NOAI Round 1 full diagnostic](https://docs.google.com/forms/d/e/1FAIpQLScKR5tkKql28GpgKaRADniswegPkLn09Ty-i1rb3mPbA60W5A/viewform) before Session 1 or in a separate supervised 120-minute block.
+
+Conditions:
+
+- work independently without search, an IDE, notes, or generative AI;
+- submit once the timed block ends;
+- click **View score** to inspect the correct answers and explanations;
+- record the total score, one current strength, and two priority gaps;
+- do not copy the answer key or full explanations into a public repository.
+
+This is a diagnostic, not a graded teaching task. A low score is expected for many beginners and is useful only when the attempt is independent. The teacher uses the item-level response pattern to decide what must be taught first and which learning route is realistic.
+
 ## Teacher Preparation
 
 Before class:
@@ -36,15 +51,17 @@ Before class:
 1. verify and archive the current NOAI syllabus, format, and rules;
 2. verify and archive the current IOAI syllabus, format, rules, and released tasks;
 3. write the document access date on the board;
-4. prepare three short, answer-key-free task cards: one NOAI Round 1-style item, one NOAI Round 2-style applied task, and one released IOAI task summary;
-5. replace the 2026 reference snapshot when teaching a later competition year;
-6. do not distribute protected answers, hidden labels, private tests, credentials, or restricted task materials.
+4. verify that the diagnostic form is accepting responses and that immediate answer feedback is enabled;
+5. prepare three short, answer-key-free task cards: one NOAI Round 1-style item, one NOAI Round 2-style applied task, and one released IOAI task summary;
+6. replace the 2026 reference snapshot when teaching a later competition year;
+7. do not distribute protected answers, hidden labels, private tests, credentials, or restricted task materials.
 
 ## Timeline
 
 | Time | Block | Student output |
 |---|---|---|
-| 0–8 min | Skill Warm-Up | Annotate two anonymous competition artifacts using Input → Processing → Output. |
+| Before class / separate 120-minute block | Full NOAI Round 1 diagnostic | Submitted score, one strength, and two priority gaps |
+| 0–8 min | Diagnostic Debrief + Skill Warm-Up | Annotate two anonymous competition artifacts using Input → Processing → Output. |
 | 8–15 min | Talk Robin 1 | Predict how a knowledge test and an applied AI task demand different evidence. |
 | 15–24 min | Entry Check | Commit to five initial claims about NOAI, IOAI, and the purpose of the course. |
 | 24–40 min | Core Pattern | Build the NOAI → IOAI competition map and compare what each stage asks students to do. |
@@ -52,9 +69,20 @@ Before class:
 | 55–68 min | Independent Rebuild | Produce a six-sentence explanation of the competitions and this course without copying the model. |
 | 68–75 min | Talk Robin 2 + Evidence | Correct one misconception, deliver a 90-second briefing, and submit the Session 1 evidence. |
 
-## 1. Skill Warm-Up — Two Very Different Artifacts
+## 1. Diagnostic Debrief + Skill Warm-Up — Two Very Different Artifacts
 
-The teacher displays two short artifacts without naming the competition or stage:
+Before viewing the competition map, record:
+
+| Diagnostic evidence | Student record |
+|---|---|
+| Total score / 100 |  |
+| One area that already feels familiar |  |
+| Two concepts or skills that need teaching first |  |
+| One item whose explanation changed my reasoning |  |
+
+Do not compare scores publicly and do not treat the total as a prediction of final competition performance. The teacher should look for item-level patterns rather than rank students from a single baseline.
+
+The teacher then displays two short artifacts without naming the competition or stage:
 
 - Artifact A: a paper-based Python, calculation, or AI-concept item;
 - Artifact B: an applied task statement containing data, a required output, a metric, and runtime constraints.
@@ -233,6 +261,7 @@ Without notes, explain:
 
 Submit or retain:
 
+- the diagnostic total score, one current strength, two priority gaps, and one explanation that changed the student's reasoning (do not reproduce the answer key);
 - the completed Artifact A/Artifact B comparison;
 - the NOAI/IOAI competition-stage map;
 - the three-card guided-practice table;
@@ -255,6 +284,7 @@ A student passes the Session 1 gate only when the student can, without copying t
 - compare the main national and international stages;
 - name at least three different capability types the competitions require;
 - explain the purpose and sequence of this course;
+- interpret the diagnostic as baseline evidence and name one strength and two priority gaps;
 - analyse one task using Input → Processing → Output;
 - identify a current rule that must be verified rather than assumed.
 
@@ -268,6 +298,7 @@ After class, record:
 - whether students understand that theory and practice are both required;
 - which students cannot yet explain the course purpose;
 - which current-rule questions need an organiser source;
-- whether the assigned route is appropriate or requires diagnostic evidence.
+- which question-level patterns reveal missing Python, algorithm, mathematics, ML/DL, evaluation, or ethics foundations;
+- whether the assigned route is appropriate or requires additional diagnostic evidence.
 
 Do not spend most of the lesson on dates, registration, awards, or promotional claims. The instructional target is the competition structure, capability demands, course purpose, and evidence standard.
