@@ -1,47 +1,60 @@
-# Mission 01.1 — Functions, Variables, and Input/Output
+# Legacy Gap-Fill Mission — Functions, Variables, and Input/Output
 
-**Duration:** 75 minutes  
-**Pre-class required viewing:** assigned Harvard course segments below
+**Use only when Session 3 diagnostic evidence shows a Python gap.**  
+**Typical duration:** 45–75 minutes depending on need  
+**No required pre-class viewing.**
 
-## Timeline
+This packet is retained inside the legacy `01_CS50P_Python/` folder for link stability. It is **not** part of a mandatory CS50P sequence.
 
-| Time | Block | Student output |
-|---|---|---|
-| 0–8 min | Skill Warm-Up | Complete a retrieval trace using `print`, variables, a function call, and a return value from the pre-class viewing. |
-| 8–15 min | Talk Robin 1 | Pair discussion: what output is produced, what value is stored, and what is still confusing. |
-| 15–22 min | Entry Check | Check basic understanding of values, types, assignment, and output. |
-| 22–35 min | Core Pattern | Teacher explains input → processing → output and call → parameter → return. |
-| 35–53 min | Guided Practice | Trace short Python programs and write small functions. |
-| 53–67 min | Independent Rebuild | Recreate a small input-process-output program without notes. |
-| 67–75 min | Talk Robin 2 + Evidence | Summarize, explain, and submit proof of learning. |
+## Learning Cycle
+
+```text
+Learn → Practice → Rebuild → Share
+```
+
+The exact timing can change. Students who recover the target skill quickly should move forward rather than complete redundant work.
 
 ## Learning Target
 
-By the end of this mission, you can explain Python values, types, functions, arithmetic, input, processing, output, and return values through a paper-based or computational task.
+By the end of this mission, you can explain and use Python values, variables, input/output, functions, parameters, and return values in a short program.
 
-## Pre-Class Required Resource
+## Resource Choice
 
-**Harvard CS50’s Introduction to Programming with Python on edX**  
-https://learning.edx.org/course/course-v1:HarvardX+CS50P+Python/block-v1:HarvardX+CS50P+Python+type@sequential+block@5c4566382df54814ba604df6369ca2fc/block-v1:HarvardX+CS50P+Python+type@vertical+block@8cbabae6d04047638c12604d810d127f
+Use the shortest resource that addresses the diagnosed gap.
 
-### Assigned Segments
+Preferred options:
 
-| Week | Topic | Timestamp range | Student action |
-|---|---|---:|---|
-| Week 0 — Functions, Variables | hello.py / basic printed output | 00:00:24–00:03:19 | Identify the printed output. |
-| Week 0 — Functions, Variables | Functions, arguments, side effects | 00:05:06–00:07:35 | Mark the function name and argument. |
-| Week 0 — Functions, Variables | Return values and variables | 00:12:16–00:19:56 | Explain what value is stored in a variable. |
-| Week 0 — Functions, Variables | f-Strings | 00:43:10–00:45:04 | Explain how formatted output is built. |
-| Week 0 — Functions, Variables | Integers and operators | 00:59:35–01:03:13 | Trace arithmetic expressions. |
-| Week 0 — Functions, Variables | calculator.py | 01:03:13–01:06:25 | Identify input, processing, and output. |
-| Week 0 — Functions, Variables | Defining functions | 01:26:14–01:39:01 | Explain `def`, parameters, and helper functions. |
-| Week 0 — Functions, Variables | Return values | 01:41:17–01:45:11 | Contrast `return` with `print`. |
+1. **CodeHS Data Science with Python — Basic Python Bootcamp** for targeted practice;
+2. teacher mini-lesson and examples in this packet;
+3. **CS50P** only as optional reference or extension.
 
-Complete the assigned segments before class or in a separately scheduled resource session. The full package does not fit inside the eight-minute Skill Warm-Up.
+Do not assign a full CS50P lecture as required preparation for this mission.
 
-## 1. Skill Warm-Up
+## 1. Learn — Core Pattern
 
-Trace one short program supplied by the teacher:
+```text
+input value → variable → processing expression/function → return value → output
+```
+
+Key distinctions:
+
+- `print(...)` displays a value;
+- assignment stores a value in a variable;
+- a parameter receives a value when a function is called;
+- `return` sends a value back to the caller.
+
+Example:
+
+```python
+def double(number):
+    return number * 2
+
+value = int(input("Number: "))
+result = double(value)
+print(result)
+```
+
+Trace it as:
 
 ```text
 Input value:
@@ -52,39 +65,76 @@ Returned value:
 Printed output:
 ```
 
-## 2. Talk Robin 1
+## 2. Practice
 
-Partner prompt: what is the difference between displaying a value, storing a value, and returning a value?
+### Trace A
 
-## 3. Entry Check
+Predict the final output and explain each stored value.
 
-1. Predict the output of a two-line assignment and `print` program.
-2. State the type and value of one arithmetic expression.
-3. Explain why `return` is not the same as `print`.
+```python
+def add_tax(price):
+    return price * 1.1
 
-## 4. Core Pattern
-
-```text
-Input value → variable → processing expression/function → return or output
+cost = 20
+final_cost = add_tax(cost)
+print(final_cost)
 ```
 
-## 5. Guided Practice
+### Trace B
 
-Trace short Python programs and write small functions.
+Explain why these two functions behave differently:
 
-## 6. Independent Rebuild
+```python
+def show_square(x):
+    print(x * x)
 
-Rebuild a small input-process-output program without notes.
 
-Do not copy a complete solution. Documentation, hints, and debugging support may be used according to the artificial-intelligence-use policy.
+def get_square(x):
+    return x * x
+```
 
-## 7. Talk Robin 2 + Evidence
+### Short Build
+
+Write a function that:
+
+1. receives one number as a parameter;
+2. performs one calculation;
+3. returns the result;
+4. stores the returned value;
+5. prints the stored result outside the function.
+
+## 3. Rebuild
+
+Without copying a complete solution, rebuild a small input → process → output program.
+
+Requirements:
+
+- at least one user input;
+- at least one variable;
+- one function with a parameter;
+- one returned value;
+- output produced outside the function.
+
+Documentation, hints, and debugging support may be used according to the club AI-use policy, but the student must be able to explain every line submitted.
+
+## 4. Share / Evidence
 
 Submit:
 
-- pre-class viewing note with exact segment titles;
-- guided-practice trace evidence;
-- independent program evidence;
-- one error and its correction;
-- `ai_usage_note.md` when applicable;
-- a meaningful Git commit.
+- one completed program trace;
+- the independent rebuild;
+- one error encountered and how it was corrected;
+- a short explanation of `print` versus `return`;
+- a meaningful Git commit;
+- `ai_usage_note.md` when applicable.
+
+## Exit Check
+
+A student is ready to leave this gap-fill mission when they can answer all four without notes:
+
+1. What value is stored in a variable after an assignment?
+2. What is passed into a parameter?
+3. What does `return` do?
+4. Why can a returned value be reused while printed output alone usually cannot?
+
+Once the student meets the target, return to the canonical Year A pathway rather than continuing through legacy Python packets automatically.
