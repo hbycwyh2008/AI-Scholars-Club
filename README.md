@@ -1,11 +1,18 @@
 # AI Scholars Club
 
-A **three-year G10–G12 scholarly pathway** for the school AI specialization track: ML foundations, responsible AI, computer vision (including robotics), advanced topics, and a portfolio capstone.
+A **three-year G10–G12 scholarly pathway** for the school AI specialization track: data foundations, machine learning, responsible AI, computer vision and robotics, advanced AI, and a portfolio capstone.
+
+The course uses the same learning culture as the Full-Stack Web & AI course:
+
+> **Learn → Practice → Rebuild → Share**
+
+The timetable is different — normally one 75-minute club meeting per week — but the course-design model is the same: a coherent teacher-designed pathway, external resources used at the point of need, project evidence, and progressive independence.
 
 **Competitions** (NOAI, IOAI, Kaggle) are **[optional enrichment](00_Course_Overview/Competition_Enrichment_Optional.md)** — not the default club route.
 
 ## Start Here
 
+- **[AI Scholars Club Course Plan](AI-Scholars-Club_Course-Plan.md)** — course identity, priorities, resource strategy, classroom model, and capstone
 - [Teacher Start Here](TEACHER_START_HERE.md)
 - [Student Start Here](STUDENT_START_HERE.md)
 - **[Club Pathway G10–G12](00_Course_Overview/Club_Pathway_G10-G12.md)** — canonical 72-session route
@@ -17,49 +24,64 @@ A **three-year G10–G12 scholarly pathway** for the school AI specialization tr
 
 | Year | Sessions | Focus |
 |---|---:|---|
-| **G10** | 1–24 | ML foundations + responsible AI + first scholar project |
+| **G10** | 1–24 | Data foundations + classical ML + responsible AI + first scholar project |
 | **G11** | 25–48 | PyTorch + computer vision + robotics vision + applied project |
-| **G12** | 49–72 | Advanced AI + deployment + capstone + portfolio |
+| **G12** | 49–72 | Advanced AI + deployment + capstone + portfolio defense |
 
 ```text
 G8 Full-Stack + G9 AP CSP (prerequisites)
 → Year A: data + classical ML + ethics + project
 → Year B: deep learning + CV + VEX/robotics vision
 → Year C: advanced AI + capstone + showcase
-→ (optional) Competition Enrichment module
+→ (optional) Competition Enrichment
 ```
 
-## Pedagogy
-
-75-minute after-school club sessions using the seven-block flow:
+## Shared Classroom Model
 
 ```text
-Skill Warm-up → Talk Robin 1 → Entry Check → Core Pattern
-→ Guided Practice → Independent Rebuild → Talk Robin 2 + Evidence
+Learn → Practice → Rebuild → Share
 ```
+
+A normal skill lesson may expand this into:
+
+```text
+Skill Warm-up → Entry Check → Core Pattern
+→ Guided Practice → Independent Rebuild → Evidence / Share
+```
+
+The exact minutes are **not fixed across every session**. Coding labs, seminars, robotics labs, and project sprints allocate time differently while preserving the same learning cycle.
+
+## Resource Model
+
+The club curriculum is the spine. External courses are targeted resources rather than parallel curricula.
+
+- **CodeHS Data Science with Python:** main Year A practice platform for Pandas, cleaning, visualisation, statistics, and data-quality work.
+- **CodeHS Basic Python Bootcamp inside Data Science with Python:** diagnostic remediation only.
+- **NumPy:** taught directly in the club because arrays, shapes, indexing, and vectorisation are required foundations.
+- **CodeHS Advanced Python and AI Programming:** selected extension material for advanced students or later units.
+- **CS50P:** optional reference/extension; no required pre-class viewing.
+- **Andrew Ng / PyTorch / other resources:** selected only when they directly support a club mission.
 
 ## Modeling Workflow
 
 ```text
-task formalisation → data quality → feature engineering
-→ model selection / baseline → diagnosis → controlled improvement
-→ documentation / postmortem
+problem → data → baseline → model → evaluation
+→ diagnosis → controlled change → reevaluation → documentation
+```
+
+Task-recognition shorthand:
+
+```text
+input → output → labels? → task type → baseline → metric
 ```
 
 ## Optional Competition Enrichment
 
-Motivated G11–G12 students may add 8–12 sessions for NOAI / IOAI / Kaggle prep. See [Competition Enrichment](00_Course_Overview/Competition_Enrichment_Optional.md) and [Legacy Competition Pathways](00_Course_Overview/Legacy_Competition_Pathways.md).
-
-## Migration Status
-
-- **Planning (complete):** club pathway, prerequisites, outcomes, legacy migration map
-- **Content (in progress):** year-band session packets in `02_Class_Missions/`
-- **Legacy bank:** existing 78-session packets remain for reuse and optional competition routes
-- **Specs:** `curriculum_spec_v5_target.json` (target) · `curriculum_spec.json` (legacy v4, CI)
+Motivated G11–G12 students may add 8–12 sessions for NOAI / IOAI / Kaggle preparation after the required foundations. See [Competition Enrichment](00_Course_Overview/Competition_Enrichment_Optional.md) and [Legacy Competition Pathways](00_Course_Overview/Legacy_Competition_Pathways.md).
 
 ## Evidence Standard
 
-Watching or running supplied code is not mastery. Students must explain, rebuild, debug, evaluate, and submit reproducible portfolio evidence.
+Watching, copying, or running supplied code is not mastery. Students must explain, practice, rebuild, debug, evaluate, and preserve reproducible evidence in GitHub.
 
 ## Readiness Boundary
 
