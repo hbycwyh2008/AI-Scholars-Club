@@ -19,7 +19,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          expected=53
+          expected=26
           count=$(find .tmp/model-evaluation -maxdepth 1 -type f -name 'chunk-*.b64' 2>/dev/null | wc -l | tr -d ' ')
           echo "Found $count / $expected chunks"
           if [ "$count" -ne "$expected" ]; then
@@ -30,7 +30,7 @@ jobs:
           cat $(find .tmp/model-evaluation -maxdepth 1 -type f -name 'chunk-*.b64' | sort) | base64 -d > 08_Public_Documents/posters/Model_Evaluation.pdf
 
           actual=$(sha256sum 08_Public_Documents/posters/Model_Evaluation.pdf | awk '{print $1}')
-          expected_sha='90b429c5914636784a9d1c3d23342e1899770f7f0c6959fddb9f25f8bda43846'
+          expected_sha='3bfd91413b80a467f27a4c6a1ed8c993cadccdd36e514528ff12040ad915836d'
           if [ "$actual" != "$expected_sha" ]; then
             echo "SHA256 mismatch: $actual"
             exit 1
