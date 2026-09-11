@@ -100,9 +100,15 @@ The session count differs from the Full-Stack course, but the design principle i
 
 ## 5. Resource Strategy
 
+### Melanie Mitchell — AI Conceptual Map
+
+For the **IOAI-focused route**, place the existing eight-seminar *Artificial Intelligence: A Guide for Thinking Humans* sequence immediately after Course Introduction / Orientation.
+
+Its job is not to teach coding. It gives students a conceptual map of symbolic AI, machine learning, neural networks, CV, NLP, RL, and the limits of current systems before the technical sequence begins.
+
 ### CodeHS — Data Science with Python
 
-Use **CodeHS Data Science with Python** as the main Year A practice platform for data foundations and as the first data-fluency block in the IOAI-focused route.
+Use **CodeHS Data Science with Python** as the main Year A practice platform for data foundations. In the IOAI-focused route it comes **after the AI History / conceptual-map unit**.
 
 Recommended use:
 
@@ -227,6 +233,8 @@ problem / scoring rule
 → postmortem
 ```
 
+For the IOAI-focused route, use lighter problem-framing questions during the AI History unit, then begin the full six-question task-recognition routine in the Data Science unit.
+
 ---
 
 ## 8. Assessment and Evidence
@@ -254,10 +262,10 @@ The [IOAI Core Learning Path](00_Course_Overview/IOAI_Core_Learning_Path.md) is 
 Recommended sequence:
 
 ```text
-Python readiness
+Course Introduction / Orientation
+→ Melanie Mitchell, A Guide for Thinking Humans / AI History
 → CodeHS Data Science with Python
 → CodeHS Advanced Python and AI Programming
-→ Melanie Mitchell + continuing task recognition
 → ML Workflow Bootcamp (Müller + Zoomcamp)
 → Andrew Ng Machine Learning Specialization
 → Approaching (Almost) Any Machine Learning Problem
@@ -273,7 +281,7 @@ Teacher preparation and lesson plans:
 - [IOAI Core Lesson Plans](09_Teacher_Planning/Daily_Lesson_Plans/IOAI_Core_Pathway/README.md)
 - [IOAI Core Resource Map](05_Resources/IOAI_Core_Resource_Map.md)
 
-Task-recognition drills continue throughout the sequence; they are not postponed until competition season.
+The formal task-recognition drills begin during Data Science and continue throughout the rest of the sequence; they are not postponed until competition season.
 
 ---
 
