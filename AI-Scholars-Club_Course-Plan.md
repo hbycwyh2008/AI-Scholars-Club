@@ -59,7 +59,8 @@ Depending on year band and student readiness:
 - computer vision for robotics;
 - advanced model evaluation and controlled tuning;
 - deployment and capstone research;
-- selected advanced Python/AI algorithms.
+- selected advanced Python/AI algorithms;
+- competition-style task recognition and rapid-baseline design.
 
 ---
 
@@ -74,7 +75,7 @@ The following must not displace the canonical AI pathway:
 - competition-specific tricks before students can run and diagnose a basic ML workflow;
 - NOAI / IOAI / Kaggle preparation for students who have not yet reached the required foundations.
 
-Competitions remain optional enrichment.
+Competitions remain optional enrichment for the general club. A qualified competition cohort may use the separate IOAI-focused route defined below.
 
 ---
 
@@ -101,7 +102,7 @@ The session count differs from the Full-Stack course, but the design principle i
 
 ### CodeHS — Data Science with Python
 
-Use **CodeHS Data Science with Python** as the main Year A practice platform for data foundations.
+Use **CodeHS Data Science with Python** as the main Year A practice platform for data foundations and as the first data-fluency block in the IOAI-focused route.
 
 Recommended use:
 
@@ -114,17 +115,49 @@ Recommended use:
 
 Teach the club's NumPy bridge directly. The club needs explicit work with arrays, shapes, indexing, and vectorisation before deeper Pandas/ML work.
 
-### Advanced Python and AI Programming
+### CodeHS — Advanced Python and AI Programming
 
-Use selected CodeHS modules later as extension material for strong students or advanced units. It is not the Year A spine.
+For the **general G10–G12 club**, use selected modules as extension material for strong students or advanced units; it is not the Year A spine.
+
+For the **IOAI-focused route**, it is a selected core bridge after data-science foundations. Prioritise:
+
+- object-oriented programming where it improves program structure;
+- libraries and packages;
+- data structures and algorithmic trade-offs;
+- search / graph-search ideas;
+- selected AI Algorithms material;
+- the classifier build/evaluation project.
+
+Do not require the full year-long course and do not let unrelated projects delay the ML workflow phase.
 
 ### CS50P
 
 CS50P becomes an optional reference and extension resource. It is not required pre-class viewing and does not determine the club sequence.
 
-### Andrew Ng / PyTorch / Other Resources
+### ML Workflow Preparation
 
-Use selected external material only where it supports a specific mission. The teacher-designed pathway remains canonical.
+For the IOAI route, establish the complete applied workflow **before** the systematic Andrew Ng model sequence using selected material from:
+
+- Andreas C. Müller — *Applied Machine Learning*;
+- DataTalksClub — *Machine Learning Zoomcamp*.
+
+Focus on problem framing, preprocessing, validation, baseline design, metrics, error analysis, feature reasoning, model comparison, and controlled tuning. Deployment/MLOps is optional for IOAI preparation.
+
+### Andrew Ng / AAAMLP / Deep Learning / PyTorch
+
+Use the resources in this order for the IOAI route:
+
+```text
+Andrew Ng Machine Learning Specialization
+→ Approaching (Almost) Any Machine Learning Problem
+→ advanced evaluation / features / tuning / ensembling
+→ Andrew Ng Deep Learning Specialization
+→ PyTorch
+```
+
+Andrew Ng provides the model-principles map; AAAMLP provides competition decision-making; PyTorch is the main executable deep-learning framework.
+
+See the [IOAI Core Resource Map](05_Resources/IOAI_Core_Resource_Map.md).
 
 ---
 
@@ -180,6 +213,20 @@ For evidence quality:
 claim → evidence → interpretation → limitation → next action
 ```
 
+For competition work, expand the modeling backbone to:
+
+```text
+problem / scoring rule
+→ data audit
+→ validation design
+→ baseline
+→ metric
+→ error analysis
+→ controlled improvement
+→ reproducible comparison
+→ postmortem
+```
+
 ---
 
 ## 8. Assessment and Evidence
@@ -200,7 +247,37 @@ Typical evidence includes notebooks, code commits, experiment logs, model cards,
 
 ---
 
-## 9. Final Capstone
+## 9. IOAI-Focused Route
+
+The [IOAI Core Learning Path](00_Course_Overview/IOAI_Core_Learning_Path.md) is the preferred route for a qualified competition cohort. It does not replace the general three-year club for every student.
+
+Recommended sequence:
+
+```text
+Python readiness
+→ CodeHS Data Science with Python
+→ CodeHS Advanced Python and AI Programming
+→ Melanie Mitchell + continuing task recognition
+→ ML Workflow Bootcamp (Müller + Zoomcamp)
+→ Andrew Ng Machine Learning Specialization
+→ Approaching (Almost) Any Machine Learning Problem
+→ Evaluation / Feature Engineering / Tuning / Ensembling
+→ Andrew Ng Deep Learning Specialization
+→ PyTorch
+→ IOAI competition projects
+```
+
+Teacher preparation and lesson plans:
+
+- [IOAI Teacher Preparation Watchlist](09_Teacher_Planning/IOAI_Teacher_Preparation_Watchlist.md)
+- [IOAI Core Lesson Plans](09_Teacher_Planning/Daily_Lesson_Plans/IOAI_Core_Pathway/README.md)
+- [IOAI Core Resource Map](05_Resources/IOAI_Core_Resource_Map.md)
+
+Task-recognition drills continue throughout the sequence; they are not postponed until competition season.
+
+---
+
+## 10. Final Capstone
 
 By the end of Year C, students complete an AI capstone that includes:
 

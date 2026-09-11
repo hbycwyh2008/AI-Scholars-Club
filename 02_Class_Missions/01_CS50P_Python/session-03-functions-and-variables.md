@@ -4,7 +4,7 @@
 **Typical duration:** 45–75 minutes depending on need  
 **No required pre-class viewing.**
 
-This packet is retained inside the legacy `01_CS50P_Python/` folder for link stability. It is **not** part of a mandatory CS50P sequence.
+This packet is retained inside the legacy `02_Class_Missions/01_CS50P_Python/` folder for link stability. It is **not** part of a mandatory CS50P sequence.
 
 ## Learning Cycle
 
