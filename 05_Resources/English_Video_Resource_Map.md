@@ -1,9 +1,27 @@
 # English Video Resource Map
 
-## Python
+## Python and Data Foundations
 
+- **CodeHS Data Science with Python:** https://codehs.com/course/12135/overview
+  - Use selected data-life-cycle, Pandas, cleaning, visualisation, statistics, aggregation, and data-quality work.
+  - Do not require full-course completion for the IOAI route.
+- **CodeHS Advanced Python and AI Programming:** https://codehs.com/course/27291/overview
+  - Use selected OOP, libraries/packages, data structures/algorithms, AI Algorithms, and classifier-project material for the IOAI route.
 - **Harvard CS50’s Introduction to Programming with Python:** https://learning.edx.org/course/course-v1:HarvardX+CS50P+Python/block-v1:HarvardX+CS50P+Python+type@sequential+block@5c4566382df54814ba604df6369ca2fc/block-v1:HarvardX+CS50P+Python+type@vertical+block@8cbabae6d04047638c12604d810d127f
   - Exact timestamp map for assigned sections: [`CS50P_edX_Timestamp_Map.md`](CS50P_edX_Timestamp_Map.md)
+  - Optional remediation/reference, not the IOAI spine.
+
+## Applied Machine-Learning Workflow — IOAI Teacher Priority
+
+- **Andreas C. Müller — Applied Machine Learning, Columbia:** https://www.cs.columbia.edu/~amueller/comsw4995s20/
+- **Müller course schedule / recordings map:** https://www.cs.columbia.edu/~amueller/comsw4995s20/schedule/
+- **Applied Machine Learning notes:** https://amueller.github.io/aml/
+  - Prioritise workflow, model validation, preprocessing, evaluation, imbalanced data, feature selection/interpretation, and parameter tuning.
+- **DataTalksClub Machine Learning Zoomcamp:** https://github.com/DataTalksClub/machine-learning-zoomcamp
+  - For IOAI, prioritise the introduction/workflow, regression, classification, evaluation metrics, and decision-trees/ensemble modules.
+  - Deployment/serverless/MLOps modules are optional and should not delay competition preparation.
+
+Use the [IOAI Teacher Preparation Watchlist](../09_Teacher_Planning/IOAI_Teacher_Preparation_Watchlist.md) for the recommended viewing order.
 
 ## Artificial Intelligence and Traditional Machine Learning
 
@@ -12,6 +30,12 @@
 - **Course 2 — Advanced Learning Algorithms:** https://www.coursera.org/learn/advanced-learning-algorithms
 - **Google Machine Learning Crash Course:** https://developers.google.com/machine-learning/crash-course
 - **StatQuest Video Index:** https://statquest.org/video-index/
+
+### Competition Problem-Solving Companion
+
+- **Abhishek Thakur — Approaching (Almost) Any Machine Learning Problem:** https://github.com/abhishekkrthakur/approachingalmost
+  - This is primarily a book/code companion rather than a complete official video course.
+  - Use after the basic model/workflow map to develop validation, metrics, feature engineering, tuning, and ensembling decisions.
 
 ## Deep Learning
 
@@ -58,4 +82,4 @@ For Coursera-hosted resources, use Coursera links rather than DeepLearning.AI ma
 
 For PyTorch, use the three-course certificate selectively: PyTorch: Fundamentals is the main foundation course; PyTorch: Techniques and Ecosystem Tools supports Round 2 computer-vision, natural-language-processing, and tuning workflows; PyTorch: Advanced Architectures and Deployment is an optional advanced extension. PyTorch official tutorials remain the API reference.
 
-In student-facing and teacher-facing documents, write the complete course name. Do not rely on internal abbreviations.
+For the IOAI route, establish the applied workflow map with Müller/Zoomcamp **before** using the Andrew Ng Machine Learning Specialization as the systematic model-principles course.
