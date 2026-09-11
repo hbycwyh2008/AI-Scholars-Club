@@ -84,7 +84,7 @@ These folders remain available for migration, remediation, extension, and option
 | 7 | 71–74 | advanced evaluation support |
 | 8 | 75–78 | competition enrichment only |
 
-The folder name `01_CS50P_Python/` is retained for legacy-link stability. Its packets should no longer imply that CS50P is the mandatory club sequence.
+The folder name `02_Class_Missions/01_CS50P_Python/` is retained for legacy-link stability. Its packets should no longer imply that CS50P is the mandatory club sequence.
 
 ## Evidence Standard
 
