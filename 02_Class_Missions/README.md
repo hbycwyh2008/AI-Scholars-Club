@@ -51,12 +51,13 @@ For Python/data foundations:
 
 ## IOAI Core Resource Rule
 
-The IOAI-focused route adds a deliberate sequence:
+The IOAI-focused route now uses this sequence:
 
 ```text
-CodeHS Data Science with Python
+Course Introduction / Orientation
+→ Melanie Mitchell, A Guide for Thinking Humans
+→ CodeHS Data Science with Python
 → selected CodeHS Advanced Python and AI Programming
-→ Mitchell + task recognition
 → ML Workflow Bootcamp (Müller + Zoomcamp)
 → Andrew Ng Machine Learning
 → AAAMLP
@@ -66,7 +67,9 @@ CodeHS Data Science with Python
 → competition projects
 ```
 
-`Advanced Python and AI Programming` is therefore a **selected core resource for the IOAI route**, while remaining optional/extension material for the general club pathway. Neither CodeHS course is assigned in full by default.
+The AI-history/conceptual-map unit comes immediately after the course introduction. The formal six-question task-recognition routine begins during Data Science and continues through the rest of the route.
+
+`Advanced Python and AI Programming` remains a **selected core resource for the IOAI route**, while remaining optional/extension material for the general club pathway. Neither CodeHS course is assigned in full by default.
 
 ## Legacy 78-Session Resource Bank
 

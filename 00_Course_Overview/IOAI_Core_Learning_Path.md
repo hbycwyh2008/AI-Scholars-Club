@@ -8,17 +8,18 @@ This route does **not** replace the canonical G10–G12 club pathway for every s
 
 ## Design Principle
 
-Students should learn three maps before being expected to solve unfamiliar competition tasks:
+Students should build three maps before being expected to solve unfamiliar competition tasks:
 
 1. **AI conceptual map** — what major AI approaches are, why they developed, and what their limitations are.
 2. **ML workflow map** — how a real problem moves from data and a baseline to evaluation, diagnosis, and controlled improvement.
 3. **Model map** — how the major classical and deep-learning methods work, when they are useful, and how to evaluate them.
 
-The competition layer comes after those maps are connected.
+The ordering now deliberately puts the AI conceptual map immediately after the course introduction.
 
 ```text
-programming + data fluency
+course introduction
 → AI conceptual map
+→ programming + data fluency
 → ML workflow map
 → model principles
 → competition decision-making
@@ -28,7 +29,7 @@ programming + data fluency
 
 ## Recurring Reasoning Backbone
 
-Every ML task repeatedly returns to:
+Once students have enough data vocabulary, every ML task repeatedly returns to:
 
 ```text
 problem
@@ -45,23 +46,58 @@ problem
 → documentation / postmortem
 ```
 
-Task-recognition drills continue throughout the route. They are not a one-time unit.
+The full six-question task-recognition routine begins in the data-science phase and continues throughout the route.
 
 ---
 
-## Phase 0 — Entry Diagnostic and Python Readiness
+## Phase 0 — Course Introduction, Orientation, and Readiness
 
-**Goal:** confirm that Python syntax is not the bottleneck.
+**Goal:** establish the course map, evidence rules, competition context, and current student starting point.
 
-Students should be comfortable with functions, conditionals, loops, collections, files/CSV, exceptions, and basic debugging. Use targeted remediation only where the diagnostic identifies a gap.
+Use one compact introduction session to explain:
 
-**Resources:** CodeHS Python review material or the legacy Python packets. CS50P remains optional reference/extension.
+- what the IOAI-focused pathway is preparing students to do;
+- `Learn → Practice → Rebuild → Share`;
+- what counts as evidence of mastery;
+- how external courses function as resources rather than the curriculum itself;
+- the complete pathway students are about to follow.
 
-**Exit gate:** student can independently read, modify, debug, and explain a small Python data-processing program.
+Use a short first-look IOAI/NOAI-style challenge and a Python/data readiness diagnostic only to identify gaps. Do not turn orientation into a long remedial Python block.
+
+**Exit gate:** student can explain the pathway and evidence standard, and the teacher has identified any immediate readiness gaps.
 
 ---
 
-## Phase 1 — CodeHS Data Science with Python
+## Phase 1 — AI History and Conceptual Map
+
+**Core text:** Melanie Mitchell, *Artificial Intelligence: A Guide for Thinking Humans*.
+
+Use the existing eight-seminar sequence in [`02_Class_Missions/04_AI_History_and_Thinking_Humans`](../02_Class_Missions/04_AI_History_and_Thinking_Humans/README.md).
+
+This phase comes immediately after the course introduction so students first understand:
+
+- symbolic AI and learning-based AI;
+- the rise, decline, and return of neural networks;
+- the relationship among AI, ML, deep learning, CV, NLP, and RL;
+- what current systems demonstrate versus what people claim about them;
+- why different AI problems require different representations, evidence, and evaluation.
+
+Use light problem-framing warm-ups:
+
+```text
+What is the problem?
+What is the input?
+What output would count as success?
+What evidence would convince us that the system works?
+```
+
+Do not force baseline/model/metric vocabulary before students have learned the relevant data and ML concepts.
+
+**Exit gate:** student can place later technical topics inside a coherent AI map and distinguish demonstrated capability from unsupported claims.
+
+---
+
+## Phase 2 — CodeHS Data Science with Python + Targeted Python Readiness
 
 **Role:** data fluency before machine learning.
 
@@ -74,13 +110,21 @@ Use selected CodeHS lessons rather than requiring the complete course. Prioritis
 - descriptive statistics and distributions;
 - asking statistical questions and defending claims with evidence.
 
-NumPy arrays, shapes, indexing, and vectorisation are taught directly in the club where needed.
+Use the Basic Python Bootcamp or legacy Python packets only for diagnosed gaps. NumPy arrays, shapes, indexing, and vectorisation are taught directly in the club where needed.
+
+From this phase onward, begin the recurring task-recognition routine:
+
+```text
+input → output → labels? → task type → baseline → metric
+```
+
+At first, accept simple baselines and teacher-supported metric choices. The routine becomes more demanding later.
 
 **Exit gate:** student can inspect an unfamiliar tabular dataset and produce a reproducible data-quality/EDA report with at least one defensible claim.
 
 ---
 
-## Phase 2 — CodeHS Advanced Python and AI Programming
+## Phase 3 — CodeHS Advanced Python and AI Programming
 
 **Role:** move from basic Python to stronger algorithmic and AI-programming fluency.
 
@@ -95,25 +139,9 @@ Use selected modules rather than the full year-long course. Prioritise:
 
 The adventure-game and music-player projects are optional unless they serve a specific programming objective.
 
+Continue task recognition and require increasingly explicit baseline and metric reasoning.
+
 **Exit gate:** student can organise a non-trivial Python program, reason about algorithm choice, use third-party libraries responsibly, and build/evaluate a small classifier.
-
----
-
-## Phase 3 — AI Conceptual Map + Task Recognition
-
-**Core text:** Melanie Mitchell, *Artificial Intelligence: A Guide for Thinking Humans*.
-
-Use the existing eight-seminar sequence in [`02_Class_Missions/04_AI_History_and_Thinking_Humans`](../02_Class_Missions/04_AI_History_and_Thinking_Humans/README.md).
-
-Alongside the reading, continue daily/weekly task-recognition practice:
-
-```text
-input → output → labels? → task type → baseline → metric
-```
-
-Students should encounter classification, regression, clustering, dimensionality reduction, anomaly detection, computer vision, NLP, and reinforcement-learning problem statements without being handed the task label in advance.
-
-**Exit gate:** student can place an unfamiliar problem inside an AI/ML conceptual map and explain what evidence would be needed before choosing a model.
 
 ---
 
@@ -285,10 +313,10 @@ Annual IOAI rules always override historical examples in this repository.
 ## Recommended Ordering
 
 ```text
-Python readiness
+Course Introduction / Orientation
+→ A Guide for Thinking Humans / AI History
 → CodeHS Data Science with Python
 → CodeHS Advanced Python and AI Programming
-→ Mitchell + continuing Task Recognition
 → ML Workflow Bootcamp (Müller + Zoomcamp)
 → Andrew Ng Machine Learning Specialization
 → AAAMLP
@@ -298,10 +326,11 @@ Python readiness
 → IOAI competition-style projects
 ```
 
-Mitchell reading and task-recognition drills may run in parallel with the data/programming phases when the cohort is ready.
+Formal task-recognition drills begin in the Data Science phase and continue throughout the remaining pathway.
 
 ## What Not to Do
 
+- Do not bury AI history after multiple technical courses; students need the conceptual map first.
 - Do not require every hour of either CodeHS course.
 - Do not make Zoomcamp deployment/MLOps a prerequisite for IOAI.
 - Do not start hyperparameter tuning before the validation design is trustworthy.

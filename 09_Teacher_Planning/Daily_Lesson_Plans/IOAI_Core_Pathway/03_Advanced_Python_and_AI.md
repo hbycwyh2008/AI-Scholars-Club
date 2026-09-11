@@ -1,4 +1,4 @@
-# Unit 2 — CodeHS Advanced Python and AI Programming
+# Unit 3 — CodeHS Advanced Python and AI Programming
 
 **Suggested length:** 5 × 75 minutes + optional extension  
 **Purpose:** strengthen program structure, algorithmic reasoning, and AI-programming fluency before sustained ML work.  
@@ -26,6 +26,8 @@ The adventure-game and music-player projects are optional programming extensions
 | 3. Data structures + complexity | stack/queue/hash/tree/graph concepts, Big-O intuition | compare operations and trace algorithms | choose a data structure for an unseen problem and implement it | complexity explanation |
 | 4. Search / AI algorithms | state, actions, goal, heuristic, graph search | trace BFS/DFS/greedy/A*-style examples as appropriate | solve a new state-space problem | search trace + limitations |
 | 5. Build and evaluate a classifier | features, labels, split, baseline, train, predict, evaluate | guided classifier | rebuild on a new dataset and explain metric choice | classifier notebook + mini model card |
+
+Continue the formal task-recognition drill from Unit 2 and require students to justify the baseline and metric rather than merely name them.
 
 ## Optional Extension
 

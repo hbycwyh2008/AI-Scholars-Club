@@ -1,8 +1,27 @@
 # IOAI Teacher Preparation Watchlist
 
-This is the teacher-preparation sequence for the [IOAI Core Learning Path](../00_Course_Overview/IOAI_Core_Learning_Path.md). It is deliberately selective: learn the workflow map first, then the model map, then competition decision-making.
+This is the teacher-preparation sequence for the [IOAI Core Learning Path](../00_Course_Overview/IOAI_Core_Learning_Path.md). It is deliberately selective: establish the AI conceptual map first, then the workflow map, then the model map, then competition decision-making.
 
-## Stage A — Build the ML Workflow Map First
+## Stage 0 — AI Conceptual Map
+
+Before the technical workflow sequence, review the eight-seminar Mitchell arc used with students:
+
+- what counts as intelligence;
+- symbolic AI versus learning-based AI;
+- neural networks and the history of connectionism;
+- computer vision;
+- what models actually learn;
+- reinforcement learning;
+- language understanding;
+- common sense, abstraction, analogy, and current limitations.
+
+Teacher takeaway: be able to draw a coherent map connecting AI, ML, deep learning, CV, NLP, and RL without reducing AI to a list of algorithms.
+
+This is why the student pathway places AI History immediately after Course Introduction.
+
+---
+
+## Stage A — Build the ML Workflow Map
 
 Complete these before teaching the Andrew Ng ML phase.
 

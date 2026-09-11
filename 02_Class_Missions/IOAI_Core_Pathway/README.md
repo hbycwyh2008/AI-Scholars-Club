@@ -5,10 +5,10 @@ This folder is the student-facing map for the IOAI-focused route. Your teacher a
 ## Learning Route
 
 ```text
-Python readiness
+Course introduction / orientation
+→ AI history + conceptual map
 → Data Science with Python
 → Advanced Python and AI
-→ AI conceptual map + task recognition
 → ML workflow bootcamp
 → Andrew Ng Machine Learning
 → AAAMLP competition workflow
@@ -17,6 +17,8 @@ Python readiness
 → PyTorch
 → IOAI competition projects
 ```
+
+The AI-history unit comes immediately after the introduction so you first understand how the major AI ideas fit together before learning a long list of tools or models.
 
 ## What You Must Be Able to Do
 
@@ -36,9 +38,9 @@ understand the problem
 → document and defend the decision
 ```
 
-## Repeated Task-Recognition Routine
+## Task-Recognition Routine
 
-For unfamiliar problems, answer:
+The full routine begins in the Data Science phase and continues for the rest of the pathway:
 
 1. What is the input?
 2. What output is required?
@@ -47,12 +49,15 @@ For unfamiliar problems, answer:
 5. What simple baseline should we try first?
 6. What metric should judge success?
 
+During AI History, the questions are lighter: what problem is being solved, what information goes in, what output counts as success, and what evidence would convince us that the system works.
+
 Do not choose a model before you understand the task and evaluation.
 
 ## Evidence You Will Produce
 
 Depending on the mission:
 
+- concept maps and reading evidence;
 - code/notebook commits;
 - task cards;
 - data audits;

@@ -1,4 +1,4 @@
-# Unit 1 — CodeHS Data Science with Python
+# Unit 2 — CodeHS Data Science with Python
 
 **Suggested length:** 6 × 75 minutes  
 **Purpose:** make data inspection and evidence-based reasoning automatic before ML begins.  
@@ -18,6 +18,16 @@ Students can inspect an unfamiliar table, identify data-quality risks, transform
 | 4. Data quality | missingness, duplicates, invalid types, suspicious values | locate problems in a dirty table | write a cleaning plan before editing data | data-quality report |
 | 5. Visualisation and distributions | choose chart by question; centre/spread/outliers | create and critique plots | produce two plots that support or reject a claim | chart + written claim |
 | 6. Mini EDA investigation | connect question, audit, transformations, plots, limitations | teacher conference | complete a short EDA from a fresh CSV | EDA notebook + 2-minute defense |
+
+## Begin the Formal Task-Recognition Routine
+
+From this unit onward, repeatedly ask students to answer:
+
+```text
+input → output → labels? → task type → baseline → metric
+```
+
+At first, accept simple baselines and teacher-supported metric choices. The routine becomes more demanding as the ML workflow and model phases add vocabulary and experience.
 
 ## Teacher Notes
 
