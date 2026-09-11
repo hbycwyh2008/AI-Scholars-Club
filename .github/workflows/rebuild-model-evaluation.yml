@@ -1,0 +1,45 @@
+name: Rebuild Model Evaluation PDF
+
+on:
+  push:
+    paths:
+      - '.tmp/model-evaluation/**'
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Rebuild PDF when all chunks are present
+        shell: bash
+        run: |
+          set -euo pipefail
+          expected=53
+          count=$(find .tmp/model-evaluation -maxdepth 1 -type f -name 'chunk-*.b64' 2>/dev/null | wc -l | tr -d ' ')
+          echo "Found $count / $expected chunks"
+          if [ "$count" -ne "$expected" ]; then
+            exit 0
+          fi
+
+          mkdir -p 08_Public_Documents/posters
+          cat $(find .tmp/model-evaluation -maxdepth 1 -type f -name 'chunk-*.b64' | sort) | base64 -d > 08_Public_Documents/posters/Model_Evaluation.pdf
+
+          actual=$(sha256sum 08_Public_Documents/posters/Model_Evaluation.pdf | awk '{print $1}')
+          expected_sha='90b429c5914636784a9d1c3d23342e1899770f7f0c6959fddb9f25f8bda43846'
+          if [ "$actual" != "$expected_sha" ]; then
+            echo "SHA256 mismatch: $actual"
+            exit 1
+          fi
+
+          rm -rf .tmp/model-evaluation
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add 08_Public_Documents/posters/Model_Evaluation.pdf .tmp/model-evaluation
+          git commit -m 'Add model evaluation poster pack' || exit 0
+          git push
