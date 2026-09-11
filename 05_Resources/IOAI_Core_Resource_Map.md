@@ -6,9 +6,9 @@ See: [IOAI Core Learning Path](../00_Course_Overview/IOAI_Core_Learning_Path.md)
 
 | Resource | Main role in this pathway | Use | Usually skip / de-emphasise |
 |---|---|---|---|
+| **Melanie Mitchell — Artificial Intelligence: A Guide for Thinking Humans** | AI conceptual map immediately after course introduction | selected/complete reading through the existing 8-seminar sequence | treating the book as a coding textbook |
 | **CodeHS Data Science with Python** | data fluency | selected Pandas, cleaning, visualisation, statistics, aggregation, data-quality work | full 85-hour completion |
 | **CodeHS Advanced Python and AI Programming** | stronger Python + algorithms + AI-programming bridge | OOP, libraries/packages, data structures/algorithms, AI Algorithms, classifier project | projects unrelated to the current IOAI objective unless needed for programming practice |
-| **Melanie Mitchell — Artificial Intelligence: A Guide for Thinking Humans** | AI conceptual map | selected/complete reading through the existing 8-seminar sequence | treating the book as a coding textbook |
 | **Andreas C. Müller — Applied Machine Learning** | rigorous applied ML workflow | validation, preprocessing, evaluation, imbalance, feature selection, model selection, tuning | watching every lecture before students begin real tasks |
 | **DataTalksClub — Machine Learning Zoomcamp** | realistic end-to-end examples | introduction/workflow, regression, classification, evaluation, trees/ensembles | deployment/MLOps as an IOAI prerequisite |
 | **Andrew Ng — Machine Learning Specialization** | model principles + mathematics | core specialization, especially regression/classification, trees, clustering, anomaly detection, practical ML advice | passive video completion without transfer labs |
@@ -18,6 +18,10 @@ See: [IOAI Core Learning Path](../00_Course_Overview/IOAI_Core_Learning_Path.md)
 | **Official IOAI/NOAI materials** | target alignment | current syllabus, current rules, authorised assets, task reproductions | assuming previous-year rules are still valid |
 
 ## Official / Primary Links
+
+### AI Conceptual Map
+
+- Melanie Mitchell, *Artificial Intelligence: A Guide for Thinking Humans* — use with the repository's eight-seminar AI History sequence.
 
 ### CodeHS
 
@@ -58,9 +62,10 @@ A resource is justified only if it improves the current mission.
 ## IOAI Resource Sequence
 
 ```text
-CodeHS Data Science
+Course Introduction / Orientation
+→ Mitchell / AI History conceptual map
+→ CodeHS Data Science
 → CodeHS Advanced Python and AI
-→ Mitchell + task-recognition drills
 → Müller / Zoomcamp workflow bootcamp
 → Andrew Ng ML
 → AAAMLP
@@ -69,3 +74,5 @@ CodeHS Data Science
 → PyTorch
 → current IOAI competition tasks
 ```
+
+The formal task-recognition drill begins during Data Science and continues throughout the remaining pathway.
