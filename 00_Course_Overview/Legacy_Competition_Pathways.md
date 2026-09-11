@@ -28,7 +28,7 @@ The repository originally shipped as a **NOAI / IOAI preparation academy** (78 s
 
 ## Legacy lesson storage
 
-All legacy session packets live in `02_Class_Missions/00_Orientation_and_Evidence/` through `08_Tuning_Ensembling_Competition/`. See [Legacy Session Migration Map](Legacy_Session_Migration_Map.md) for reuse guidance.
+All legacy session packets live in `02_Class_Missions/00_Orientation_and_Evidence/` through `02_Class_Missions/08_Tuning_Ensembling_Competition/`. See [Legacy Session Migration Map](Legacy_Session_Migration_Map.md) for reuse guidance.
 
 ## Machine-readable spec
 
