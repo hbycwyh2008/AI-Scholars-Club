@@ -4,6 +4,10 @@
 
 - [Class Missions](../02_Class_Missions/README.md)
 - [Canonical teacher phase overviews](Phase_Overviews/README.md)
+- [IOAI Core Learning Path](../00_Course_Overview/IOAI_Core_Learning_Path.md)
+- [IOAI Teacher Preparation Watchlist](IOAI_Teacher_Preparation_Watchlist.md)
+- [IOAI Core Lesson Plans](Daily_Lesson_Plans/IOAI_Core_Pathway/README.md)
+- [IOAI Core Resource Map](../05_Resources/IOAI_Core_Resource_Map.md)
 - [Detailed 78-Session Sequence](../00_Course_Overview/Detailed_Lesson_Sequence.md)
 - [Workflow Competency Crosswalk](../00_Course_Overview/Workflow_Competency_Crosswalk.md)
 - [Pacing Guide](../00_Course_Overview/Pacing_Guide.md)
@@ -12,6 +16,25 @@
 - [Repository Architecture Manifest](../MANIFEST.md)
 
 Use the pathway operations guide to generate evidence-aware next-Session plans and deterministic daily model-recognition sets. The planner does not replace teacher review: `--entry-qualified` is used only after the earlier pathway evidence has been inspected.
+
+## IOAI Teacher Preparation
+
+Before teaching the Andrew Ng ML phase, complete the selected Müller + ML Zoomcamp workflow preparation in the [watchlist](IOAI_Teacher_Preparation_Watchlist.md). The purpose is to teach students a complete ML workflow map before presenting a larger catalogue of models.
+
+The IOAI-focused lesson sequence is:
+
+```text
+CodeHS Data Science
+→ CodeHS Advanced Python and AI
+→ Mitchell + task recognition
+→ ML workflow bootcamp
+→ Andrew Ng ML
+→ AAAMLP
+→ evaluation / features / tuning / ensembling
+→ Andrew Ng DL
+→ PyTorch
+→ competition projects
+```
 
 ## Mastery and Cohort Review
 
