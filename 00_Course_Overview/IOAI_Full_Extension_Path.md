@@ -1,6 +1,10 @@
-# IOAI Full Extension Path
+# IOAI Full Extension Path — Legacy 78-Session Compatibility Route
 
-This is the international-preparation route. It preserves the complete canonical pathway and adds task-specific extension sprints only after the relevant prerequisites and annual-rule checks are complete.
+> **Status:** legacy compatibility route for cohorts already using the 78-session architecture.  
+> **New IOAI-focused cohorts should use:** [IOAI Core Learning Path](IOAI_Core_Learning_Path.md), with the [new lesson plans](../09_Teacher_Planning/Daily_Lesson_Plans/IOAI_Core_Pathway/README.md).  
+> This file is preserved so existing session numbers, scripts, evidence records, and migration links do not break.
+
+This is the international-preparation route for the legacy architecture. It preserves the complete canonical pathway and adds task-specific extension sprints only after the relevant prerequisites and annual-rule checks are complete.
 
 ## Entry Standard
 
@@ -28,7 +32,7 @@ No student skips validation, reproducibility, error analysis, or the annual-rule
 | competition diagnosis | 71–74 | comparison, EDA, feature engineering, validation, calibration, error analysis |
 | competition execution | 75–78 | tuning, ensembling, full simulation, postmortem and readiness conference |
 
-**Canonical requirement:** Sessions 1–78 exactly once and in order.
+**Legacy canonical requirement:** Sessions 1–78 exactly once and in order.
 
 For a student coming from the compressed Round 1 route, use the pathway planner to expose the omitted prerequisites before assigning Session 59:
 
