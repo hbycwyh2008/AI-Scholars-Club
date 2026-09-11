@@ -2,9 +2,11 @@
 
 ## Default Route
 
-Follow the **[Club Pathway G10–G12](../00_Course_Overview/Club_Pathway_G10-G12.md)** and the **[AI Scholars Club Course Plan](../AI-Scholars-Club_Course-Plan.md)**.
+Follow the **[Club Pathway G10–G12](../00_Course_Overview/Club_Pathway_G10-G12.md)** and the **[AI Scholars Club Course Plan](../AI-Scholars-Club_Course-Plan.md)** for the general club.
 
-The canonical route is the three-year Year A / Year B / Year C pathway. Legacy 78-session folders are a **resource bank**, not a second curriculum.
+For a qualified cohort preparing seriously for NOAI/IOAI, use the **[IOAI Core Learning Path](../00_Course_Overview/IOAI_Core_Learning_Path.md)** and the [student IOAI mission map](IOAI_Core_Pathway/README.md).
+
+The canonical general route is the three-year Year A / Year B / Year C pathway. Legacy 78-session folders are a **resource bank**, not a second curriculum.
 
 ## Shared Learning Cycle
 
@@ -26,7 +28,7 @@ The exact minute allocation changes by lesson type. Do not force coding labs, se
 ## Normal Use
 
 ```text
-confirm year band + session goal
+confirm pathway + session goal
 → identify the required student evidence
 → select only the resource needed for that goal
 → Learn
@@ -37,7 +39,7 @@ confirm year band + session goal
 
 External courses are **resources inside a mission**, not pre-class courses students must complete in parallel.
 
-## Year A Resource Rule
+## General Club Year A Resource Rule
 
 For Python/data foundations:
 
@@ -46,6 +48,25 @@ For Python/data foundations:
 - teach the NumPy bridge directly in the club;
 - use CS50P only as optional reference/extension;
 - do not require pre-class video viewing by default.
+
+## IOAI Core Resource Rule
+
+The IOAI-focused route adds a deliberate sequence:
+
+```text
+CodeHS Data Science with Python
+→ selected CodeHS Advanced Python and AI Programming
+→ Mitchell + task recognition
+→ ML Workflow Bootcamp (Müller + Zoomcamp)
+→ Andrew Ng Machine Learning
+→ AAAMLP
+→ evaluation / features / tuning / ensembling
+→ Andrew Ng Deep Learning
+→ PyTorch
+→ competition projects
+```
+
+`Advanced Python and AI Programming` is therefore a **selected core resource for the IOAI route**, while remaining optional/extension material for the general club pathway. Neither CodeHS course is assigned in full by default.
 
 ## Legacy 78-Session Resource Bank
 
@@ -80,6 +101,8 @@ Typical evidence includes notebook/code commits, traces, experiment logs, data-q
 ## Supporting Areas
 
 - [Student setup and evidence](../01_Student_Start/README.md)
+- [IOAI Core Lesson Plans](../09_Teacher_Planning/Daily_Lesson_Plans/IOAI_Core_Pathway/README.md)
+- [IOAI Core Resource Map](../05_Resources/IOAI_Core_Resource_Map.md)
 - [Templates](../03_Templates/README.md)
 - [Assessment](../04_Assessment/README.md)
 - [Resources](../05_Resources/README.md)
