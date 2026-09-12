@@ -29,7 +29,7 @@ The ordering is intentional: students build an AI conceptual map before the Code
 
 Folders whose names begin with `Legacy_` preserve the early material from the old 78-session architecture. They are **not** the starting sequence for new cohorts. Use them only when a student needs targeted remediation, when an older plan must be reproduced, or when maintaining historical 78-session tooling.
 
-The later numbered folders (`05_` onward) are still reused by the current route where the content remains appropriate.
+The later numbered folders, beginning with Unit 05, are still reused by the current route where the content remains appropriate.
 
 ## What Not to Do
 
@@ -42,7 +42,7 @@ The later numbered folders (`05_` onward) are still reused by the current route 
 ## Source-of-Truth Rule
 
 - **Current IOAI order:** [IOAI Core Learning Path](../00_Course_Overview/IOAI_Core_Learning_Path.md).
-- **Current student entry points:** the `00_`–`05_` unit folders in this directory.
+- **Current student entry points:** Units 00 through 05 in this directory.
 - **Detailed current teacher plans:** [IOAI Core lesson plans](../09_Teacher_Planning/Daily_Lesson_Plans/IOAI_Core_Pathway/README.md).
-- **Legacy 78-session compatibility:** `Legacy_01_` through `Legacy_04_`, plus later reused session folders named by `curriculum_spec.json`.
+- **Legacy 78-session compatibility:** folders whose names begin with `Legacy_`, plus later reused session folders named by `curriculum_spec.json`.
 - **Architecture and validation:** [Repository Architecture Manifest](../MANIFEST.md).
