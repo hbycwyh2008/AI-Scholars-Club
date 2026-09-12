@@ -3,7 +3,7 @@
 **Legacy Sessions:** 13–18  
 **Compatibility folder:** `02_Class_Missions/Legacy_02_NumPy_Pandas_Visualisation/`
 
-> This is retained for the historical 78-session route. The current IOAI route uses `02_CodeHS_Data_Science_with_Python` after AI History and teaches NumPy directly where needed.
+> This is retained for the historical 78-session route. The current IOAI route uses `02_Class_Missions/02_CodeHS_Data_Science_with_Python` after AI History and teaches NumPy directly where needed.
 
 ## Purpose
 
