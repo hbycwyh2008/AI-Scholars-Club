@@ -1,15 +1,13 @@
-# Canonical Phase 1 — CS50P Python
+# Legacy Canonical Phase 1 — CS50P Python
 
-**Sessions:** 3–12  
-**Canonical folder:** `02_Class_Missions/01_CS50P_Python/`
+**Legacy Sessions:** 3–12  
+**Compatibility folder:** `02_Class_Missions/Legacy_01_CS50P_Python/`
+
+> This is retained for the historical 78-session route. It is not the first phase of the current IOAI-focused pathway. New IOAI cohorts begin with AI History after orientation; CS50P is optional remediation/reference.
 
 ## Purpose
 
 Build enough independent Python fluency that later data and machine-learning lessons are not reduced to copying notebook cells.
-
-## Entry Conditions
-
-Students can use the course evidence workflow and access the assigned CS50P materials.
 
 ## Delivery Priorities
 

@@ -1,15 +1,13 @@
-# Canonical Phase 2 — NumPy, Pandas, and Visualisation
+# Legacy Canonical Phase 2 — NumPy, Pandas, and Visualisation
 
-**Sessions:** 13–18  
-**Canonical folder:** `02_Class_Missions/02_NumPy_Pandas_Visualisation/`
+**Legacy Sessions:** 13–18  
+**Compatibility folder:** `02_Class_Missions/Legacy_02_NumPy_Pandas_Visualisation/`
+
+> This is retained for the historical 78-session route. The current IOAI route uses `02_Class_Missions/02_CodeHS_Data_Science_with_Python` after AI History and teaches NumPy directly where needed.
 
 ## Purpose
 
 Move students from general Python programs to reliable data inspection, transformation, summary, and visual reasoning.
-
-## Entry Conditions
-
-Students pass the CS50P phase gate and can independently write functions, loops, file-processing code, and basic tests.
 
 ## Delivery Priorities
 

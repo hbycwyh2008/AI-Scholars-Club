@@ -8,7 +8,20 @@ ROOT = Path(__file__).resolve().parents[1]
 MISSIONS = ROOT / "02_Class_Missions"
 LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 ROW_RE = re.compile(r"^\|\s*(\d{1,3})\s*\|")
-PHASES = sorted(path for path in MISSIONS.iterdir() if path.is_dir() and re.match(r"^\d{2}_", path.name))
+
+# Exact Session 1–78 coverage belongs to the preserved compatibility route.
+PHASE_NAMES = (
+    "00_Orientation_and_Evidence",
+    "Legacy_01_CS50P_Python",
+    "Legacy_02_NumPy_Pandas_Visualisation",
+    "Legacy_03_Bohrium_ML_Foundations",
+    "Legacy_04_AI_History_and_Thinking_Humans",
+    "05_Andrew_Ng_ML_Model_Labs",
+    "06_Andrew_Ng_DL_PyTorch",
+    "07_Model_Comparison_EDA_Evaluation",
+    "08_Tuning_Ensembling_Competition",
+)
+PHASES = [MISSIONS / name for name in PHASE_NAMES]
 
 
 def main() -> int:
@@ -17,6 +30,9 @@ def main() -> int:
     packet_count = 0
 
     for phase in PHASES:
+        if not phase.exists():
+            errors.append(f"Missing compatibility phase: {phase.relative_to(ROOT)}")
+            continue
         launcher = phase / "SESSION_LAUNCHER.md"
         if not launcher.exists():
             errors.append(f"Missing launcher: {phase.relative_to(ROOT)}")
@@ -45,12 +61,12 @@ def main() -> int:
                 try:
                     resolved.relative_to(phase.resolve())
                 except ValueError:
-                    errors.append(f"Session {session} target is outside its Phase: {resolved.relative_to(ROOT)}")
+                    errors.append(f"Session {session} target is outside its compatibility Phase: {resolved.relative_to(ROOT)}")
             if local_md == 0:
                 errors.append(f"Session {session} has no phase-local Markdown packet")
 
     if sessions != list(range(1, 79)):
-        errors.append(f"Expected Sessions 1–78 exactly once; found {sessions}")
+        errors.append(f"Expected compatibility Sessions 1–78 exactly once; found {sessions}")
 
     if errors:
         print("Class Missions launcher validation failed:", file=sys.stderr)
@@ -58,11 +74,10 @@ def main() -> int:
             print(f"- {error}", file=sys.stderr)
         return 1
 
-    print("Class Missions launcher validation passed.")
-    print("Canonical launcher coverage: Sessions 1–78 exactly once")
+    print("Class Missions compatibility launcher validation passed.")
+    print("Legacy Session coverage: Sessions 1–78 exactly once")
     print(f"Phase-local lesson links: {packet_count}")
-    print("Canonical launcher targets outside Phase folders: 0")
-    print("Normal delivery path: Phase → Session Launcher → phase-local lesson")
+    print("Current IOAI unit order is validated separately from legacy session numbering.")
     return 0
 
 

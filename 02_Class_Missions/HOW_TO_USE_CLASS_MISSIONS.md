@@ -1,48 +1,48 @@
 # How to Use Class Missions
 
-## The Only Normal Teaching Path
+## Current IOAI Teaching Path
+
+For a new IOAI-focused cohort, follow the current numbered units in this order:
 
 ```text
-02_Class_Missions
-→ open the assigned numbered Phase
-→ open SESSION_LAUNCHER.md
-→ click the assigned Session
-→ teach the phase-local lesson packet
-→ collect the named evidence
+00 Orientation
+→ 01 AI History
+→ 02 CodeHS Data Science with Python
+→ 03 CodeHS Advanced Python and AI Programming
+→ 04 ML Workflow Bootcamp
+→ 05 Andrew Ng ML
+→ later competition/deep-learning units named by the IOAI Core Learning Path
 ```
 
-Every canonical lesson body for Sessions 1–78 is stored directly inside its numbered Phase folder.
-
-## What Each Layer Means
-
-| Layer | Who uses it | Purpose |
-|---|---|---|
-| numbered Phase folder | teacher and student | canonical order and lesson bodies |
-| `SESSION_LAUNCHER.md` | teacher and student | exact Session entry point |
-| phase-local Session file | teacher and student | classroom cycle, tasks, evidence, and gate |
-| setup/templates/assessment/resources | teacher and student when linked | supporting material only |
-| teacher-planning and Ready-to-Teach folders | teacher or maintainer | planning, pilots, security, release evidence, and maintenance |
+The ordering is intentional: students build an AI conceptual map before the CodeHS Python/data units.
 
 ## Normal Class Workflow
 
-1. The teacher announces the Phase and Session number.
-2. Everyone opens the numbered Phase folder.
-3. Everyone opens `SESSION_LAUNCHER.md`.
-4. Everyone opens the linked phase-local Session packet.
-5. Students use only the resources and templates linked by that packet.
-6. The teacher collects the named evidence.
-7. The class advances only after the Session or Phase gate is satisfied.
+1. Confirm the current unit and mission goal.
+2. Open that unit’s `README.md` and `SESSION_LAUNCHER.md`.
+3. Identify the required student evidence before assigning external material.
+4. Use only the resource section needed for the mission.
+5. Run `Learn → Practice → Rebuild → Share`.
+6. Advance only after the unit gate is satisfied.
+
+## Legacy Compatibility
+
+Folders whose names begin with `Legacy_` preserve the early material from the old 78-session architecture. They are **not** the starting sequence for new cohorts. Use them only when a student needs targeted remediation, when an older plan must be reproduced, or when maintaining historical 78-session tooling.
+
+The later numbered folders, beginning with Unit 05, are still reused by the current route where the content remains appropriate.
 
 ## What Not to Do
 
-- Do not invent a second Session order from resource maps or teacher notes.
-- Do not treat a historical module number as a canonical Session number.
-- Do not teach from architecture or readiness records.
-- Do not add optional material to the canonical schedule without recording the cohort decision.
+- Do not start with CS50P simply because an old 78-session plan numbered it Phase 1.
+- Do not put AI History after several technical phases in the current IOAI route.
+- Do not require an entire external course when a selected module meets the mission goal.
+- Do not treat course-completion percentage as mastery.
+- Do not advance from a copied notebook that the student cannot rebuild and explain.
 
 ## Source-of-Truth Rule
 
-- **Schedule and lesson bodies:** numbered Phase folders.
-- **Exact entry point:** each Phase `SESSION_LAUNCHER.md`.
-- **Supporting material:** the named setup, template, assessment, resource, and teacher directories.
+- **Current IOAI order:** [IOAI Core Learning Path](../00_Course_Overview/IOAI_Core_Learning_Path.md).
+- **Current student entry points:** Units 00 through 05 in this directory.
+- **Detailed current teacher plans:** [IOAI Core lesson plans](../09_Teacher_Planning/Daily_Lesson_Plans/IOAI_Core_Pathway/README.md).
+- **Legacy 78-session compatibility:** folders whose names begin with `Legacy_`, plus later reused session folders named by `curriculum_spec.json`.
 - **Architecture and validation:** [Repository Architecture Manifest](../MANIFEST.md).

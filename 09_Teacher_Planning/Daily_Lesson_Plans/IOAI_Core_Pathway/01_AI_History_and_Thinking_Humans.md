@@ -2,7 +2,7 @@
 
 **Suggested length:** 8 × 70–75 minutes  
 **Core text:** Melanie Mitchell, *Artificial Intelligence: A Guide for Thinking Humans*  
-**Existing lesson bank:** [`02_Class_Missions/04_AI_History_and_Thinking_Humans`](../../../02_Class_Missions/04_AI_History_and_Thinking_Humans/README.md)
+**Current lesson bank:** [`02_Class_Missions/01_AI_History_and_Thinking_Humans`](../../../02_Class_Missions/01_AI_History_and_Thinking_Humans/README.md)
 
 This unit comes immediately after the course introduction. Its job is to build the **AI conceptual map before students specialise in tools, datasets, or models**.
 

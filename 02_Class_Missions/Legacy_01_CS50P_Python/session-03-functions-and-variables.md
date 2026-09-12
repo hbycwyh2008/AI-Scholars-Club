@@ -4,7 +4,7 @@
 **Typical duration:** 45–75 minutes depending on need  
 **No required pre-class viewing.**
 
-This packet is retained inside the legacy `02_Class_Missions/01_CS50P_Python/` folder for link stability. It is **not** part of a mandatory CS50P sequence.
+This packet is retained inside the legacy `02_Class_Missions/Legacy_01_CS50P_Python/` folder for compatibility. It is **not** part of a mandatory CS50P sequence.
 
 ## Learning Cycle
 
@@ -137,4 +137,4 @@ A student is ready to leave this gap-fill mission when they can answer all four 
 3. What does `return` do?
 4. Why can a returned value be reused while printed output alone usually cannot?
 
-Once the student meets the target, return to the canonical Year A pathway rather than continuing through legacy Python packets automatically.
+Once the student meets the target, return to the current IOAI/Year A pathway rather than continuing through legacy Python packets automatically.
