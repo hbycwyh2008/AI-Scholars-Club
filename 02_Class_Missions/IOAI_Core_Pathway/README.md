@@ -4,25 +4,21 @@ This folder is the student-facing map for the IOAI-focused route. Your teacher a
 
 ## Learning Route
 
-```text
-Course introduction / orientation
-→ AI history + conceptual map
-→ Data Science with Python
-→ Advanced Python and AI
-→ ML workflow bootcamp
-→ Andrew Ng Machine Learning
-→ AAAMLP competition workflow
-→ evaluation / features / tuning / ensembling
-→ Deep Learning
-→ PyTorch
-→ IOAI competition projects
-```
+1. [Course introduction / orientation](../00_Orientation_and_Evidence/README.md)
+2. [AI History + conceptual map](../01_AI_History_and_Thinking_Humans/README.md)
+3. [CodeHS Data Science with Python](../02_CodeHS_Data_Science_with_Python/README.md)
+4. [CodeHS Advanced Python and AI Programming](../03_CodeHS_Advanced_Python_and_AI_Programming/README.md)
+5. [ML Workflow Bootcamp](../04_ML_Workflow_Bootcamp/README.md)
+6. [Andrew Ng Machine Learning / model labs](../05_Andrew_Ng_ML_Model_Labs/README.md)
+7. AAAMLP competition workflow
+8. evaluation / features / tuning / ensembling
+9. Deep Learning
+10. PyTorch
+11. IOAI competition projects
 
-The AI-history unit comes immediately after the introduction so you first understand how the major AI ideas fit together before learning a long list of tools or models.
+The AI-history unit comes immediately after the introduction. You first understand how the major AI ideas fit together; only then do you enter the CodeHS Python/data units.
 
 ## What You Must Be Able to Do
-
-Watching a video or finishing an external platform lesson is not the goal. You should increasingly be able to do this without step-by-step prompts:
 
 ```text
 understand the problem
@@ -51,24 +47,9 @@ The full routine begins in the Data Science phase and continues for the rest of 
 
 During AI History, the questions are lighter: what problem is being solved, what information goes in, what output counts as success, and what evidence would convince us that the system works.
 
-Do not choose a model before you understand the task and evaluation.
-
 ## Evidence You Will Produce
 
-Depending on the mission:
-
-- concept maps and reading evidence;
-- code/notebook commits;
-- task cards;
-- data audits;
-- validation plans;
-- baseline reports;
-- experiment logs;
-- model comparisons;
-- error analyses;
-- model cards;
-- oral explanations;
-- competition postmortems.
+Depending on the mission: concept maps and reading evidence; code/notebook commits; task cards; data audits; validation plans; baseline reports; experiment logs; model comparisons; error analyses; model cards; oral explanations; and competition postmortems.
 
 ## Main References
 
@@ -77,4 +58,4 @@ Depending on the mission:
 - [Model Recognition Drills](../../04_Assessment/Model_Recognition_Drills/README.md)
 - [Competition Projects](../../07_Competition_Projects/README.md)
 
-Your teacher controls pacing. Strong students may accelerate only when the required evidence shows that earlier skills transfer to unfamiliar tasks.
+Your teacher controls pacing. Strong students accelerate only when required evidence shows that earlier skills transfer to unfamiliar tasks.

@@ -9,12 +9,14 @@ MISSIONS = ROOT / "02_Class_Missions"
 LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 ROW_RE = re.compile(r"^\|\s*(\d{1,3})\s*\|")
 
+# The 78-session architecture is retained as a compatibility/resource bank.
+# New IOAI cohorts use the current 00–05 unit order shown in 02_Class_Missions/README.md.
 PHASES = (
     ("00_Orientation_and_Evidence", 1, 2),
-    ("01_CS50P_Python", 3, 12),
-    ("02_NumPy_Pandas_Visualisation", 13, 18),
-    ("03_Bohrium_ML_Foundations", 19, 32),
-    ("04_AI_History_and_Thinking_Humans", 33, 40),
+    ("Legacy_01_CS50P_Python", 3, 12),
+    ("Legacy_02_NumPy_Pandas_Visualisation", 13, 18),
+    ("Legacy_03_Bohrium_ML_Foundations", 19, 32),
+    ("Legacy_04_AI_History_and_Thinking_Humans", 33, 40),
     ("05_Andrew_Ng_ML_Model_Labs", 41, 58),
     ("06_Andrew_Ng_DL_PyTorch", 59, 70),
     ("07_Model_Comparison_EDA_Evaluation", 71, 74),
@@ -68,7 +70,7 @@ def main() -> int:
         launcher = phase / "SESSION_LAUNCHER.md"
         readme = phase / "README.md"
         if not phase.exists():
-            errors.append(f"Missing phase folder: {phase_name}")
+            errors.append(f"Missing compatibility phase folder: {phase_name}")
             continue
         if not launcher.exists():
             errors.append(f"Missing launcher: {launcher.relative_to(ROOT)}")
@@ -110,7 +112,7 @@ def main() -> int:
                     resolved.relative_to(phase.resolve())
                 except ValueError:
                     errors.append(
-                        f"Canonical lesson is not phase-local: Session {session} -> {resolved.relative_to(ROOT)}"
+                        f"Compatibility lesson is not phase-local: Session {session} -> {resolved.relative_to(ROOT)}"
                     )
                 canonical_packets.add(resolved)
             if local_targets == 0:
@@ -121,14 +123,14 @@ def main() -> int:
             errors.append(f"{phase_name}: expected Sessions {expected}, found {local_sessions}")
 
     if seen_sessions != list(range(1, 79)):
-        errors.append("Launchers must contain Sessions 1–78 exactly once and in order")
+        errors.append("Compatibility launchers must contain Sessions 1–78 exactly once and in order")
 
     for packet in sorted(canonical_packets):
         text = packet.read_text(encoding="utf-8")
         if not text.startswith("# "):
-            errors.append(f"Canonical packet lacks H1: {packet.relative_to(ROOT)}")
+            errors.append(f"Compatibility packet lacks H1: {packet.relative_to(ROOT)}")
         if "Evidence" not in text and "evidence" not in text:
-            errors.append(f"Canonical packet lacks evidence requirement: {packet.relative_to(ROOT)}")
+            errors.append(f"Compatibility packet lacks evidence requirement: {packet.relative_to(ROOT)}")
 
     for path in MISSIONS.rglob("*.md"):
         text = path.read_text(encoding="utf-8")
@@ -143,12 +145,10 @@ def main() -> int:
         return 1
 
     print("Curriculum structure validation passed.")
-    print("Canonical sessions: 78")
-    print(f"Phase-local canonical lesson packets: {len(canonical_packets)}")
-    print("Normal delivery path: Phase → Session Launcher → phase-local lesson")
-    print("Obsolete parallel lesson directories: absent")
+    print("Legacy compatibility sessions: 78")
+    print(f"Phase-local compatibility lesson packets: {len(canonical_packets)}")
+    print("Current IOAI route: Orientation → AI History → CodeHS Data Science → CodeHS Advanced Python/AI → ML Workflow → Andrew Ng ML")
     print("Public file-structure and internal-consistency coverage: 100%")
-    print("Operational, pilot, privacy, runtime, access, and annual-rule readiness remain separate.")
     return 0
 
 

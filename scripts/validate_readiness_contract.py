@@ -109,9 +109,9 @@ def main() -> int:
         if path.exists():
             validate_links(path, errors)
 
-    phase4 = ROOT / "02_Class_Missions/04_AI_History_and_Thinking_Humans"
-    if len(list(phase4.glob("lesson-*.md"))) != 8:
-        errors.append("Phase 04 must contain eight English AI History seminars")
+    ai_history = ROOT / "02_Class_Missions/01_AI_History_and_Thinking_Humans"
+    if len(list(ai_history.glob("lesson-*.md"))) != 8:
+        errors.append("Current AI History unit must contain eight English seminars")
 
     overview_dir = ROOT / "09_Teacher_Planning/Phase_Overviews"
     if len(list(overview_dir.glob("Canonical_Phase_*.md"))) != 9:
@@ -189,10 +189,8 @@ def main() -> int:
         return 1
 
     print("Readiness contract validation passed.")
-    print("Canonical pathway: 78 sessions")
-    print("Canonical lesson storage: numbered Phase folders")
-    print("Canonical launcher targets outside Phase folders: 0")
-    print("Executable pathways: exact routes and recovery dependencies")
+    print("Legacy compatibility pathway: 78 sessions")
+    print("Current IOAI order: Orientation → AI History → CodeHS Data Science → CodeHS Advanced Python/AI → ML Workflow")
     print("Operational state: progress schema v2 with migration, Red-debt, one-set-per-date, and confirmation rules")
     print("Operational tools: progress manager, mastery report, pathway planner, and daily drill generator")
     print("AI History seminars: 8")

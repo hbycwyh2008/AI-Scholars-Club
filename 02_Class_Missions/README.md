@@ -1,108 +1,76 @@
 # Class Missions — Start Here
 
-## Default Route
+## Current IOAI-Focused Route
 
-Follow the **[Club Pathway G10–G12](../00_Course_Overview/Club_Pathway_G10-G12.md)** and the **[AI Scholars Club Course Plan](../AI-Scholars-Club_Course-Plan.md)** for the general club.
+The numbered folders at the top of this directory now match the teaching order for the current IOAI-focused pathway:
 
-For a qualified cohort preparing seriously for NOAI/IOAI, use the **[IOAI Core Learning Path](../00_Course_Overview/IOAI_Core_Learning_Path.md)** and the [student IOAI mission map](IOAI_Core_Pathway/README.md).
+```text
+00_Orientation_and_Evidence
+→ 01_AI_History_and_Thinking_Humans
+→ 02_CodeHS_Data_Science_with_Python
+→ 03_CodeHS_Advanced_Python_and_AI_Programming
+→ 04_ML_Workflow_Bootcamp
+→ 05_Andrew_Ng_ML_Model_Labs
+→ later deep-learning / evaluation / competition resources
+```
 
-The canonical general route is the three-year Year A / Year B / Year C pathway. Legacy 78-session folders are a **resource bank**, not a second curriculum.
+The critical ordering rule is:
+
+**AI History first; CodeHS Python/data work second.**
+
+Students first build the AI conceptual map with Melanie Mitchell, then move into CodeHS Data Science with Python and selected Advanced Python / AI Programming.
+
+For the complete IOAI sequence through AAAMLP, evaluation/tuning, deep learning, PyTorch, and competition projects, use the **[IOAI Core Learning Path](../00_Course_Overview/IOAI_Core_Learning_Path.md)** and the [student IOAI mission map](IOAI_Core_Pathway/README.md).
+
+For the general club, use the **[Club Pathway G10–G12](../00_Course_Overview/Club_Pathway_G10-G12.md)** and the **[AI Scholars Club Course Plan](../AI-Scholars-Club_Course-Plan.md)**.
 
 ## Shared Learning Cycle
-
-All class missions use the same learning language as the Full-Stack Web & AI course:
 
 ```text
 Learn → Practice → Rebuild → Share
 ```
 
-For a normal technical skill lesson, this can expand to:
+External courses are resources inside a mission, not parallel curricula that students must complete in full.
+
+## Current Units
+
+| Unit | Folder | Role |
+|---:|---|---|
+| 0 | [Orientation and Evidence](00_Orientation_and_Evidence/README.md) | course map, evidence rules, readiness |
+| 1 | [AI History and Thinking Humans](01_AI_History_and_Thinking_Humans/README.md) | AI conceptual map before tools/models |
+| 2 | [CodeHS Data Science with Python](02_CodeHS_Data_Science_with_Python/README.md) | data fluency, Pandas, EDA, data quality |
+| 3 | [CodeHS Advanced Python and AI Programming](03_CodeHS_Advanced_Python_and_AI_Programming/README.md) | stronger Python, algorithms, search, classifier bridge |
+| 4 | [ML Workflow Bootcamp](04_ML_Workflow_Bootcamp/README.md) | end-to-end ML workflow before model catalogue |
+| 5 | [Andrew Ng ML Model Labs](05_Andrew_Ng_ML_Model_Labs/README.md) | model principles, mathematics, classical ML |
+
+The formal task-recognition routine starts in Unit 2:
 
 ```text
-Skill Warm-up → Entry Check → Core Pattern
-→ Guided Practice → Independent Rebuild → Evidence / Share
+input → output → labels? → task type → baseline → metric
 ```
 
-The exact minute allocation changes by lesson type. Do not force coding labs, seminars, robotics labs, and project sprints into identical timing blocks.
+## Legacy 78-Session Compatibility Resources
 
-## Normal Use
+The previous early phases are retained only for remediation, migration, and historical 78-session compatibility. Their names begin with `Legacy_` so they cannot be mistaken for the current teaching order:
 
-```text
-confirm pathway + session goal
-→ identify the required student evidence
-→ select only the resource needed for that goal
-→ Learn
-→ Practice
-→ Rebuild independently
-→ Share / preserve evidence
-```
+- [Legacy 01 — CS50P Python](Legacy_01_CS50P_Python/README.md)
+- [Legacy 02 — NumPy / Pandas / Visualisation](Legacy_02_NumPy_Pandas_Visualisation/README.md)
+- [Legacy 03 — Bohrium ML Foundations](Legacy_03_Bohrium_ML_Foundations/README.md)
+- [Legacy 04 — AI History Sessions 33–40](Legacy_04_AI_History_and_Thinking_Humans/README.md)
 
-External courses are **resources inside a mission**, not pre-class courses students must complete in parallel.
-
-## General Club Year A Resource Rule
-
-For Python/data foundations:
-
-- use **CodeHS Data Science with Python** for selected Pandas, cleaning, visualisation, statistics, aggregation, and data-quality practice;
-- use its **Basic Python Bootcamp** only for students with diagnostic gaps;
-- teach the NumPy bridge directly in the club;
-- use CS50P only as optional reference/extension;
-- do not require pre-class video viewing by default.
-
-## IOAI Core Resource Rule
-
-The IOAI-focused route now uses this sequence:
-
-```text
-Course Introduction / Orientation
-→ Melanie Mitchell, A Guide for Thinking Humans
-→ CodeHS Data Science with Python
-→ selected CodeHS Advanced Python and AI Programming
-→ ML Workflow Bootcamp (Müller + Zoomcamp)
-→ Andrew Ng Machine Learning
-→ AAAMLP
-→ evaluation / features / tuning / ensembling
-→ Andrew Ng Deep Learning
-→ PyTorch
-→ competition projects
-```
-
-The AI-history/conceptual-map unit comes immediately after the course introduction. The formal six-question task-recognition routine begins during Data Science and continues through the rest of the route.
-
-`Advanced Python and AI Programming` remains a **selected core resource for the IOAI route**, while remaining optional/extension material for the general club pathway. Neither CodeHS course is assigned in full by default.
-
-## Legacy 78-Session Resource Bank
-
-These folders remain available for migration, remediation, extension, and optional competition enrichment:
-
-| Phase | Legacy sessions | Main reuse |
-|---:|---:|---|
-| 0 | 1–2 | evidence setup |
-| 1 | 3–12 | targeted Python remediation / extension |
-| 2 | 13–18 | Year A NumPy/Pandas/visualisation support |
-| 3 | 19–32 | ML foundations enrichment |
-| 4 | 33–40 | responsible-AI / Mitchell support |
-| 5 | 41–58 | classical ML + model labs |
-| 6 | 59–70 | Year B DL/CV support |
-| 7 | 71–74 | advanced evaluation support |
-| 8 | 75–78 | competition enrichment only |
-
-The folder name `02_Class_Missions/01_CS50P_Python/` is retained for legacy-link stability. Its packets should no longer imply that CS50P is the mandatory club sequence.
+Do not start a new IOAI cohort from those legacy folders. CS50P is optional remediation/reference, not the required first phase.
 
 ## Evidence Standard
 
-Students should not receive mastery credit for merely watching a video, copying a complete solution, or running supplied code.
-
-Mission evidence should move students toward:
+Students should not receive mastery credit for merely watching a video, copying a complete solution, or running supplied code. Mission evidence should move students toward:
 
 ```text
 explain → practice → rebuild → debug → evaluate → defend
 ```
 
-Typical evidence includes notebook/code commits, traces, experiment logs, data-quality reports, model comparisons, error analyses, model cards, presentations, and retrospectives.
-
 ## Supporting Areas
 
+- [How to use Class Missions](HOW_TO_USE_CLASS_MISSIONS.md)
 - [Student setup and evidence](../01_Student_Start/README.md)
 - [IOAI Core Lesson Plans](../09_Teacher_Planning/Daily_Lesson_Plans/IOAI_Core_Pathway/README.md)
 - [IOAI Core Resource Map](../05_Resources/IOAI_Core_Resource_Map.md)
@@ -111,4 +79,3 @@ Typical evidence includes notebook/code commits, traces, experiment logs, data-q
 - [Resources](../05_Resources/README.md)
 - [Teacher planning](../09_Teacher_Planning/README.md)
 - [Ready-to-Teach records](../10_Ready_to_Teach_Pack/README.md)
-- [Repository Architecture Manifest](../MANIFEST.md)
