@@ -2,11 +2,26 @@
 
 These plans operationalise the [IOAI Core Learning Path](../../../00_Course_Overview/IOAI_Core_Learning_Path.md).
 
-They use the club's shared learning cycle:
+All lesson plans are governed by the [Core Teaching Principles](../../Core_Teaching_Principles.md).
+
+The shared cognitive cycle is:
+
+```text
+Encounter / Attempt
+→ Explain / Rebuild
+→ Diagnose
+→ Correct
+→ Apply
+→ Reconstruct
+```
+
+A shorter summary is:
 
 ```text
 Learn → Practice → Rebuild → Share
 ```
+
+but **Learn** should not default to “teacher explains first.” Whenever students can make a reasonable first attempt, let them think before the teacher supplies the complete interpretation.
 
 The lesson count is a planning default, not a fixed competition calendar. Compress or expand only after inspecting student evidence.
 
@@ -46,6 +61,8 @@ Every lesson must produce evidence beyond viewing or copying. Use one or more of
 - model comparison;
 - oral defense;
 - postmortem.
+
+A student saying “I understand” is not sufficient evidence. Prefer reconstruction, transfer, explanation, debugging, or retrieval.
 
 ## Recurring Task-Recognition Drill
 
