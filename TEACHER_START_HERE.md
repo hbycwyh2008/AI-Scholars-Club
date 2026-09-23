@@ -21,11 +21,28 @@ Only after Year B minimum (Session 48) and teacher nomination:
 
 ## Normal Teaching Workflow
 
+Before using any lesson packet, read the **[Core Teaching Principles](09_Teacher_Planning/Core_Teaching_Principles.md)**.
+
+The default instructional sequence is:
+
+```text
+student attempts first
+→ student makes thinking visible
+→ teacher diagnoses and corrects
+→ student applies
+→ student reconstructs
+```
+
+Do not use teacher explanation to replace a first attempt that students are capable of making themselves.
+
+Operational workflow:
+
 ```text
 confirm year band + session
 → check prerequisite / diagnostic notes
 → open Class Missions (legacy bank or year-band packet when available)
-→ teach 75-minute seven-block flow
+→ identify where students think before explanation
+→ teach 75-minute flow
 → collect named evidence
 → update portfolio / progress record
 → schedule next session
@@ -35,6 +52,7 @@ Begin at [Class Missions](02_Class_Missions/README.md). Use [Legacy Session Migr
 
 ## Pedagogy Reference
 
+- [Core Teaching Principles — Do Not Replace Student Thinking](09_Teacher_Planning/Core_Teaching_Principles.md)
 - [75-Minute After-School Club Implementation](09_Teacher_Planning/75min_After_School_Club_Implementation.md)
 - [Workflow Competency Crosswalk](00_Course_Overview/Workflow_Competency_Crosswalk.md)
 - [Cohort Mastery Review Protocol](09_Teacher_Planning/Cohort_Mastery_Review_Protocol.md)
