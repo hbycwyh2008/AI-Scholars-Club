@@ -1,5 +1,23 @@
 # Teacher Planning Index
 
+## Core Pedagogy
+
+- [Core Teaching Principles — Do Not Replace Student Thinking](Core_Teaching_Principles.md)
+- [75-Minute After-School Club Implementation](75min_After_School_Club_Implementation.md)
+- [Cohort Mastery Review Protocol](Cohort_Mastery_Review_Protocol.md)
+
+All lesson plans should follow the same default cognitive rule:
+
+```text
+student attempts first
+→ thinking becomes visible
+→ teacher diagnoses and corrects
+→ student applies
+→ student reconstructs
+```
+
+Direct instruction is used when it unlocks thinking, not as a replacement for thinking.
+
 ## Pathway and Phase Planning
 
 - [Class Missions](../02_Class_Missions/README.md)
