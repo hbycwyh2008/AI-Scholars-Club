@@ -1,226 +1,295 @@
-# AI Scholars Club — Course Plan
+# AI Scholars Club — Canonical Course Plan
 
-## 1. Course Identity
+## 1. Fixed Program Architecture
 
-**Course Name:** AI Scholars Club  
-**Audience:** Grades 10–12, school AI specialization track  
-**Format:** three-year pathway, normally one 75-minute club meeting per week  
-**Prerequisites:** G8 Software Design, Development & AI + G9 AP Computer Science Principles
+The canonical AI Scholars Club pathway is:
 
-### Course Thesis
+```text
+L1 — Understand & Code
+→ L2 — Build
+→ L3 — Solve Unseen Problems
+→ L4 — Create New Knowledge
+```
 
-Students should leave this course able to investigate an AI/ML problem, build and evaluate a model, explain what the model learned and failed to learn, and preserve evidence of their reasoning in a scholarly portfolio.
+This framework is competency-based rather than course-completion-based. A student advances because the required **output and evidence** are present, not because a named course or playlist was completed.
 
-The course is **process-first, evidence-driven, project-based, and activity-based**. External platforms and courses are resources inside the pathway; they are not the pathway itself.
+The design sequence for every level is:
 
-The shared learning culture matches the Full-Stack Web & AI course:
+```text
+Input → Training → Output → Evidence → Promotion
+```
 
-> **Learn → Practice → Rebuild → Share**
+### Program Rules
 
-The exact number of minutes allocated to each step can change by lesson type and year band.
+1. **Output determines promotion.**
+2. External courses, books, videos, and platforms are inputs, not the curriculum itself.
+3. A resource stays only if it materially improves the target output of its level.
+4. L1 remains a low-barrier entry point.
+5. L2 develops complete ML-building ability.
+6. L3 develops independent unfamiliar-problem solving.
+7. L4 is a research exit track and may have no qualified students in a given year.
+8. Equivalent prior ability may be used to enter L2 or L3 after assessment.
+9. L4 is qualification/invitation-based rather than open automatic progression.
 
 ---
 
-## 2. Learning Priorities
+## 2. L1 — AI Literacy & Python Foundations
 
-### Primary Outcomes
+### Identity
+**Understand & Code**
 
-Students can independently or collaboratively:
+### Input
+- No AI background required.
+- No prior Python experience required.
 
-1. formalise an AI/ML problem in terms of inputs, outputs, labels, task type, baseline, and evaluation metric;
-2. inspect, clean, transform, visualise, and document real datasets;
-3. use NumPy, Pandas, scikit-learn, and later PyTorch in reproducible workflows;
-4. create and evaluate defensible baselines before tuning or increasing model complexity;
-5. diagnose errors, leakage, overfitting, underfitting, class imbalance, and data-quality problems;
-6. compare models using appropriate metrics and controlled experiments;
-7. explain limitations, bias, stakeholder impact, and responsible-AI concerns;
-8. connect computer vision to robotics and other real systems;
-9. conduct a multi-stage AI project from question through evidence, model, evaluation, revision, and communication;
-10. maintain a GitHub-based portfolio containing reproducible evidence rather than screenshots alone.
+### Core Training
 
-### Secondary Outcomes — Python and Data Fluency
+#### AI Literacy
+- what AI is and is not;
+- basic history and major approaches;
+- AI vs ML vs deep learning;
+- data, models, prediction, and simple learning-system intuition;
+- basic search/problem-solving ideas;
+- capabilities, limitations, hallucination, bias, privacy, and responsible use;
+- simple AI task identification: input, output, and broad task type.
 
-Students strengthen practical fluency in:
+#### Python Foundations
+- variables and expressions;
+- conditionals;
+- loops;
+- functions;
+- strings;
+- lists and dictionaries;
+- basic file/data handling;
+- exceptions and debugging;
+- simple libraries;
+- basic notebook workflow;
+- progressively more independent Python problem solving.
 
-- Python functions, conditionals, loops, strings, collections, files, and debugging;
-- NumPy arrays, shapes, indexing, and vectorisation;
-- Pandas selection, filtering, grouping, cleaning, and joining;
-- plotting and exploratory data analysis;
-- basic statistics required for ML reasoning.
+### Core Resources
 
-Python is an enabling skill, not the identity of the club.
+#### AI Literacy Spine
+- **Elements of AI** — selected sections used as the main conceptual AI-literacy spine.
 
-### Advanced Outcomes
+#### Programming Spine
+1. **CodeHS — Introduction to Python Programming**
+2. **CodeHS — Advanced Python and AI Programming**
 
-Depending on year band and student readiness:
+The programming order is fixed as:
 
-- PyTorch training loops and validation discipline;
-- CNNs and transfer learning;
-- computer vision for robotics;
-- advanced model evaluation and controlled tuning;
-- deployment and capstone research;
-- selected advanced Python/AI algorithms;
-- competition-style task recognition and rapid-baseline design.
+```text
+Introduction to Python Programming
+→ Advanced Python and AI Programming
+```
+
+The following are **not** the L1 programming spine:
+- CS50P;
+- Web Game Programming Foundations;
+- Software Design, Development & AI.
+
+They may be used only as optional references if a specific teaching need arises.
+
+#### AI Ideas / History Supplement
+- **Melanie Mitchell — _Artificial Intelligence: A Guide for Thinking Humans_** — selected readings and discussions rather than full-book completion.
+
+### Output
+A student completing L1 can:
+1. explain core AI concepts in their own words;
+2. distinguish basic AI/ML/DL ideas at an introductory level;
+3. write and debug basic Python programs;
+4. identify the input, output, and approximate task type of a simple AI problem;
+5. follow and explain a simple data → program/model → output workflow.
+
+### Evidence
+- basic Python coding task;
+- AI literacy explanation, quiz, or oral check;
+- simple task-identification activity;
+- small integrated coding/AI artifact where appropriate.
+
+### Promotion to L2
+Promotion requires demonstrated L1 outputs. Merely completing CodeHS or Elements of AI is insufficient.
 
 ---
 
-## 3. What Is Not Core
+## 3. L2 — Applied Machine Learning
 
-The following must not displace the canonical AI pathway:
+### Identity
+**Build**
 
-- completing an entire external Python course from beginning to end;
-- completing all 85 hours of CodeHS Data Science with Python;
-- completing all CS50P lectures as required pre-class viewing;
-- TensorFlow-first AI demo courses when PyTorch is the club's deep-learning framework;
-- competition-specific tricks before students can run and diagnose a basic ML workflow;
-- NOAI / IOAI / Kaggle preparation for students who have not yet reached the required foundations.
+### Input
+- L1 outputs demonstrated, or
+- equivalent Python + AI-literacy readiness shown through assessment.
 
-Competitions remain optional enrichment for the general club. A qualified competition cohort may use the separate IOAI-focused route defined below.
+### Core Training
+- NumPy and Pandas;
+- data inspection, cleaning, and EDA;
+- supervised vs unsupervised learning;
+- classification, regression, and clustering foundations;
+- train / validation / test discipline;
+- metrics and metric selection;
+- baseline design;
+- scikit-learn workflow;
+- basic feature engineering;
+- bias/variance intuition;
+- error analysis;
+- reproducibility and documentation.
+
+### Core Resources
+- **Andrew Ng — Machine Learning Specialization**;
+- selected data-tool practice;
+- small authentic ML projects.
+
+### Output
+Given a common data problem, the student can independently execute:
+
+```text
+task identification
+→ data preparation / EDA
+→ baseline
+→ model
+→ evaluation
+→ improvement
+```
+
+The student can explain why the selected metric, model, and improvement step are reasonable.
+
+### Evidence
+- one complete reproducible ML project/notebook;
+- model and metric rationale;
+- error analysis;
+- short written or oral defense.
+
+### Promotion to L3
+The student must be able to build a complete ML pipeline with decreasing teacher scaffolding.
 
 ---
 
-## 4. Canonical Three-Year Pathway
+## 4. L3 — Advanced AI & Competition
 
-| Year | Sessions | Unit | Main Evidence |
-|---|---:|---|---|
-| **G10 / Year A** | 1–3 | Orientation, GitHub evidence, entry diagnostic | repo setup + diagnostic gap plan |
-|  | 4–7 | Python/Data Foundations | NumPy/Pandas/data-quality/EDA evidence |
-|  | 8–12 | Classical ML Workflow | task card + baseline + model comparison + diagnosis |
-|  | 13–18 | Responsible AI & AI Literacy | claim audit + stakeholder analysis + ethics brief |
-|  | 19–24 | First Scholar Project | reproducible tabular ML project + oral defense |
-| **G11 / Year B** | 25–27 | Math Bridge | vectors/matrices/gradients reasoning evidence |
-|  | 28–30 | PyTorch Foundations | minimal training loop + validation evidence |
-|  | 31–37 | Computer Vision + Robotics | CV model + vision-to-action demo |
-|  | 38–48 | Second Modality + Applied Project | applied model + model card + showcase |
-| **G12 / Year C** | 49–72 | Advanced AI, deployment, research, capstone | capstone + portfolio defense |
+### Identity
+**Solve Unseen Problems**
 
-The session count differs from the Full-Stack course, but the design principle is the same: **a coherent pathway with external resources embedded at the point of need**.
+### Input
+- independent L2 ML pipeline ability, or
+- equivalent readiness demonstrated through assessment.
+
+### Core Training
+- deep-learning foundations;
+- PyTorch;
+- CNNs;
+- sequence models, attention, and Transformer foundations;
+- applied CV and NLP;
+- feature engineering;
+- model selection;
+- hyperparameter tuning, including tools such as Optuna;
+- ensembling;
+- advanced error analysis;
+- validation strategy;
+- Kaggle / IOAI-style unfamiliar tasks;
+- competition workflow and postmortem analysis.
+
+### Core Resources
+- **Andrew Ng — Deep Learning Specialization** (selected);
+- **PyTorch**;
+- selected CV/NLP resources;
+- Kaggle / IOAI-style tasks and internal unseen challenges.
+
+### Output
+Given an unfamiliar AI/ML problem, the student can independently execute:
+
+```text
+task recognition
+→ baseline
+→ model / feature selection
+→ tuning
+→ ensembling or another justified improvement
+→ validation
+→ explanation of decisions
+```
+
+### Evidence
+- blind/unseen challenge or competition-style project;
+- reproducible repo/notebook;
+- decision log;
+- comparison of controlled experiments;
+- presentation or postmortem.
+
+### Promotion to L4
+L4 entry is not automatic. Students must demonstrate unusually strong independence, technical readiness, and sustained evidence from L3.
 
 ---
 
-## 5. Resource Strategy
+## 5. L4 — AI Research
 
-### Melanie Mitchell — AI Conceptual Map
+### Identity
+**Create New Knowledge**
 
-For the **IOAI-focused route**, place the existing eight-seminar *Artificial Intelligence: A Guide for Thinking Humans* sequence immediately after Course Introduction / Orientation.
+### Input
+- strong L3 performance;
+- sufficient coding and mathematical readiness;
+- independent learning ability;
+- readiness to read research papers critically.
 
-Its job is not to teach coding. It gives students a conceptual map of symbolic AI, machine learning, neural networks, CV, NLP, RL, and the limits of current systems before the technical sequence begins.
+L4 is **qualification/invitation-based**. If no student meets the standard in a given year, L4 does not run.
 
-### CodeHS — Data Science with Python
+### Core Training
+- research-question formulation;
+- paper reading;
+- literature positioning;
+- reproduction;
+- baseline design;
+- experimental design;
+- ablation;
+- evidence analysis;
+- research writing;
+- research presentation.
 
-Use **CodeHS Data Science with Python** as the main Year A practice platform for data foundations. In the IOAI-focused route it comes **after the AI History / conceptual-map unit**.
+### Paper Selection Rule
 
-Recommended use:
+Students do **not** read papers for volume and do not follow a “100 papers” target.
 
-- assign only the lessons that support the current club mission;
-- use its Basic Python Bootcamp only for students with identified gaps;
-- use Pandas, data-cleaning, visualisation, statistics, regression, aggregation, and data-quality activities when they align with the current session;
-- do not require completion of the full 85-hour course.
+Priority goes to **landmark papers that changed a research paradigm, method family, or experimental practice**. Supporting papers are added only when needed for a research task.
 
-### NumPy
+Possible support resources include:
+- original landmark papers;
+- selected paper-reading explanations;
+- selected CS231n / CS224N material when relevant to the student's research direction.
 
-Teach the club's NumPy bridge directly. The club needs explicit work with arrays, shapes, indexing, and vectorisation before deeper Pandas/ML work.
-
-### CodeHS — Advanced Python and AI Programming
-
-For the **general G10–G12 club**, use selected modules as extension material for strong students or advanced units; it is not the Year A spine.
-
-For the **IOAI-focused route**, it is a selected core bridge after data-science foundations. Prioritise:
-
-- object-oriented programming where it improves program structure;
-- libraries and packages;
-- data structures and algorithmic trade-offs;
-- search / graph-search ideas;
-- selected AI Algorithms material;
-- the classifier build/evaluation project.
-
-Do not require the full year-long course and do not let unrelated projects delay the ML workflow phase.
-
-### CS50P
-
-CS50P becomes an optional reference and extension resource. It is not required pre-class viewing and does not determine the club sequence.
-
-### ML Workflow Preparation
-
-For the IOAI route, establish the complete applied workflow **before** the systematic Andrew Ng model sequence using selected material from:
-
-- Andreas C. Müller — *Applied Machine Learning*;
-- DataTalksClub — *Machine Learning Zoomcamp*.
-
-Focus on problem framing, preprocessing, validation, baseline design, metrics, error analysis, feature reasoning, model comparison, and controlled tuning. Deployment/MLOps is optional for IOAI preparation.
-
-### Andrew Ng / AAAMLP / Deep Learning / PyTorch
-
-Use the resources in this order for the IOAI route:
+### Output
+A student completing L4 can:
 
 ```text
-Andrew Ng Machine Learning Specialization
-→ Approaching (Almost) Any Machine Learning Problem
-→ advanced evaluation / features / tuning / ensembling
-→ Andrew Ng Deep Learning Specialization
-→ PyTorch
+identify a research question
+→ reproduce a prior result
+→ propose a small modification or hypothesis
+→ design an experiment
+→ analyse results
+→ produce a research-style report / poster / presentation
 ```
 
-Andrew Ng provides the model-principles map; AAAMLP provides competition decision-making; PyTorch is the main executable deep-learning framework.
-
-See the [IOAI Core Resource Map](05_Resources/IOAI_Core_Resource_Map.md).
+### Evidence
+- paper-reading records;
+- reproduction repo;
+- modified experiment;
+- experimental results and analysis;
+- research-style final report, poster, or presentation.
 
 ---
 
-## 6. Classroom Design
+## 6. Recurring Reasoning Backbones
 
-All lessons share the same learning language as the Full-Stack Web & AI course:
-
+### L1
 ```text
-Learn → Practice → Rebuild → Share
+input → process/model → output
 ```
 
-For a normal skill lesson, this often expands to:
-
+### L2
 ```text
-Skill Warm-up → Entry Check → Core Pattern
-→ Guided Practice → Independent Rebuild → Evidence / Share
+task → data → baseline → model → evaluation
+→ diagnosis → improvement → reevaluation
 ```
 
-Talk Robin, critique, debugging, model comparison, experiment review, or teacher conferencing may be inserted wherever they improve learning.
-
-### Timing Rule
-
-Do **not** force every lesson into identical minute-by-minute blocks.
-
-- Concept-heavy lesson: more Learn + guided reasoning.
-- Coding/data lesson: more Practice + Rebuild.
-- Project sprint: brief Learn, long Build/Rebuild, then Share.
-- Seminar/ethics lesson: evidence reading, structured discussion, claim revision, written evidence.
-- Robotics lab: setup/test cycles dominate the period.
-
-The invariant is the learning cycle, not the clock allocation.
-
----
-
-## 7. Recurring AI/ML Reasoning Backbone
-
-Students repeatedly use:
-
-```text
-problem → data → baseline → model → evaluation
-→ diagnosis → controlled change → reevaluation → documentation
-```
-
-For task recognition:
-
-```text
-input → output → labels? → task type → baseline → metric
-```
-
-For evidence quality:
-
-```text
-claim → evidence → interpretation → limitation → next action
-```
-
-For competition work, expand the modeling backbone to:
-
+### L3
 ```text
 problem / scoring rule
 → data audit
@@ -229,75 +298,52 @@ problem / scoring rule
 → metric
 → error analysis
 → controlled improvement
+→ tuning / ensemble when justified
 → reproducible comparison
 → postmortem
 ```
 
-For the IOAI-focused route, use lighter problem-framing questions during the AI History unit, then begin the full six-question task-recognition routine in the Data Science unit.
+### L4
+```text
+research question
+→ prior work
+→ reproducible baseline
+→ hypothesis
+→ controlled experiment
+→ analysis
+→ limitation
+→ next question
+```
 
 ---
 
-## 8. Assessment and Evidence
+## 7. Assessment Philosophy
 
 Watching, copying, or running supplied code is not mastery.
 
-Students must progressively demonstrate that they can:
-
+Evidence should progressively require students to:
 1. explain;
 2. trace or inspect;
 3. modify with reasoning;
-4. rebuild without copying a complete solution;
+4. rebuild without a complete supplied solution;
 5. debug;
 6. evaluate;
-7. defend decisions using evidence.
-
-Typical evidence includes notebooks, code commits, experiment logs, model cards, error analyses, data-quality reports, short written claims, presentations, and project retrospectives.
+7. defend decisions using evidence;
+8. transfer skills to an unfamiliar task.
 
 ---
 
-## 9. IOAI-Focused Route
+## 8. Relationship to Existing Repository Materials
 
-The [IOAI Core Learning Path](00_Course_Overview/IOAI_Core_Learning_Path.md) is the preferred route for a qualified competition cohort. It does not replace the general three-year club for every student.
+Existing G10–G12, session-based, NOAI, IOAI, and competition documents remain useful as **implementation resources and historical planning artifacts**.
 
-Recommended sequence:
+They do not override this canonical progression:
 
 ```text
-Course Introduction / Orientation
-→ Melanie Mitchell, A Guide for Thinking Humans / AI History
-→ CodeHS Data Science with Python
-→ CodeHS Advanced Python and AI Programming
-→ ML Workflow Bootcamp (Müller + Zoomcamp)
-→ Andrew Ng Machine Learning Specialization
-→ Approaching (Almost) Any Machine Learning Problem
-→ Evaluation / Feature Engineering / Tuning / Ensembling
-→ Andrew Ng Deep Learning Specialization
-→ PyTorch
-→ IOAI competition projects
+L1 — Understand & Code
+L2 — Build
+L3 — Solve Unseen Problems
+L4 — Create New Knowledge
 ```
 
-Teacher preparation and lesson plans:
-
-- [IOAI Teacher Preparation Watchlist](09_Teacher_Planning/IOAI_Teacher_Preparation_Watchlist.md)
-- [IOAI Core Lesson Plans](09_Teacher_Planning/Daily_Lesson_Plans/IOAI_Core_Pathway/README.md)
-- [IOAI Core Resource Map](05_Resources/IOAI_Core_Resource_Map.md)
-
-The formal task-recognition drills begin during Data Science and continue throughout the rest of the sequence; they are not postponed until competition season.
-
----
-
-## 10. Final Capstone
-
-By the end of Year C, students complete an AI capstone that includes:
-
-- a defensible problem statement;
-- data provenance and quality analysis;
-- baseline and model-selection rationale;
-- reproducible implementation;
-- appropriate evaluation;
-- error/failure analysis;
-- responsible-AI and stakeholder considerations;
-- iteration based on evidence;
-- GitHub history and documentation;
-- final presentation and portfolio defense.
-
-The capstone is assessed on reasoning and evidence, not merely model accuracy or demo polish.
+When an older document conflicts with the Input / Output / Evidence rules in this file, this file is the canonical program definition.
