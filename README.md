@@ -1,40 +1,71 @@
 # AI Scholars Club
 
-A **three-year G10–G12 scholarly pathway** for the school AI specialization track: data foundations, machine learning, responsible AI, computer vision and robotics, advanced AI, and a portfolio capstone.
-
-The course uses the same learning culture as the Full-Stack Web & AI course:
-
-> **Learn → Practice → Rebuild → Share**
-
-The timetable is different — normally one 75-minute club meeting per week — but the course-design model is the same: a coherent teacher-designed pathway, external resources used at the point of need, project evidence, and progressive independence.
-
-**Competitions** (NOAI, IOAI, Kaggle) are **[optional enrichment](00_Course_Overview/Competition_Enrichment_Optional.md)** — not the default club route.
-
-## Start Here
-
-- **[AI Scholars Club Course Plan](AI-Scholars-Club_Course-Plan.md)** — course identity, priorities, resource strategy, classroom model, and capstone
-- [Teacher Start Here](TEACHER_START_HERE.md)
-- [Student Start Here](STUDENT_START_HERE.md)
-- **[Club Pathway G10–G12](00_Course_Overview/Club_Pathway_G10-G12.md)** — canonical 72-session route
-- [Prerequisites from G8 & G9](00_Course_Overview/Prerequisite_Map_from_G8_G9.md)
-- [Learning Outcomes](00_Course_Overview/Learning_Outcomes.md)
-- [Class Missions](02_Class_Missions/README.md)
-
-## Three-Year Structure
-
-| Year | Sessions | Focus |
-|---|---:|---|
-| **G10** | 1–24 | Data foundations + classical ML + responsible AI + first scholar project |
-| **G11** | 25–48 | PyTorch + computer vision + robotics vision + applied project |
-| **G12** | 49–72 | Advanced AI + deployment + capstone + portfolio defense |
+AI Scholars Club is a multi-year AI development pathway built around four fixed competency levels:
 
 ```text
-G8 Full-Stack + G9 AP CSP (prerequisites)
-→ Year A: data + classical ML + ethics + project
-→ Year B: deep learning + CV + VEX/robotics vision
-→ Year C: advanced AI + capstone + showcase
-→ (optional) Competition Enrichment
+L1 — Understand & Code
+→ L2 — Build
+→ L3 — Solve Unseen Problems
+→ L4 — Create New Knowledge
 ```
+
+The club is **output-based, evidence-driven, project-based, and progressively more independent**. External courses are resources inside the pathway; completing a course is never the promotion criterion.
+
+## Canonical Level Framework
+
+| Level | Title | Core Goal | Promotion Evidence |
+|---|---|---|---|
+| **L1** | AI Literacy & Python Foundations | Understand AI and write basic Python | AI literacy evidence + Python coding task + simple task identification |
+| **L2** | Applied Machine Learning | Build complete ML workflows | Reproducible ML project + explanation of model/metric choices |
+| **L3** | Advanced AI & Competition | Solve unfamiliar AI/ML problems | Unseen/competition-style challenge + reproducible solution + decision log |
+| **L4** | AI Research | Create new knowledge through research | Paper reading + reproduction + modified experiment + research-style report |
+
+See **[AI Scholars Club Course Plan](AI-Scholars-Club_Course-Plan.md)** for the frozen Input → Training → Output → Evidence specification.
+
+## L1 Core Resources
+
+L1 is intentionally low-barrier. Students may enter with **no AI background and no prior Python experience**.
+
+### AI Literacy
+- **Elements of AI** — conceptual spine for AI literacy and basic AI problem-solving ideas.
+- **Melanie Mitchell, _Artificial Intelligence: A Guide for Thinking Humans_** — selected readings for AI ideas, history, capabilities, limitations, and critical discussion.
+
+### Programming
+1. **CodeHS — Introduction to Python Programming**
+2. **CodeHS — Advanced Python and AI Programming**
+
+The sequence is **basic Python → advanced Python/AI programming**. CS50P, Web Game Programming Foundations, and Software Design, Development & AI are **not** the L1 programming spine.
+
+## Level Progression
+
+### L1 — AI Literacy & Python Foundations
+**Understand & Code**
+
+Students learn AI literacy, basic AI concepts/history, responsible use and limitations, simple task identification, and Python fundamentals.
+
+### L2 — Applied Machine Learning
+**Build**
+
+Students learn NumPy/Pandas, EDA, classical ML, validation, metrics, baselines, feature reasoning, error analysis, and reproducible scikit-learn workflows.
+
+### L3 — Advanced AI & Competition
+**Solve Unseen Problems**
+
+Students move into deep learning, PyTorch, CV/NLP, model selection, tuning, ensembling, error analysis, and Kaggle/IOAI-style unfamiliar tasks.
+
+### L4 — AI Research
+**Create New Knowledge**
+
+Entry is qualification/invitation-based. Students read selected landmark papers, reproduce prior results, formulate a small research question or modification, design experiments, analyse evidence, and produce a research-style report/poster/presentation. L4 does not need to run every year.
+
+## Promotion Rule
+
+```text
+Course completion ≠ level completion.
+Output + evidence = level completion.
+```
+
+A resource stays in the curriculum only if it materially improves the target output of that level.
 
 ## Shared Classroom Model
 
@@ -42,47 +73,21 @@ G8 Full-Stack + G9 AP CSP (prerequisites)
 Learn → Practice → Rebuild → Share
 ```
 
-A normal skill lesson may expand this into:
+Typical evidence includes code, notebooks, GitHub history, experiment logs, task-identification records, model comparisons, presentations, and project retrospectives.
 
-```text
-Skill Warm-up → Entry Check → Core Pattern
-→ Guided Practice → Independent Rebuild → Evidence / Share
-```
+## Competition Role
 
-The exact minutes are **not fixed across every session**. Coding labs, seminars, robotics labs, and project sprints allocate time differently while preserving the same learning cycle.
+NOAI / IOAI / Kaggle work belongs primarily in **L3** after students can already build and evaluate an ML workflow. Competition resources may appear earlier only as carefully scoped practice; they do not replace the level prerequisites.
 
-## Resource Model
+## Repository Navigation
 
-The club curriculum is the spine. External courses are targeted resources rather than parallel curricula.
+- **[Course Plan](AI-Scholars-Club_Course-Plan.md)** — canonical L1–L4 framework
+- [Course Overview](00_Course_Overview/README.md)
+- [Learning Outcomes](00_Course_Overview/Learning_Outcomes.md)
+- [Teacher Start Here](TEACHER_START_HERE.md)
+- [Student Start Here](STUDENT_START_HERE.md)
+- [Class Missions](02_Class_Missions/README.md)
+- [Resources](05_Resources/)
+- [Assessment](04_Assessment/)
 
-- **CodeHS Data Science with Python:** main Year A practice platform for Pandas, cleaning, visualisation, statistics, and data-quality work.
-- **CodeHS Basic Python Bootcamp inside Data Science with Python:** diagnostic remediation only.
-- **NumPy:** taught directly in the club because arrays, shapes, indexing, and vectorisation are required foundations.
-- **CodeHS Advanced Python and AI Programming:** selected extension material for advanced students or later units.
-- **CS50P:** optional reference/extension; no required pre-class viewing.
-- **Andrew Ng / PyTorch / other resources:** selected only when they directly support a club mission.
-
-## Modeling Workflow
-
-```text
-problem → data → baseline → model → evaluation
-→ diagnosis → controlled change → reevaluation → documentation
-```
-
-Task-recognition shorthand:
-
-```text
-input → output → labels? → task type → baseline → metric
-```
-
-## Optional Competition Enrichment
-
-Motivated G11–G12 students may add 8–12 sessions for NOAI / IOAI / Kaggle preparation after the required foundations. See [Competition Enrichment](00_Course_Overview/Competition_Enrichment_Optional.md) and [Legacy Competition Pathways](00_Course_Overview/Legacy_Competition_Pathways.md).
-
-## Evidence Standard
-
-Watching, copying, or running supplied code is not mastery. Students must explain, practice, rebuild, debug, evaluate, and preserve reproducible evidence in GitHub.
-
-## Readiness Boundary
-
-Repository planning documents do not establish named-cohort runtime, account access, or competition qualification. See `10_Ready_to_Teach_Pack/` for operational checklists.
+Older G10–G12 and session-based documents remain useful implementation references, but the **L1–L4 framework is the canonical progression model**.
