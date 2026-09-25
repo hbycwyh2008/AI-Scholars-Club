@@ -1,78 +1,65 @@
 # Course Overview
 
-**Default club route:** [Club Pathway G10–G12](Club_Pathway_G10-G12.md) — 72 sessions across three year bands.  
-**Preferred IOAI-focused route for competition cohorts:** [IOAI Core Learning Path](IOAI_Core_Learning_Path.md).
+## Canonical Progression
 
-`curriculum_spec_v5_target.json` is the machine-readable target for the club redesign. `curriculum_spec.json` (schema v4) remains for the legacy 78-session resource bank until year-band launchers are authored.
+The AI Scholars Club now uses one fixed competency framework:
 
-## Club Core Documents
+```text
+L1 — AI Literacy & Python Foundations — Understand & Code
+→ L2 — Applied Machine Learning — Build
+→ L3 — Advanced AI & Competition — Solve Unseen Problems
+→ L4 — AI Research — Create New Knowledge
+```
 
-- **[Club Pathway G10–G12](Club_Pathway_G10-G12.md)** — canonical general club route
-- **[IOAI Core Learning Path](IOAI_Core_Learning_Path.md)** — focused ML/IOAI route for qualified competition cohorts
-- [Prerequisite Map from G8 & G9](Prerequisite_Map_from_G8_G9.md)
-- [Learning Outcomes](Learning_Outcomes.md)
-- [Legacy Session Migration Map](Legacy_Session_Migration_Map.md)
+See:
+- **[Canonical Course Plan](../AI-Scholars-Club_Course-Plan.md)**
+- **[Learning Outcomes](Learning_Outcomes.md)**
+
+## L1 Resource Spine
+
+### AI Literacy
+- **Elements of AI** — selected conceptual spine.
+- **Melanie Mitchell, _Artificial Intelligence: A Guide for Thinking Humans_** — selected ideas/history/limitations readings.
+
+### Programming
+1. **CodeHS — Introduction to Python Programming**
+2. **CodeHS — Advanced Python and AI Programming**
+
+L1 is a low-barrier entry level. No prior AI or Python background is required.
+
+## Promotion Logic
+
+All levels use:
+
+```text
+Input → Training → Output → Evidence → Promotion
+```
+
+Promotion is based on demonstrated output/evidence, not course completion.
+
+## Competition and Research
+
+- Competition work belongs primarily to **L3**, after students can build a complete ML workflow.
+- **L4** is qualification/invitation-based and may not run in a year with no qualified students.
+- L4 paper reading prioritises paradigm-changing landmark papers rather than volume.
+
+## Existing Implementation Documents
+
+The repository still contains G10–G12, 72/78-session, NOAI, and IOAI planning files. These remain useful implementation references and historical resource maps, but they are **not the canonical progression definition**.
+
+Useful references include:
+- [Club Pathway G10–G12](Club_Pathway_G10-G12.md)
+- [IOAI Core Learning Path](IOAI_Core_Learning_Path.md)
+- [Competition Enrichment](Competition_Enrichment_Optional.md)
 - [Workflow Competency Crosswalk](Workflow_Competency_Crosswalk.md)
 - [Pacing Guide](Pacing_Guide.md)
-- [Course Implementation Checklist](Course_Implementation_Checklist.md)
 
-## IOAI Focused Support
+When an older planning document conflicts with the canonical L1–L4 Input / Output / Evidence framework, the **Canonical Course Plan** takes precedence.
 
-- [IOAI Core Resource Map](../05_Resources/IOAI_Core_Resource_Map.md)
-- [IOAI Teacher Preparation Watchlist](../09_Teacher_Planning/IOAI_Teacher_Preparation_Watchlist.md)
-- [IOAI Core Lesson Plans](../09_Teacher_Planning/Daily_Lesson_Plans/IOAI_Core_Pathway/README.md)
-- [Student IOAI Mission Map](../02_Class_Missions/IOAI_Core_Pathway/README.md)
-- [Model Recognition Drills](../04_Assessment/Model_Recognition_Drills/README.md)
+## Architecture / Legacy Specs
 
-## Optional Competition Enrichment
-
-- [Competition Enrichment (optional)](Competition_Enrichment_Optional.md)
-- [Legacy Competition Pathways](Legacy_Competition_Pathways.md)
-
-## Legacy Preparation Routes (archived default)
-
-- [Detailed 78-Session Sequence](Detailed_Lesson_Sequence.md)
-- [NOAI Round 1 Compressed Path](NOAI_Round1_Compressed_Path.md)
-- [NOAI Round 2 Project Path](NOAI_Round2_Project_Path.md)
-- [IOAI Full Extension Path — legacy 78-session compatibility route](IOAI_Full_Extension_Path.md)
-- [NOAI 2026 Syllabus Map](NOAI_2026_Syllabus_Map.md)
-
-## Club Learning Spine
-
-```text
-Year A: data + classical ML + ethics + scholar project
-→ Year B: PyTorch + CV + robotics vision + applied project
-→ Year C: advanced AI + deployment + capstone
-→ (optional) competition enrichment
-```
-
-## IOAI Learning Spine
-
-```text
-Python readiness
-→ CodeHS Data Science
-→ CodeHS Advanced Python and AI
-→ Mitchell + task recognition
-→ ML workflow bootcamp (Müller + Zoomcamp)
-→ Andrew Ng ML
-→ AAAMLP
-→ evaluation / features / tuning / ensembling
-→ Andrew Ng DL
-→ PyTorch
-→ IOAI competition projects
-```
-
-The recurring modeling backbone for both routes is:
-
-```text
-task formalisation → data quality → validation → baseline
-→ metric → diagnosis → controlled improvement
-→ reevaluation → documentation / postmortem
-```
-
-## Architecture Specs
-
-- Target: [curriculum_spec_v5_target.json](../curriculum_spec_v5_target.json)
-- Legacy CI: [curriculum_spec.json](../curriculum_spec.json)
+- [curriculum_spec_v5_target.json](../curriculum_spec_v5_target.json)
+- [curriculum_spec.json](../curriculum_spec.json)
 - [Repository Architecture Manifest](../MANIFEST.md)
-- [Class Missions](../02_Class_Missions/README.md)
+
+These machine-readable/session-based specs currently support older tooling and should not be interpreted as replacing the L1–L4 competency framework.
