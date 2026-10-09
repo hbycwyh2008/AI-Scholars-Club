@@ -1,6 +1,8 @@
 # Curriculum Pilot Protocol
 
-A written curriculum cannot reach professional 100% validation without use by real students. This protocol converts the remaining pilot work into a controlled evidence cycle.
+Written design quality and demonstrated student learning are separate judgements. A numerical design rating does not establish teaching effectiveness. This protocol converts pilot work into an evidence cycle.
+
+For Mitchell flashcards and other club resources, also use the [Learning Effectiveness Trial](Learning_Effectiveness_Trial.md) to record independent explanation, changed-task transfer, and a delayed check after 7–14 days.
 
 ## Stage 1 — Teacher dry run
 

@@ -77,6 +77,7 @@ Use the cohort protocol after every three ordinary Sessions, at the end of each 
 - [Diagnostic Guides](Diagnostic_Guides/README.md)
 - [Resource Selection Notes](Resource_Selection_Notes/README.md)
 - [Pilot Evidence](Pilot/README.md)
+- [Learning Effectiveness Trial — Mitchell Flashcards and Club Resources](Pilot/Learning_Effectiveness_Trial.md)
 
 ## Readiness and Security
 
