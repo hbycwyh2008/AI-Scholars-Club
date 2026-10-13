@@ -48,6 +48,16 @@ See: [IOAI Core Learning Path](../00_Course_Overview/IOAI_Core_Learning_Path.md)
 - PyTorch Learn the Basics: https://docs.pytorch.org/tutorials/beginner/basics/intro.html
 - PyTorch Tutorials: https://docs.pytorch.org/tutorials/
 
+## Implementation Resource Decisions — 2026-10-13
+
+These choices supplement the existing pathway with library practice; they do not replace its workflow bootcamp or require completing every listed course.
+
+- **scikit-learn:** use [Inria MOOC](https://inria.github.io/scikit-learn-mooc/toc.html) for API/workflow foundations. [IBM Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python) is the preferred Coursera practical alternative. Michigan is optional further study; LearnQuest is only a short documentation bridge. See [Scikit-learn API Guide](Scikit_Learn_API_Guide/README.md) for selected sections and transfer evidence.
+- **PyTorch:** use [PyTorch: Fundamentals](https://www.coursera.org/learn/pytorch-fundamentals) as the main framework foundation. Select Course 2 for subsequent applications/tuning; Course 3 remains optional. See [PyTorch API Guide](PyTorch_API_Guide/README.md) for viewing order and independent rebuild requirements.
+- **Assessment:** follow a worked example, read documentation to adapt a model/API, then solve a new-data task independently. Explain inputs/outputs, preprocessing, validation, metrics, and one controlled improvement.
+
+Consult these recorded decisions before reopening the same resource-selection question. Revisit them when learner evidence reveals a gap, access changes, or the course/API changes materially.
+
 ## Teacher Selection Rule
 
 For every assigned external resource, record:
