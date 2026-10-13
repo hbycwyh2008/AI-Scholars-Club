@@ -58,6 +58,12 @@ These choices supplement the existing pathway with library practice; they do not
 
 Consult these recorded decisions before reopening the same resource-selection question. Revisit them when learner evidence reveals a gap, access changes, or the course/API changes materially.
 
+### Data Analysis Practice — Decision Recorded 2026-10-13
+
+Use selected IBM Coursera modules to supplement CodeHS data skills: **Data Analysis with Python**, Module 2 for cleaning and Module 3 for EDA; **Data Visualization with Python**, selected Matplotlib and Seaborn content for diagnostic plotting. Exact sections and student evidence are recorded in the [Data Cleaning, EDA, and Visualization Guide](Data_Cleaning_EDA_Visualization_Coursera_Map.md).
+
+Assign videos with labs, then test transfer on an unfamiliar CSV. Require justified cleaning, question-driven plots, supported findings, and a controlled next step. Preserve split boundaries and fit learned preprocessing on training data only. Full completion of both courses is not a prerequisite.
+
 ## Teacher Selection Rule
 
 For every assigned external resource, record:
