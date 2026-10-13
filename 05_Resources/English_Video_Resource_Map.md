@@ -23,6 +23,21 @@
 
 Use the [IOAI Teacher Preparation Watchlist](../09_Teacher_Planning/IOAI_Teacher_Preparation_Watchlist.md) for the recommended viewing order.
 
+## Scikit-learn Library Practice — Decision Recorded 2026-10-13
+
+- **Primary library course: Inria — Machine learning in Python with scikit-learn:** https://inria.github.io/scikit-learn-mooc/toc.html
+  - Begin with The predictive modeling pipeline: estimator API, preprocessing, validation, and Pipeline. This combines videos with notebooks and exercises; not every lesson is a video.
+  - Select Hyperparameter tuning and model-specific sections when needed.
+- **Preferred Coursera practical alternative: IBM — Machine Learning with Python:** https://www.coursera.org/learn/machine-learning-with-python
+  - Select matching model labs from Modules 2–3, evaluation/Pipeline/GridSearchCV from Module 5, and an integrated project from Module 6.
+- **Optional intermediate extension: University of Michigan — Applied Machine Learning in Python:** https://www.coursera.org/learn/python-machine-learning
+- **Short documentation bridge: LearnQuest — Introduction to Data Science and scikit-learn in Python:** https://www.coursera.org/learn/data-science-and-scikit-learn-in-python
+  - Module 3 introduces documentation and model use; it is too short to be the complete library course.
+
+**Recorded choice:** use Inria for library/API foundations; IBM is an alternative practical scaffold when Coursera is preferred. Do not assign all alternatives or repeat all machine-learning theory.
+
+Exact sections, API references, and the independent model/data transfer check: [Scikit-learn API Guide](Scikit_Learn_API_Guide/README.md).
+
 ## Artificial Intelligence and Traditional Machine Learning
 
 - **AI for Everyone on Coursera:** https://www.coursera.org/learn/ai-for-everyone
@@ -51,6 +66,12 @@ Use the [IOAI Teacher Preparation Watchlist](../09_Teacher_Planning/IOAI_Teacher
   - **Course 3 — PyTorch: Advanced Architectures and Deployment:** https://www.coursera.org/learn/pytorch-advanced-architectures-and-deployment
 - **PyTorch Learn the Basics:** https://docs.pytorch.org/tutorials/beginner/basics/intro.html
 - **PyTorch Tutorials:** https://docs.pytorch.org/tutorials/
+
+### PyTorch Student Use — Decision Recorded 2026-10-13
+
+Use **PyTorch: Fundamentals** as the main implementation course alongside relevant Andrew Ng concepts. Use **Techniques and Ecosystem Tools** selectively for subsequent tuning, vision, transfer learning, and NLP work. Keep **Advanced Architectures and Deployment** optional.
+
+Exact foundation video titles and independent rebuild evidence: [PyTorch API Guide](PyTorch_API_Guide/README.md). Students must reconstruct data loading, model, training, and validation on new data; video completion is not sufficient.
 
 ## Data and Domain Resources
 
