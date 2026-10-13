@@ -73,6 +73,19 @@ Use **PyTorch: Fundamentals** as the main implementation course alongside releva
 
 Exact foundation video titles and independent rebuild evidence: [PyTorch API Guide](PyTorch_API_Guide/README.md). Students must reconstruct data loading, model, training, and validation on new data; video completion is not sufficient.
 
+## Data Cleaning, EDA, and Visualization — Decision Recorded 2026-10-13
+
+- **IBM — Data Analysis with Python:** https://www.coursera.org/learn/data-analysis-with-python
+  - Module 2 — Data Wrangling: cleaning/preprocessing videos and one matching lab.
+  - Module 3 — Exploratory Data Analysis: descriptive statistics, grouping, correlation, plotting reading, and one matching lab.
+- **IBM — Data Visualization with Python:** https://www.coursera.org/learn/python-for-data-visualization
+  - Select Matplotlib basics from Module 1; histogram, bar, box, scatter, and direct plotting from Module 2; Seaborn/regression plotting from Module 3.
+  - Defer maps, word clouds, and dashboards unless the current task needs them.
+
+**Recorded choice:** these two selected-course blocks supplement existing CodeHS work. Do not require full completion or repeat demonstrated skills. Pair videos with labs, then require independent cleaning and question-driven EDA on a new CSV.
+
+Exact video titles, selected labs, split-safe preprocessing boundaries, and transfer evidence: [Data Cleaning, EDA, and Visualization Guide](Data_Cleaning_EDA_Visualization_Coursera_Map.md).
+
 ## Data and Domain Resources
 
 - **IBM Data Analysis with Python:** https://www.coursera.org/learn/data-analysis-with-python
