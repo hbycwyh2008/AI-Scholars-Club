@@ -73,18 +73,23 @@ Use **PyTorch: Fundamentals** as the main implementation course alongside releva
 
 Exact foundation video titles and independent rebuild evidence: [PyTorch API Guide](PyTorch_API_Guide/README.md). Students must reconstruct data loading, model, training, and validation on new data; video completion is not sufficient.
 
-## Data Cleaning, EDA, and Visualization — Decision Recorded 2026-10-13
+## Python, Data Cleaning, EDA, and Visualization — Decision Updated 2026-10-22
 
-- **IBM — Data Analysis with Python:** https://www.coursera.org/learn/data-analysis-with-python
-  - Module 2 — Data Wrangling: cleaning/preprocessing videos and one matching lab.
-  - Module 3 — Exploratory Data Analysis: descriptive statistics, grouping, correlation, plotting reading, and one matching lab.
+- **Main Coursera sequence: DeepLearning.AI — Python for Data Analytics:** https://www.coursera.org/learn/python-for-data-analytics
+  - Module 1: diagnostic/remediation only; skip demonstrated Python skills.
+  - Module 2: Pandas, selection/filtering/sorting, grouping, and descriptive statistics.
+  - Module 3: Matplotlib/Seaborn and question-driven plots.
+  - Defer Module 4 (Inferential Statistics) and Module 5 (Time series) until needed.
+- **Cleaning supplement: IBM — Data Analysis with Python:** https://www.coursera.org/learn/data-analysis-with-python
+  - Module 2 — Data Wrangling: selected cleaning/preprocessing videos and one lab.
+  - Module 3 EDA is optional targeted reference.
 - **IBM — Data Visualization with Python:** https://www.coursera.org/learn/python-for-data-visualization
-  - Select Matplotlib basics from Module 1; histogram, bar, box, scatter, and direct plotting from Module 2; Seaborn/regression plotting from Module 3.
-  - Defer maps, word clouds, and dashboards unless the current task needs them.
+  - Optional reference only; do not repeat the main DeepLearning.AI plotting sequence.
+- **CodeHS:** retain existing programming resources and use selected data exercises for observed gaps.
 
-**Recorded choice:** these two selected-course blocks supplement existing CodeHS work. Do not require full completion or repeat demonstrated skills. Pair videos with labs, then require independent cleaning and question-driven EDA on a new CSV.
+**Recorded choice:** replaces the 2026-10-13 IBM-only selection. Use selected sections/labs, then require independent cleaning and question-driven EDA on a new CSV. Do not require full course completion.
 
-Exact video titles, selected labs, split-safe preprocessing boundaries, and transfer evidence: [Data Cleaning, EDA, and Visualization Guide](Data_Cleaning_EDA_Visualization_Coursera_Map.md).
+Exact topics, selected labs, split-safe preprocessing boundaries, and transfer evidence: [Python, Data Cleaning, EDA, and Visualization Guide](Data_Cleaning_EDA_Visualization_Coursera_Map.md).
 
 ## Data and Domain Resources
 
