@@ -58,11 +58,13 @@ These choices supplement the existing pathway with library practice; they do not
 
 Consult these recorded decisions before reopening the same resource-selection question. Revisit them when learner evidence reveals a gap, access changes, or the course/API changes materially.
 
-### Data Analysis Practice — Decision Recorded 2026-10-13
+### Data Analysis Practice — Decision Updated 2026-10-22
 
-Use selected IBM Coursera modules to supplement CodeHS data skills: **Data Analysis with Python**, Module 2 for cleaning and Module 3 for EDA; **Data Visualization with Python**, selected Matplotlib and Seaborn content for diagnostic plotting. Exact sections and student evidence are recorded in the [Data Cleaning, EDA, and Visualization Guide](Data_Cleaning_EDA_Visualization_Coursera_Map.md).
+Use [DeepLearning.AI — Python for Data Analytics](https://www.coursera.org/learn/python-for-data-analytics) as the main Coursera sequence: Module 1 only for diagnosed Python gaps, Module 2 for Pandas/descriptive statistics, and Module 3 for Matplotlib/Seaborn. Insert [IBM — Data Analysis with Python](https://www.coursera.org/learn/data-analysis-with-python), Module 2 — Data Wrangling, for focused cleaning practice.
 
-Assign videos with labs, then test transfer on an unfamiliar CSV. Require justified cleaning, question-driven plots, supported findings, and a controlled next step. Preserve split boundaries and fit learned preprocessing on training data only. Full completion of both courses is not a prerequisite.
+Retain existing CodeHS programming resources and use data exercises selectively. IBM EDA/visualization courses are optional references, not duplicate required courses. Defer DeepLearning.AI Modules 4–5 until inference/regression or time series is needed.
+
+See the [Python, Data Cleaning, EDA, and Visualization Guide](Data_Cleaning_EDA_Visualization_Coursera_Map.md) for exact sections, labs, and evidence. Pair selected videos with labs, then check independent transfer on an unfamiliar CSV. Preserve split boundaries and fit learned preprocessing on training data only.
 
 ## Teacher Selection Rule
 
