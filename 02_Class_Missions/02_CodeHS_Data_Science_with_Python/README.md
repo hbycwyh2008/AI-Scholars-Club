@@ -1,8 +1,10 @@
-# 02 — CodeHS Data Science with Python
+# 02 — Python Data Foundations, Cleaning, and Visualization
 
 **Suggested length:** 6 × 75 minutes  
 **Purpose:** make data inspection and evidence-based reasoning automatic before ML begins.  
-**Primary resource:** selected lessons from CodeHS *Data Science with Python*; do not require full-course completion.
+**Primary data-learning resources (updated 2026-10-22):** DeepLearning.AI *Python for Data Analytics*, Module 2 (Pandas/descriptive statistics) and Module 3 (visualization), with IBM *Data Analysis with Python*, Module 2 (Data Wrangling), for cleaning. Use DeepLearning.AI Module 1 only for diagnosed Python gaps and retain selected CodeHS exercises for practice.
+
+See [the selected Coursera guide](../../05_Resources/Data_Cleaning_EDA_Visualization_Coursera_Map.md) for exact topics, labs, and deferred content. The suggested six sessions are selected classroom missions, not a promise to complete all external course assignments.
 
 This unit comes **after AI History**. Basic Python remediation is assigned only when diagnostics show a real gap; CS50P is no longer the required Phase 1 sequence.
 
