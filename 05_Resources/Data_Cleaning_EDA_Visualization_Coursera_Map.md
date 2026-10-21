@@ -1,78 +1,96 @@
-# Data Cleaning, EDA, and Visualization — Selected Coursera Resources
+# Python, Data Cleaning, EDA, and Visualization — Selected Coursera Resources
 
-**Decision recorded:** 2026-10-13  
-**Purpose:** give students explicit data-analysis practice before and alongside model building. Use selected videos with labs rather than requiring two full courses.
+**Decision updated:** 2026-10-22  
+**Purpose:** use one connected data-learning sequence before and alongside ML, with a focused cleaning supplement. This replaces the 2026-10-13 IBM-only selection.
 
-## Recommended Courses
+## Recorded Resource Choice
 
-| Role | Course | Selected scope |
+| Role | Resource | Assigned scope |
 |---|---|---|
-| Data cleaning | [IBM — Data Analysis with Python](https://www.coursera.org/learn/data-analysis-with-python) | Module 2 — Data Wrangling |
-| Exploratory data analysis (EDA) | Same course | Module 3 — Exploratory Data Analysis |
-| Plotting and visual diagnosis | [IBM — Data Visualization with Python](https://www.coursera.org/learn/python-for-data-visualization) | Selected videos/labs from Modules 1–2; the Seaborn video/lab in Module 3 |
+| Python diagnostic / remediation | [DeepLearning.AI — Python for Data Analytics](https://www.coursera.org/learn/python-for-data-analytics) | Module 1 — Programming fundamentals for data analytics; assess first and assign only gaps |
+| Pandas and initial EDA | Same course | Module 2 — Data structures and descriptive statistics |
+| Focused cleaning supplement | [IBM — Data Analysis with Python](https://www.coursera.org/learn/data-analysis-with-python) | Module 2 — Data Wrangling; selected videos and one matching lab |
+| Visualization | DeepLearning.AI — Python for Data Analytics | Module 3 — Visualization |
+| Additional practice | Existing CodeHS Data Science with Python work | Select exercises for observed gaps; do not repeat demonstrated skills |
 
-The selection is based on the published course directories, not a full teaching-quality audit. Check student access and assigned labs before use. “Enroll for free” does not establish free access to every video, lab, or assessment.
+DeepLearning.AI Modules 2–3 are the main Coursera sequence. IBM Module 2 fills the explicit cleaning/preprocessing gap. Existing CodeHS basic/advanced programming resources remain available in the canonical L1 pathway; this selection does not require students to restart Python.
 
-## 1. Data Cleaning
+This choice is based on published course directories and the club's limited teaching time, not a full teaching-quality audit. Check access to assigned labs before use. Course platform workload estimates are not classroom lesson counts.
 
-Use Module 2 of Data Analysis with Python. Its six videos address preprocessing, missing values, formatting, normalization, binning, and categorical-to-numeric conversion.
+## 1. Python Readiness
 
-Pair the videos with one of the module's used-car or laptop-pricing data-wrangling labs. Then use a new CSV for independent work.
+Use Module 1 quiz(s) and a short independent coding task to identify gaps. The module covers Jupyter, variables, types, lists, comparisons, conditionals, loops, and calling functions.
+
+Require students to write and explain a small program using a conditional, loop, and function. Use CodeHS practice to repair missing skills such as defining functions or using dictionaries; do not assume the module alone covers every Python prerequisite.
+
+Students with demonstrated Kaggle/CodeHS Python skills may skip repeated instruction.
+
+## 2. Pandas and EDA — DeepLearning.AI Module 2
+
+Prioritise these published video topics:
+
+- Reading CSV into Python; DataFrames; Attributes and methods;
+- Selecting columns; Selecting rows;
+- Sorting; Sorting by multiple columns;
+- Filtering; Filtering by multiple conditions;
+- Counts, sums, & histograms;
+- Central tendency, variability, and skewness;
+- Categorical data; Correlation;
+- Segmentation by one feature; Segmentation by multiple features.
+
+Use the corresponding Buenos Aires Subway practice labs and/or the Retail sales assignment selectively, then apply the operations to a fresh CSV.
+
+Students must explain what each row/column means, distinguish an attribute from a method, predict an operation's result, and support findings with numerical summaries.
+
+Teach NumPy shapes, dtypes, indexing, and vectorisation directly where needed; this course selection is not a complete NumPy course.
+
+## 3. Cleaning Supplement — IBM Module 2
+
+Use the Data Wrangling videos on preprocessing, missing values, formatting, normalization, binning, and categorical-to-numeric conversion. Complete one corresponding used-car or laptop-pricing lab.
 
 Students must explain:
 
-- which values are missing, malformed, inconsistent, or duplicated;
+- missing, malformed, inconsistent, or duplicated values;
 - whether a suspected outlier is an error or a valid extreme;
-- why they retain, correct, remove, or impute particular values;
-- the effects of each change, including row counts and missing-value counts.
+- why values are retained, corrected, removed, or imputed;
+- before/after row counts and missing-value counts.
 
-**ML boundary:** freeze an appropriate split before learning preprocessing parameters. Fit imputation, scaling, encoding, and feature selection on training data only; apply the fitted transformations to validation/test data. EDA-driven model choices use training/development data; the final test set stays reserved.
+Normalization, scaling, and encoding are preprocessing operations; they do not by themselves establish that data is clean. Avoid automatic outlier deletion.
 
-Normalization, scaling, and encoding are preprocessing operations; they do not by themselves establish that a dataset is clean. Avoid automatic outlier deletion.
+**ML boundary:** freeze an appropriate split before learning preprocessing parameters. Fit imputation, scaling, encoding, and feature selection on training data only; apply fitted transformations to validation/test data. EDA-driven model choices use training/development data; reserve the final test set.
 
-## 2. EDA
+## 4. Visualization — DeepLearning.AI Module 3
 
-Use Module 3 of Data Analysis with Python. Select the videos on the purpose of EDA, descriptive statistics, grouping, and correlation, and complete a corresponding used-car or laptop-pricing EDA lab. Include the module's plotting reading.
+Use Matplotlib/Seaborn basics and selected corresponding labs:
 
-Required evidence:
+| Published topic | Required purpose |
+|---|---|
+| Plotting with matplotlib | readable axes, units, and labels |
+| Scatter plots | relationships between numeric variables |
+| Box plots | compare centre/spread and investigate candidate outliers |
+| Histograms | distributions, skew, and sensitivity to bins |
+| Grouped column charts | category/group comparisons |
+| Plotting with Seaborn | adapt a statistical plot to a stated question |
+| Matplotlib subplots; Seaborn pairplot | select when a question needs multiple comparisons |
 
-1. State a question before choosing a statistic or plot.
-2. Inspect schema, missingness, distributions, and relevant groups.
-3. Combine numerical summaries with plots; neither substitutes for the other.
-4. Identify at least three supported findings.
-5. Link one finding to a testable feature, preprocessing, split, or model hypothesis.
+Select styling, annotations, and saving plots when needed for readable evidence. Defer decorative refinements and repeated chart variants.
 
-A correlation does not establish causation, and a small linear correlation does not exclude a nonlinear relationship. Distinguish observations from proposed explanations.
+Choose from the Flight delays and cancellations labs or the coral-reef assignment, then require new-data transfer.
 
-## 3. Data Visualization
+## 5. Teaching Order and Deferred Content
 
-Use the following exact video titles from Data Visualization with Python:
+Recommended order:
 
-| Module | Video | Question or skill |
-|---|---|---|
-| 1 | Basic Plotting with Matplotlib | Construct a plot with readable axes, units, and labels. |
-| 2 | Histograms | Inspect concentration, skew, multiple peaks, and truncation; examine bin sensitivity. |
-| 2 | Bar Charts | Compare categories or grouped summaries. |
-| 2 | Box Plots | Compare medians and spread; flag candidate outliers for investigation. |
-| 2 | Scatter Plots | Examine relationships between numerical variables. |
-| 2 | Plotting Directly with Matplotlib | Control plots explicitly and adapt the example to new data. |
-| 3 | Seaborn and Regression Plots | Explore relationships and fitted trends. |
+Python readiness check → Module 2 Pandas inspection/summary → IBM Module 2 cleaning → Module 3 visualization → integrated EDA → ML baseline.
 
-If students cannot yet select a chart, add the Module 1 video **Types of Plots**.
+Introduce basic plots alongside inspection and cleaning. Use one shared classroom dataset to reduce context switching, then change the dataset for an independent check. Select matching sections and labs rather than assigning three complete modules plus every exercise.
 
-Pair these videos with the corresponding Matplotlib labs in Modules 1–2 and the regression-plot part of the Module 3 lab. The Seaborn video is approximately four minutes: it is an introduction, not comprehensive Seaborn training.
+- **DeepLearning.AI Module 4 — Inferential Statistics:** defer until inference/regression is needed.
+- **DeepLearning.AI Module 5 — Time series:** defer until a time-series task needs it. Module 5 is not the data-cleaning unit.
+- **IBM Data Analysis Module 3 — EDA:** optional targeted reference if the main sequence leaves a specific gap.
+- **IBM Data Visualization with Python:** optional reference; full completion is not required. Do not duplicate the main Module 3 plotting sequence. Defer Folium/maps and Plotly/Dash dashboards unless a task needs them.
 
-For this ML-focused unit, defer area/pie charts, waffle charts, word clouds, maps/Folium, Plotly dashboards, and Dash unless a current task requires them. This is a teacher selection rule, not a claim that these tools lack value.
-
-## 4. Suggested Teaching Order
-
-Data inspection → basic quality audit → split boundary where modelling is involved → justified cleaning/preprocessing → distribution plots → relationships/group comparisons → EDA conclusions → baseline and controlled next step.
-
-Introduce basic plots alongside EDA rather than waiting until all cleaning lessons are complete. Use one shared dataset to reduce context switching, then change the dataset for the transfer check.
-
-Existing CodeHS work remains a foundation. Use these Coursera sections to repair observed gaps or provide extra worked examples; students who already demonstrate the skills need not repeat every section.
-
-## 5. Independent Transfer Task
+## 6. Independent Transfer Task
 
 Given an unfamiliar CSV and a stated analysis or prediction task, submit:
 
@@ -80,16 +98,25 @@ Given an unfamiliar CSV and a stated analysis or prediction task, submit:
 - a cleaning log: issue, evidence, action, rationale, and before/after effect;
 - three question-driven plots with labels and units;
 - three supported findings and their limitations;
-- one justified next modelling experiment, or a further analysis question for a non-prediction task;
+- one justified next modelling experiment, or a further question for a non-prediction task;
 - split and train-fitted preprocessing evidence when modelling is involved.
 
-Require an individual explanation of one cleaning decision and one plot. Code execution, chart decoration, and course completion alone do not establish mastery.
+Require an individual explanation of one transformation, one cleaning decision, and one plot. Correlation does not establish causation. Course completion and chart decoration alone do not establish mastery.
 
-## Related Repository Materials
+## Sources and Related Materials
+
+Course directories checked 2026-10-22:
+
+- [DeepLearning.AI — Python for Data Analytics](https://www.coursera.org/learn/python-for-data-analytics)
+- [IBM — Data Analysis with Python](https://www.coursera.org/learn/data-analysis-with-python)
+- [IBM — Data Visualization with Python (optional reference)](https://www.coursera.org/learn/python-for-data-visualization)
+
+Repository links:
 
 - [English Video Resource Map](English_Video_Resource_Map.md)
 - [IOAI Core Resource Map](IOAI_Core_Resource_Map.md)
 - [Scikit-learn API Guide](Scikit_Learn_API_Guide/README.md)
+- [Data-foundation class missions](../02_Class_Missions/02_CodeHS_Data_Science_with_Python/README.md)
 - [Systematic EDA and split-safe cleaning task](../02_Class_Missions/07_Model_Comparison_EDA_Evaluation/session-72-split-safe-cleaning.md)
 
-Consult this recorded selection before reopening the same resource question. Revisit it if student evidence reveals a gap, course content changes, or access becomes unavailable.
+Consult this selection before assigning overlapping courses. Revisit when student evidence reveals a gap, course content changes, or access becomes unavailable.
