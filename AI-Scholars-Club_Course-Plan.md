@@ -136,7 +136,10 @@ Promotion requires demonstrated L1 outputs. Merely completing CodeHS or Elements
 
 ### Core Resources
 - **Andrew Ng — Machine Learning Specialization**;
-- selected data-tool practice;
+- **DeepLearning.AI — Python for Data Analytics**, Module 2 (Pandas/descriptive statistics) and Module 3 (visualization); Module 1 only for diagnosed Python gaps;
+- **IBM — Data Analysis with Python**, Module 2 (Data Wrangling), as the focused cleaning supplement;
+- selected CodeHS data-tool practice for observed gaps;
+- [exact Coursera selection and transfer evidence](05_Resources/Data_Cleaning_EDA_Visualization_Coursera_Map.md);
 - small authentic ML projects.
 
 ### Output
