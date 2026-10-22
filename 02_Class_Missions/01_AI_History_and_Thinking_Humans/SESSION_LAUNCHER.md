@@ -16,6 +16,10 @@ Reading is completed before class. Open the exact seminar below.
 | AH-7 | Chapters 14–15 — common sense, abstraction, and analogy | [Common sense, abstraction, and analogy](lesson-07-common-sense-abstraction-and-analogy.md) | analogy map with failure boundary |
 | AH-8 | Chapter 16 + review — whole-book synthesis | [How intelligent is AI?](lesson-08-how-intelligent-is-ai.md) | Thinking Human’s AI Brief |
 
+## Post-Reading Checks
+
+After the eight reading seminars, use [four 70-minute chapter checks](FOUR_READING_CHECKS.md) to revisit Chapters 1, 2, 6, 7, and 8 through the class handout. These checks follow the detailed reading and do not replace the seminars.
+
 ## Seminar Preparation Rule
 
 The reading is not repeated as a teacher lecture.
