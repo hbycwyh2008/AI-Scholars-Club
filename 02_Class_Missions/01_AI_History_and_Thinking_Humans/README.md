@@ -39,6 +39,10 @@ What output counts as success?
 What evidence would convince us that the system works?
 ```
 
+## Four Post-Reading Checks
+
+After approximately one month of detailed reading, use [four 70-minute chapter checks](FOUR_READING_CHECKS.md) for Chapters 1, 2, 6, 7, and 8. The NOAI B appendix is separate from these checks.
+
 ## Unit Resources
 
 - [Reading evidence template](../../03_Templates/AI_History_Reading_Evidence_Template.md)
