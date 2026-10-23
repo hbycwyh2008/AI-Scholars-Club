@@ -16,4 +16,4 @@ Students have spent approximately one month reading the book in detail. These fo
 3. **20 minutes:** Explain the answer and challenge one another: what does the example show, and what does it not show?
 4. **15 minutes:** Revise the answer using discussion and teacher feedback.
 
-The milestone table is a reference for selecting examples, not a list of dates to memorize. The teacher answer key remains in the teacher copy and is not a student memorization task.
+The milestone table is a reference for selecting examples, not a list of dates to memorize. The published handout places reference answers directly after each question. For an independent check, hide those answers until students submit their first response; the answers are for feedback rather than memorization.
