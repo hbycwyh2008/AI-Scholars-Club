@@ -43,6 +43,12 @@ What evidence would convince us that the system works?
 
 After approximately one month of detailed reading, use [four 70-minute chapter checks](FOUR_READING_CHECKS.md) for Chapters 1, 2, 6, 7, and 8. The NOAI B appendix is separate from these checks.
 
+## Chapter Check Handout
+
+- [Complete handout (Markdown; includes reference answers)](AI_Guide_Thinking_Humans_Handout_Pack.md)
+- [Large-print PDF (includes reference answers)](NOAI_AI_Handout_Large_Print.pdf)
+- [Four 70-minute reading checks](FOUR_READING_CHECKS.md)
+
 ## Unit Resources
 
 - [Reading evidence template](../../03_Templates/AI_History_Reading_Evidence_Template.md)
