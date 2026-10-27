@@ -27,6 +27,7 @@ See: [IOAI Core Learning Path](../00_Course_Overview/IOAI_Core_Learning_Path.md)
 
 - Data Science with Python: https://codehs.com/course/12135/overview
 - Advanced Python and AI Programming: https://codehs.com/course/27291/overview
+- **Targeted OOP supplement (use instead of assigning the full lecture):** [Classes](https://www.youtube.com/watch?v=PuxM0hR32GA), [Instance Variables](https://www.youtube.com/watch?v=qEYdRDvqmcQ), [Instance Methods](https://www.youtube.com/watch?v=klHr7F_xIig); [official CS50P Week 8 page](https://cs50.harvard.edu/python/weeks/8/). Require an independent class-definition rebuild.
 - High School Python Pathway: https://codehs.com/course/pathway/37
 
 ### ML Workflow
