@@ -21,6 +21,10 @@ task
 → limitations
 ```
 
+## Free Video Assignment Map
+
+Use the [Andrew Ng ML Mathematics + NumPy Video Map](../05_Resources/Andrew_ML_Math_and_NumPy_Video_Map.md) for selected, free Khan Academy and NumPy videos. Assign them only to support **Session 41 (notation, arrays and shapes)**, **Session 42 (dot products, matrix products and MSE)**, and **Session 43 (derivatives, gradient and learning rate)**. Multivariable chain rule is deferred until the deep-learning/backpropagation phase. Preserve the existing 75-minute lesson structure, diagnostic, evidence and 24/32 pass gate.
+
 ## Required Teacher Preparation
 
 Before Session 41:
