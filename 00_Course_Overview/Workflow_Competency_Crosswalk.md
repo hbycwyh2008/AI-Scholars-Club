@@ -54,7 +54,7 @@ Required evidence:
 
 A student does not pass this gate by producing plots alone. The student must connect each finding to a modeling decision.
 
-### Gate 2 — Feature Engineering
+### Gate 2 — Feature Engineering & Preprocessing
 
 Required evidence:
 
@@ -79,18 +79,19 @@ Required evidence:
 
 The best single score is not automatically the selected model.
 
-### Gate 4 — Diagnosis-First Tuning
+### Gate 4 — Diagnosis-First Tuning and Regularization
 
 Required evidence:
 
 - written diagnosis from errors, learning curves, residuals, calibration, or slice analysis;
-- bounded search space linked to that diagnosis;
-- controlled search method and budget;
-- cross-validation or repeated validation summary where appropriate;
-- comparison against the untuned baseline;
+- a baseline and a justified complexity-control comparison;
+- for suitable linear models, compare L1/Lasso, L2/Ridge, and Elastic Net, explaining coefficient sparsity/shrinkage and trade-offs;
+- tune regularization strength λ (often named alpha or C in libraries) using validation or cross-validation only; keep the final test set untouched;
+- bounded search linked to the diagnosis, with controlled method and budget;
+- cross-validation or repeated-validation summary where appropriate;
 - decision to keep, reject, or revise the model.
 
-Tuning without a diagnosis is recorded as exploration, not mastery evidence.
+Tuning without diagnosis is recorded as exploration, not mastery evidence. Regularization is a bias–variance/stability trade-off, not a guaranteed score improvement.
 
 ### Gate 5 — Ensembling
 
@@ -137,3 +138,21 @@ Use the following spiral checkpoints rather than waiting until the final Phase:
 ## Teacher Use
 
 Use this crosswalk when planning retrieval questions, checking evidence, and deciding whether a student may advance. Phase completion alone does not prove workflow mastery. Promotion requires the named evidence gate at the expected level of independence.
+
+## Portfolio Evidence Thread
+
+A strong course artifact can become one entry in a broader student portfolio. The course asks students to preserve the evidence as they work, rather than reconstructing the project story at the end.
+
+| Workflow stage | Evidence to preserve | Portfolio-ready form |
+|---|---|---|
+| Task formalisation | question, intended user, X/y, metric, constraints | concise project brief |
+| Data quality | provenance/license, audit, risks, split rationale | annotated data card and one readable figure |
+| Feature Engineering & Preprocessing | transformation rationale, leakage-safe pipeline, ablation | feature decision table |
+| Baseline and model selection | baseline, alternatives, comparison rationale | results table with metric definition |
+| Diagnosis, regularization, and tuning | error slices, L1/L2/Elastic Net or suitable complexity control, λ selection using validation/CV | experiment log and short interpretation |
+| Final evaluation | controlled result, limitations, uncertainty, fairness caveat | results and limitations section |
+| Reproducibility and reflection | clean-run instructions, code/notebook, contribution, next step | repository README and reflection |
+
+Use the [ML Project Portfolio Evidence Template](../../03_Templates/ML_Project_Portfolio_Evidence_Template.md). Students should finish with a runnable repository/notebook and a concise narrative explaining the question, personal contribution, decisions, evidence, failures, limitations, and next steps.
+
+**KOAI alignment (time-sensitive):** The 2026 KOAI Stage 1 application described an AI Activity Portfolio organized as a single website, with projects, competition achievements, and related learning history. This project template helps prepare one evidence-rich project entry; it does not by itself make a complete application portfolio or guarantee selection. Before applying, students and teachers must check that year's official eligibility, format, and evaluation rules: https://kitpa.org/en/koai/2026.
