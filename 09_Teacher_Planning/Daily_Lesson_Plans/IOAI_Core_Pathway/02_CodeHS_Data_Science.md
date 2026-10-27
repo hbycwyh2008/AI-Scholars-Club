@@ -22,6 +22,16 @@ Students can inspect an unfamiliar table, identify data-quality risks, transform
 
 Defer DeepLearning.AI Module 4 (Inferential Statistics) and Module 5 (Time series). IBM visualization/EDA remains an optional targeted reference.
 
+## Python Hand-Tracing Instruction
+
+Treat hand tracing as a recurring skill check, not a one-off video assignment. Use these Python-specific examples:
+
+- [Tracing program execution](https://www.khanacademy.org/computing/tesda-computational-thinking/xed777e2cccd04061:introduction/xed777e2cccd04061:program-execution/v/intro-to-tracing-program-execution)
+- [Tracing loop execution](https://www.khanacademy.org/computing/intro-to-python-fundamentals/x5279a44ae0ab15d6:simulating-phenomena-with-loops/x5279a44ae0ab15d6:while-loops/v/tracing-loop-execution)
+- [Tracing function calls](https://www.khanacademy.org/computing/intro-to-python-fundamentals/x5279a44ae0ab15d6:playing-games-with-functions/x5279a44ae0ab15d6:function-definitions/v/tracing-function-calls)
+
+Routine: students read a short snippet, mark execution order, record changed variable values/conditions/return values/output in a table, state the predicted result, and only then run the program. Ask them to correct the trace after checking it against Python's actual output.
+
 ## Lesson Sequence
 
 | Lesson | Learn | Practice | Rebuild | Share / Evidence |
