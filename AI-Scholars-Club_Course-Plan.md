@@ -136,6 +136,7 @@ Promotion requires demonstrated L1 outputs. Merely completing CodeHS or Elements
 
 ### Core Resources
 - **Andrew Ng — Machine Learning Specialization**;
+- [Selected free Khan Academy mathematics + NumPy video prerequisites](05_Resources/Andrew_ML_Math_and_NumPy_Video_Map.md) — just-in-time L2 support for vectorisation, matrix shapes, derivatives and gradients; proficiency is evidenced in the existing mathematics bridge, not by video completion;
 - **DeepLearning.AI — Python for Data Analytics**, Module 2 (Pandas/descriptive statistics) and Module 3 (visualization); Module 1 only for diagnosed Python gaps;
 - **IBM — Data Analysis with Python**, Module 2 (Data Wrangling), as the focused cleaning supplement;
 - selected CodeHS data-tool practice for observed gaps;
