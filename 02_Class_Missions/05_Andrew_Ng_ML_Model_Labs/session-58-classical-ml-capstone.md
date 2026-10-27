@@ -46,7 +46,7 @@ Teacher asks students to explain why they did **not** choose one plausible alter
 - short project narrative naming the student's contribution, decisions, evidence, and next step;
 - oral defense notes.
 
-Use the [ML Project Portfolio Evidence Template](../../../../03_Templates/ML_Project_Portfolio_Evidence_Template.md) to assemble the evidence.
+Use the [ML Project Portfolio Evidence Template](../../03_Templates/ML_Project_Portfolio_Evidence_Template.md) to assemble the evidence.
 
 ## Exit Gate
 
