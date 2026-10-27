@@ -23,6 +23,14 @@ See: [IOAI Core Learning Path](../00_Course_Overview/IOAI_Core_Learning_Path.md)
 
 - Melanie Mitchell, *Artificial Intelligence: A Guide for Thinking Humans* — use with the repository's eight-seminar AI History sequence.
 
+### Python Hand Tracing
+
+Use the Python-specific Khan Academy examples to model hand tracing before students run code:
+
+- [Tracing program execution](https://www.khanacademy.org/computing/tesda-computational-thinking/xed777e2cccd04061:introduction/xed777e2cccd04061:program-execution/v/intro-to-tracing-program-execution) — introductory variable/output trace (about 5 minutes);
+- [Tracing loop execution](https://www.khanacademy.org/computing/intro-to-python-fundamentals/x5279a44ae0ab15d6:simulating-phenomena-with-loops/x5279a44ae0ab15d6:while-loops/v/tracing-loop-execution);
+- [Tracing function calls](https://www.khanacademy.org/computing/intro-to-python-fundamentals/x5279a44ae0ab15d6:playing-games-with-functions/x5279a44ae0ab15d6:function-definitions/v/tracing-function-calls).
+
 ### CodeHS
 
 - Data Science with Python: https://codehs.com/course/12135/overview
