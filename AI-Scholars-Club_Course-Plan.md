@@ -129,10 +129,11 @@ Promotion requires demonstrated L1 outputs. Merely completing CodeHS or Elements
 - metrics and metric selection;
 - baseline design;
 - scikit-learn workflow;
-- basic feature engineering;
-- bias/variance intuition;
+- **Feature Engineering & Preprocessing** (feature creation/selection, encoding, imputation, scaling, and leakage-safe pipelines);
+- bias/variance intuition and regularization;
 - error analysis;
-- reproducibility and documentation.
+- reproducibility and documentation;
+- project storytelling and portfolio evidence.
 
 ### Core Resources
 - **Andrew Ng — Machine Learning Specialization**;
@@ -150,18 +151,22 @@ Given a common data problem, the student can independently execute:
 task identification
 → data preparation / EDA
 → baseline
-→ model
+→ model and regularization
 → evaluation
-→ improvement
+→ diagnosis and improvement
+→ reproducible explanation
 ```
 
-The student can explain why the selected metric, model, and improvement step are reasonable.
+The student can explain why the selected metric, model, regularization/complexity control, and improvement step are reasonable.
 
 ### Evidence
-- one complete reproducible ML project/notebook;
-- model and metric rationale;
-- error analysis;
+- one complete reproducible ML project/notebook with a concise portfolio narrative;
+- model, metric, validation, and regularization rationale;
+- error analysis and controlled experiment log;
+- data provenance, limitations, and transparent account of the student's contribution and external/AI assistance;
 - short written or oral defense.
+
+A project portfolio entry is evidence of learning and growth, not a guarantee of admission or selection. If preparing an application, students and teachers must verify the current year's official requirements.
 
 ### Promotion to L3
 The student must be able to build a complete ML pipeline with decreasing teacher scaffolding.
@@ -264,11 +269,13 @@ A student completing L4 can:
 
 ```text
 identify a research question
-→ reproduce a prior result
-→ propose a small modification or hypothesis
-→ design an experiment
-→ analyse results
-→ produce a research-style report / poster / presentation
+→ prior work
+→ reproducible baseline
+→ hypothesis
+→ controlled experiment
+→ analysis
+→ limitation
+→ next question
 ```
 
 ### Evidence
