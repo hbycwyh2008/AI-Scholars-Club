@@ -30,7 +30,7 @@ The bootcamp introduces the idea that fit quality and model complexity must be b
 
 Call transformations and feature creation **Feature Engineering & Preprocessing**. Fit data-dependent transformations on training data only, preferably in a reproducible pipeline, and compare their effect on the fixed validation design.
 
-Use the [ML Project Portfolio Evidence Template](../../../../03_Templates/ML_Project_Portfolio_Evidence_Template.md) to preserve evidence as the work happens.
+Use the [ML Project Portfolio Evidence Template](../../03_Templates/ML_Project_Portfolio_Evidence_Template.md) to preserve evidence as the work happens.
 
 ## Source Alignment
 
