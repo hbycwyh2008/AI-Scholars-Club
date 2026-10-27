@@ -62,6 +62,7 @@ Input → Training → Output → Evidence → Promotion
 - lists and dictionaries;
 - basic file/data handling;
 - exceptions and debugging;
+- manual code tracing: predict output and track variables, loop state, function arguments, and return values before running code;
 - simple libraries;
 - basic notebook workflow;
 - progressively more independent Python problem solving.
