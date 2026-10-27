@@ -17,6 +17,16 @@ Do **not** run the entire year-long course as a prerequisite. Select the pieces 
 
 The adventure-game and music-player projects are optional programming extensions, not required IOAI milestones.
 
+## Focused OOP Supplement — CAICP S-Level Python
+
+The CodeHS sequence is not treated as sufficient instruction for defining and using classes. Assign these three short CS50P videos as a targeted supplement:
+
+1. [Classes](https://www.youtube.com/watch?v=PuxM0hR32GA) — [official lesson page](https://cs50.harvard.edu/python/shorts/classes/)
+2. [Instance Variables](https://www.youtube.com/watch?v=qEYdRDvqmcQ) — [official lesson page](https://cs50.harvard.edu/python/shorts/instance_variables/)
+3. [Instance Methods](https://www.youtube.com/watch?v=klHr7F_xIig) — [official lesson page](https://cs50.harvard.edu/python/shorts/instance_methods/)
+
+The full CS50P Week 8 lecture is **not required**. Students must independently define a class with `__init__`, `self`, instance attributes, and an instance method; create two instances; and explain why their states are separate.
+
 ## Mission Sequence
 
 | Mission | Learn | Rebuild / Evidence |
