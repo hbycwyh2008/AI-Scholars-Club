@@ -11,7 +11,7 @@
 | WF-7 | Controlled improvement | experiment log | feature/model/regularization comparison |
 | WF-8 | Independent end-to-end challenge | notebook + oral defense + postmortem | project narrative, limitations, clean-run instructions |
 
-For suitable linear models, compare L1/Lasso, L2/Ridge, and Elastic Net; select regularization strength with validation/CV, never the final test set. Explain the complexity trade-off. See the [ML Project Portfolio Evidence Template](../../../../03_Templates/ML_Project_Portfolio_Evidence_Template.md).
+For suitable linear models, compare L1/Lasso, L2/Ridge, and Elastic Net; select regularization strength with validation/CV, never the final test set. Explain the complexity trade-off. See the [ML Project Portfolio Evidence Template](../../03_Templates/ML_Project_Portfolio_Evidence_Template.md).
 
 Use the [current teacher plan](../../09_Teacher_Planning/Daily_Lesson_Plans/IOAI_Core_Pathway/04_ML_Workflow_Bootcamp.md) for detailed source alignment and teaching rules.
 
