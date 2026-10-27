@@ -78,7 +78,7 @@ Students inspect errors before adding complexity. Depending on the task, inspect
 - one controlled improvement;
 - short postmortem and portfolio narrative.
 
-Use the [ML Project Portfolio Evidence Template](../../../../03_Templates/ML_Project_Portfolio_Evidence_Template.md).
+Use the [ML Project Portfolio Evidence Template](../../03_Templates/ML_Project_Portfolio_Evidence_Template.md).
 
 ## Exit Check
 
