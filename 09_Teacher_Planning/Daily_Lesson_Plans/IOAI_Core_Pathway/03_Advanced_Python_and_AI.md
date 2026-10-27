@@ -17,6 +17,16 @@ Do **not** run the entire year-long course as a prerequisite. Select the pieces 
 
 The adventure-game and music-player projects are optional programming extensions, not required IOAI milestones.
 
+## OOP Video Preparation — Targeted Supplement
+
+CodeHS does not provide sufficient instruction for students to reliably define and use a class, so assign these short CS50P videos for AP-1:
+
+1. [Classes](https://www.youtube.com/watch?v=PuxM0hR32GA)
+2. [Instance Variables](https://www.youtube.com/watch?v=qEYdRDvqmcQ)
+3. [Instance Methods](https://www.youtube.com/watch?v=klHr7F_xIig)
+
+See the [official CS50P Week 8 page](https://cs50.harvard.edu/python/weeks/8/) for notes and source material. The full lecture is not required. Students then independently define a class with `__init__`, `self`, instance attributes, and an instance method, create two instances, and explain their separate state.
+
 ## Lesson Sequence
 
 | Lesson | Learn | Practice | Rebuild | Share / Evidence |
