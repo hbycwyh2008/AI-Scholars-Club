@@ -8,3 +8,4 @@ Resource maps support the canonical Sessions. Current official documentation and
 - [Dive into Deep Learning — Selective Reading Map](D2L_Selective_Reading_Map.md)
 
 - [Python, Data Cleaning, EDA, and Visualization — Selected Coursera Guide](Data_Cleaning_EDA_Visualization_Coursera_Map.md) — DeepLearning.AI Modules 2–3, Python remediation, and IBM cleaning supplement; updated 2026-10-22.
+- [Andrew Ng ML — Free Mathematics and NumPy Video Map](Andrew_ML_Math_and_NumPy_Video_Map.md) — Khan Academy vectors, matrix products, calculus/gradients and a free NumPy video, aligned to Sessions 41–43.
