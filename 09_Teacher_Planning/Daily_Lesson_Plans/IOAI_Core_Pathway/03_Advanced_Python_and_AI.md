@@ -21,7 +21,7 @@ The adventure-game and music-player projects are optional programming extensions
 
 | Lesson | Learn | Practice | Rebuild | Share / Evidence |
 |---:|---|---|---|---|
-| 1. Program structure + OOP for ML code | classes, composition, interfaces; when OOP helps and when it adds noise | refactor a small procedural script | design a small reusable data/model helper class | code + design rationale |
+| 1. Program structure + OOP for ML code | define a class; `__init__`, `self`, instance attributes and methods; when OOP helps and when it adds noise | watch the three linked CS50P Shorts; trace two instances and their state | independently define and use a small class, then refactor a procedural script | runnable code + trace + design rationale |
 | 2. Libraries, packages, docs, exceptions | reading APIs, imports, environment discipline, defensive code | inspect and use an unfamiliar library function | reproduce the behaviour from documentation only | dependency note + tested code |
 | 3. Data structures + complexity | stack/queue/hash/tree/graph concepts, Big-O intuition | compare operations and trace algorithms | choose a data structure for an unseen problem and implement it | complexity explanation |
 | 4. Search / AI algorithms | state, actions, goal, heuristic, graph search | trace BFS/DFS/greedy/A*-style examples as appropriate | solve a new state-space problem | search trace + limitations |
