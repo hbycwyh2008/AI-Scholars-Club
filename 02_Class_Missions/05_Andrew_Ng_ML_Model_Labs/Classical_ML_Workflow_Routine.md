@@ -10,13 +10,13 @@ problem / scoring rule
 → data audit + leakage risks
 → validation design
 → simplest credible baseline
-→ preprocessing pipeline
-→ metric
-→ model
+→ Feature Engineering & Preprocessing pipeline
+→ metric and model
+→ regularization / complexity control
 → error analysis
 → one controlled improvement
 → fair reevaluation
-→ documentation
+→ portfolio evidence and documentation
 ```
 
 ## Before Modeling
@@ -44,6 +44,16 @@ Every experiment records:
 
 Do not tune multiple dimensions at once unless the lesson explicitly studies search methods.
 
+## Regularization
+
+For models with an explicit penalty, introduce the objective as `J(θ)=L_data(θ)+λR(θ)`. For linear regression/classification where appropriate, compare:
+
+- **L1 / Lasso:** can drive coefficients to zero and encourage sparse solutions;
+- **L2 / Ridge:** shrinks coefficients smoothly and can stabilize correlated predictors;
+- **Elastic Net:** combines L1 and L2 behavior.
+
+Use a validation set or cross-validation to select λ (called `alpha`, `C`, or another parameter by some libraries); do not choose it against the final test result. Show the loss, scaling choices, train/validation behavior, coefficient effects, and the trade-off. For other model families, identify an appropriate complexity control such as tree depth/pruning or weight decay rather than forcing a linear-model penalty where it does not apply.
+
 ## Error Analysis
 
 Students inspect errors before adding complexity. Depending on the task, inspect:
@@ -56,16 +66,19 @@ Students inspect errors before adding complexity. Depending on the task, inspect
 - outliers;
 - train/validation distribution differences.
 
-## Evidence
+## Evidence and Portfolio
 
 - task contract;
-- data audit;
+- data audit and provenance;
 - validation justification;
 - reproducible baseline;
-- experiment log;
-- error-analysis artifact;
+- Feature Engineering & Preprocessing decisions;
+- regularization/complexity-control comparison;
+- experiment log and error-analysis artifact;
 - one controlled improvement;
-- short postmortem.
+- short postmortem and portfolio narrative.
+
+Use the [ML Project Portfolio Evidence Template](../../../../03_Templates/ML_Project_Portfolio_Evidence_Template.md).
 
 ## Exit Check
 
