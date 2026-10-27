@@ -153,6 +153,6 @@ A strong course artifact can become one entry in a broader student portfolio. Th
 | Final evaluation | controlled result, limitations, uncertainty, fairness caveat | results and limitations section |
 | Reproducibility and reflection | clean-run instructions, code/notebook, contribution, next step | repository README and reflection |
 
-Use the [ML Project Portfolio Evidence Template](../../03_Templates/ML_Project_Portfolio_Evidence_Template.md). Students should finish with a runnable repository/notebook and a concise narrative explaining the question, personal contribution, decisions, evidence, failures, limitations, and next steps.
+Use the [ML Project Portfolio Evidence Template](../03_Templates/ML_Project_Portfolio_Evidence_Template.md). Students should finish with a runnable repository/notebook and a concise narrative explaining the question, personal contribution, decisions, evidence, failures, limitations, and next steps.
 
 **KOAI alignment (time-sensitive):** The 2026 KOAI Stage 1 application described an AI Activity Portfolio organized as a single website, with projects, competition achievements, and related learning history. This project template helps prepare one evidence-rich project entry; it does not by itself make a complete application portfolio or guarantee selection. Before applying, students and teachers must check that year's official eligibility, format, and evaluation rules: https://kitpa.org/en/koai/2026.
