@@ -14,6 +14,7 @@ Use only the template named by the current Session, assessment, or teacher plan.
 - [Experiment Report](Experiment_Report_Template.md)
 - [Independent Rebuild](Independent_Rebuild_Template.md)
 - [Mock Contest Report](Mock_Contest_Report_Template.md)
+- [ML Project Portfolio Evidence](ML_Project_Portfolio_Evidence_Template.md)
 - [Model Card](Model_Card_Template.md)
 - [Round 1 Paper Practice Worksheet Template](Round_1_Paper_Practice_Worksheet_Template.md)
 - [Round 2 Notebook Lab Template](Round_2_Notebook_Lab_Template.md)
