@@ -12,6 +12,16 @@ This unit comes **after AI History**. Basic Python remediation is assigned only 
 
 Students can inspect an unfamiliar table, identify data-quality risks, transform and summarise data with Pandas, visualise relevant distributions/relationships, and state claims with evidence and limitations.
 
+## Python Hand-Tracing Routine
+
+Hand tracing is a core Python skill and begins before students rely on notebooks or runtime output. Use these short Python videos:
+
+1. [Tracing program execution](https://www.khanacademy.org/computing/tesda-computational-thinking/xed777e2cccd04061:introduction/xed777e2cccd04061:program-execution/v/intro-to-tracing-program-execution) — about 5 minutes.
+2. [Tracing loop execution](https://www.khanacademy.org/computing/intro-to-python-fundamentals/x5279a44ae0ab15d6:simulating-phenomena-with-loops/x5279a44ae0ab15d6:while-loops/v/tracing-loop-execution).
+3. [Tracing function calls](https://www.khanacademy.org/computing/intro-to-python-fundamentals/x5279a44ae0ab15d6:playing-games-with-functions/x5279a44ae0ab15d6:function-definitions/v/tracing-function-calls).
+
+For each short code fragment, students first predict the output and fill a trace table by hand. Track the variables that change, the loop condition/iteration where relevant, function arguments and return values, and printed output. Only then run the code and explain any mismatch.
+
 ## Mission Sequence
 
 | Mission | Learn | Practice / Rebuild | Evidence |
