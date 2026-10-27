@@ -90,6 +90,16 @@ The following are **not** the L1 programming spine:
 
 They may be used only as optional references if a specific teaching need arises.
 
+#### Python Hand-Tracing Supplement
+
+Use short Python-specific videos to teach students to trace by hand before they run code:
+
+- [Tracing program execution](https://www.khanacademy.org/computing/tesda-computational-thinking/xed777e2cccd04061:introduction/xed777e2cccd04061:program-execution/v/intro-to-tracing-program-execution)
+- [Tracing loop execution](https://www.khanacademy.org/computing/intro-to-python-fundamentals/x5279a44ae0ab15d6:simulating-phenomena-with-loops/x5279a44ae0ab15d6:while-loops/v/tracing-loop-execution)
+- [Tracing function calls](https://www.khanacademy.org/computing/intro-to-python-fundamentals/x5279a44ae0ab15d6:playing-games-with-functions/x5279a44ae0ab15d6:function-definitions/v/tracing-function-calls)
+
+Require a trace table with variable values and output before execution; then compare the prediction with the program run.
+
 #### AI Ideas / History Supplement
 - **Melanie Mitchell — _Artificial Intelligence: A Guide for Thinking Humans_** — selected readings and discussions rather than full-book completion.
 
