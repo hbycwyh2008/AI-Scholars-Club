@@ -2,6 +2,10 @@
 
 Use this bridge across Sessions 41–43 and revisit it whenever a new model introduces unfamiliar notation.
 
+## Targeted Free Video Prerequisites
+
+Use the [Khan Academy + NumPy Free Video Map](../../05_Resources/Andrew_ML_Math_and_NumPy_Video_Map.md) inside Sessions 41–43. It maps vector/matrix operations, NumPy `shape` and broadcasting, derivatives, chain rule, partial derivatives, and gradients to the existing evidence tasks; multivariable chain rule remains a just-in-time Deep Learning supplement. Do not add separate scheduled classes or require entire mathematics courses.
+
 ## Translation Routine
 
 For every model, students complete:
