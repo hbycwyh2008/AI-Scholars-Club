@@ -27,6 +27,10 @@ The CodeHS sequence is not treated as sufficient instruction for defining and us
 
 The full CS50P Week 8 lecture is **not required**. Students must independently define a class with `__init__`, `self`, instance attributes, and an instance method; create two instances; and explain why their states are separate.
 
+## Continue Python Hand Tracing
+
+Hand tracing continues through functions, data structures, search, and objects. Before running a search or algorithm, students make a short trace of the changing state (for example, queue/stack contents, visited set, current index, or function arguments/returns). Use the [Python hand-tracing video sequence](../02_CodeHS_Data_Science_with_Python/README.md#python-hand-tracing-routine) for the foundational routine.
+
 ## Mission Sequence
 
 | Mission | Learn | Rebuild / Evidence |
