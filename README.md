@@ -79,6 +79,8 @@ Typical evidence includes code, notebooks, GitHub history, experiment logs, task
 
 NOAI / IOAI / Kaggle work belongs primarily in **L3** after students can already build and evaluate an ML workflow. Competition resources may appear earlier only as carefully scoped practice; they do not replace the level prerequisites.
 
+See the **[NOAI / Bohrium Competition Practice Guide](07_Competition_Projects/NOAI_Bohrium_Practice_Guide.md)** for selected practice links, recommended timing, and skills to assess.
+
 ## Repository Navigation
 
 - **[Course Plan](AI-Scholars-Club_Course-Plan.md)** — canonical L1–L4 framework
