@@ -1,5 +1,6 @@
 # Competition Projects
 
+- [NOAI / Bohrium Competition Practice Guide](NOAI_Bohrium_Practice_Guide.md) — selected practice links, course placement, skill checklist, and a repeatable task protocol.
 - [Tabular Regression](01-tabular-regression/README.md)
 - [Tabular Classification](02-tabular-classification/README.md)
 - [Image Classification](03-image-classification/README.md)
